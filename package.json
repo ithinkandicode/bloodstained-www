@@ -1,0 +1,21 @@
+{
+  "name": "bloodstained",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"sass": "node-sass --watch ./assets/styles/scss -o ./assets/styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ithinkandicode/bloodstained.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ithinkandicode/bloodstained/issues"
+  },
+  "homepage": "https://github.com/ithinkandicode/bloodstained#readme"
+}

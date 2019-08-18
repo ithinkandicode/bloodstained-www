@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/css/reset.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/css/items.css">
+
+	<title>BS Items</title>
+</head>
+<body>
+	<header></header>
+
+	<section class="show-until-loaded">
+		<div class="screen-cover loading">
+			<p>Loading...</p>
+		</div>
+	</section>
+
+	<main>
+		<section class="lookup-item-container hide-until-loaded">
+			<h2 class="hide">Items</h2>
+			<div class="lookup-item"></div>
+		</section>
+
+		<aside class="hide-until-loaded">
+
+			<!-- #todo: generate toggles programatically, this is an unmaintainable mess -->
+
+			<div class="toggles-row">
+				<div class="toggle-item toggle-item--wide">
+					<button class="toggle-state--active" data-toggle="toggle-all-types">Invert Toggles</button>
+				</div>
+			</div>
+
+			<div class="toggles-row toggles-row--hasicons">
+				<div class="toggle-item-title">Items</div>
+				<div class="toggle-item">
+					<button title="Toggle Potion" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Potion" style="background-image: url('/assets/images/item-types/potion.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/potion.png" alt="Potion">
+						</span>
+						-->
+						<span class="a11y">Toggle Potion</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle IngredientFood" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Ingredient" style="background-image: url('/assets/images/item-types/ingredient.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/ingredient.png" alt="Ingredient">
+						</span>
+						-->
+						<span class="a11y">Toggle IngredientFood</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle None" class="toggle-state--active" data-toggle="show-type" data-toggle-type="None" style="background-image: url('/assets/images/item-types/all.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/all.png" alt="None">
+						</span>
+						-->
+						<span class="a11y">Toggle None</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Weapon" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Weapon" style="background-image: url('/assets/images/item-types/weapon.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/weapon.png" alt="Weapon">
+						</span>
+						-->
+						<span class="a11y">Toggle Weapon</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Head" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Head" style="background-image: url('/assets/images/item-types/head.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/head.png" alt="Head">
+						</span>
+						-->
+						<span class="a11y">Toggle Head</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Scarf" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Muffler" style="background-image: url('/assets/images/item-types/muffler.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/muffler.png" alt="Scarf">
+						</span>
+						-->
+						<span class="a11y">Toggle Scarf</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Accessory" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Accessory" style="background-image: url('/assets/images/item-types/accessory.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/accessory.png" alt="Accessory">
+						</span>
+						-->
+						<span class="a11y">Toggle Accessory</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Body" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Body" style="background-image: url('/assets/images/item-types/body.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/body.png" alt="Body">
+						</span>
+						-->
+						<span class="a11y">Toggle Body</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle FoodStuff" class="toggle-state--active" data-toggle="show-type" data-toggle-type="FoodStuff" style="background-image: url('/assets/images/item-types/foodstuff.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/foodstuff.png" alt="FoodStuff">
+						</span>
+						-->
+						<span class="a11y">Toggle FoodStuff</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Food" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Food" style="background-image: url('/assets/images/item-types/food.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/food.png" alt="Food">
+						</span>
+						-->
+						<span class="a11y">Toggle Food</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Seed" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Seed" style="background-image: url('/assets/images/item-types/seed.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/seed.png" alt="Seed">
+						</span>
+						-->
+						<span class="a11y">Toggle Seed</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Key" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Key" style="background-image: url('/assets/images/item-types/key.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/key.png" alt="Key">
+						</span>
+						-->
+						<span class="a11y">Toggle Key</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Book" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Book" style="background-image: url('/assets/images/item-types/book.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/book.png" alt="Book">
+						</span>
+						-->
+						<span class="a11y">Toggle Book</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Bullet" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Bullet" style="background-image: url('/assets/images/item-types/bullet.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/bullet.png" alt="Bullet">
+						</span>
+						-->
+						<span class="a11y">Toggle Bullet</span>
+					</button>
+				</div>
+			</div>
+
+			<div class="toggles-row toggles-row--hasicons">
+				<div class="toggle-item-title">Shards</div>
+				<div class="toggle-item">
+					<button title="Toggle TriggerShard" class="toggle-state--active" data-toggle="show-type" data-toggle-type="TriggerShard" style="background-image: url('/assets/images/item-types/triggershard.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/triggershard.png" alt="TriggerShard">
+						</span>
+						-->
+						<span class="a11y">Toggle TriggerShard</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle EffectiveShard" class="toggle-state--active" data-toggle="show-type" data-toggle-type="EffectiveShard" style="background-image: url('/assets/images/item-types/effectiveshard.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/effectiveshard.png" alt="EffectiveShard">
+						</span>
+						-->
+						<span class="a11y">Toggle EffectiveShard</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle DirectionalShard" class="toggle-state--active" data-toggle="show-type" data-toggle-type="DirectionalShard" style="background-image: url('/assets/images/item-types/directionalshard.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/directionalshard.png" alt="DirectionalShard">
+						</span>
+						-->
+						<span class="a11y">Toggle DirectionalShard</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle EnchantShard" class="toggle-state--active" data-toggle="show-type" data-toggle-type="EnchantShard" style="background-image: url('/assets/images/item-types/enchantshard.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/enchantshard.png" alt="EnchantShard">
+						</span>
+						-->
+						<span class="a11y">Toggle EnchantShard</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle FamiliarShard" class="toggle-state--active" data-toggle="show-type" data-toggle-type="FamiliarShard" style="background-image: url('/assets/images/item-types/familiarshard.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/familiarshard.png" alt="FamiliarShard">
+						</span>
+						-->
+						<span class="a11y">Toggle FamiliarShard</span>
+					</button>
+				</div>
+				<div class="toggle-item">
+					<button title="Toggle Skill" class="toggle-state--active" data-toggle="show-type" data-toggle-type="Skill" style="background-image: url('/assets/images/item-types/skill.png');">
+						<!--
+						<span class="toggle-icon">
+							<img class="toggle-icon-img" src="/assets/images/item-types/skill.png" alt="Skill">
+						</span>
+						-->
+						<span class="a11y">Toggle Skill</span>
+					</button>
+				</div>
+			</div>
+
+			<div class="toggles-row">
+				<div class="toggle-item-title">Columns</div>
+				<!-- Hidden by default -->
+				<div class="toggle-item">
+					<button class="toggle-state--inactive" data-toggle="show-icon-id">IconId</button>
+				</div>
+				<div class="toggle-item">
+					<button class="toggle-state--inactive" data-toggle="show-item-index">Index</button>
+				</div>
+				<!-- Shown by default -->
+				<div class="toggle-item">
+					<button class="toggle-state--active" data-toggle="hide-item-icon">Icon</button>
+				</div>
+				<div class="toggle-item">
+					<button class="toggle-state--active" data-toggle="hide-item-name">Name</button>
+				</div>
+				<div class="toggle-item">
+					<button class="toggle-state--active" data-toggle="hide-item-key">Key</button>
+				</div>
+				<div class="toggle-item">
+					<button class="toggle-state--active" data-toggle="hide-item-type">Type</button>
+				</div>
+				<div class="toggle-item">
+					<button class="toggle-state--active" data-toggle="hide-item-heal">Heal</button>
+				</div>
+				<div class="toggle-item">
+					<button class="toggle-state--active" data-toggle="hide-item-max">Max</button>
+				</div>
+				<div class="toggle-item">
+					<button class="toggle-state--active" data-toggle="hide-item-shop">Shop</button>
+				</div>
+				<div class="toggle-item">
+					<button class="toggle-state--active" data-toggle="hide-item-bools">Bools</button>
+				</div>
+				<div class="toggle-item">
+					<button class="toggle-state--active" data-toggle="hide-item-info">Info</button>
+				</div>
+			</div>
+
+			<div class="toggles-row">
+				<div class="toggle-item-title">Options</div>
+				<div class="toggle-item toggle-item--wide">
+					<button class="toggle-state--inactive" data-toggle="show-large-icons">Large Icons</button>
+				</div>
+				<div class="toggle-item toggle-item--wide">
+					<button class="toggle-state--inactive" data-toggle="show-emoji-bools">Emoji Booleans</button>
+				</div>
+				<div class="toggle-item toggle-item--wide">
+					<button class="toggle-state--inactive" data-toggle="show-br">Info Line Breaks</button>
+				</div>
+				<div class="toggle-item toggle-item--wide">
+					<button class="toggle-state--inactive" data-toggle="show-cell-padding">Extra Padding</button>
+				</div>
+			</div>
+		</aside>
+	</main>
+
+	<div class="hide">
+		<section class="hide-until-loaded">
+			<h2>Characters</h2>
+			<div class="lookup-character"></div>
+		</section>
+		<section class="hide-until-loaded">
+			<h2>Shards</h2>
+			<div class="lookup-shard"></div>
+		</section>
+	</div>
+
+	<script type="module" src="/assets/scripts/items.js"></script>
+</body>
+</html>
