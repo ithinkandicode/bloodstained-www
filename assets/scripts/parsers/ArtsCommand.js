@@ -1,4 +1,4 @@
-import { replaceCommandInputWithArrow } from "../replace/replaceCommandInputWithArrow.JS";
+import { replaceCommandInputWithArrow } from "../replace/replaceCommandInputWithArrow.js";
 import { replaceBoolWithEmoji } from "../replace/replaceBoolWithEmoji.js";
 
 /**

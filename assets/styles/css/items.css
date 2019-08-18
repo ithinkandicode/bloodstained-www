@@ -7,8 +7,8 @@
 }
 
 body {
-	font-size: 16px;
-	font-family: calibri;
+	font-size: 15px;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	position: relative;
 	overflow: initial;
 }
@@ -359,15 +359,17 @@ body.loaded .item-icon-zoom {
 	margin-top: 5px;
 }
 
-.toggles-row button {
-	color: rgba(255, 255, 255, 0.8);
+.toggle-button {
+	border-radius: 2px;
 	border: 0;
-	padding: 5px 8px;
-	margin-bottom: 5px;
 	border: 2px solid transparent;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: .9em;
+	margin-bottom: 5px;
+	padding: 5px 8px;
 }
 
-.toggles-row button:hover {
+.toggle-button:hover {
 	border-color: white;
 }
 
@@ -393,38 +395,43 @@ body.loaded .item-icon-zoom {
 }
 
 .toggle-item--wide,
-.toggle-item--wide button {
+.toggle-item--wide .toggle-button {
 	width: 100%;
 }
 
+
+/**
+ * Toggle Widths
+ */
+
+.toggles-row--thirds .toggle-item {
+	margin-right: 0;
+	width: 33%;
+}
+
+.toggles-row--thirds .toggle-button {
+	width: 55px;
+}
 
 
 /**
  * Toggle Icons
  */
 
-.toggles-row--hasicons .toggle-item {
-	margin-right: 0;
-	width: 33%;
-}
-
-.toggles-row--hasicons .toggle-item button {
+.toggle-button--hasicon {
 	background-position: center;
-	height: 50px;
-	width: 50px;
 	background-size: 70px;
+	border-radius: 5px;
+	height: 55px;
+	width: 55px;
 }
 
-.toggles-row--hasicons .toggle-item button.toggle-state--active {
+.toggle-button--hasicon.toggle-state--active {
 	background-color: rgb(113, 184, 111);
 }
 
-.toggles-row--hasicons .toggle-item button.toggle-state--inactive {
+.toggle-button--hasicon.toggle-state--inactive {
 	background-color: rgb(184, 111, 111);
-}
-
-.toggle-icon-img {
-	/* max-width: 100%; */
 }
 
 
