@@ -1,5 +1,5 @@
 import { getData } from "./data/getData.js";
-import { artsInit } from "./parsers/ArtsCommand.js";
+import { enemiesInit } from "./parsers/CharacterParameter.js";
 
 const artsSources = [
 	{
@@ -11,8 +11,12 @@ const artsSources = [
 		file: 'datatable/PB_DT_ArchiveArtsMaster',
 	},
 	{
-		name: 'command',
-		file: 'datatable/PB_DT_ArtsCommandMaster',
+		name: 'enemies',
+		file: 'datatable/PB_DT_CharacterMaster',
+	},
+	{
+		name: 'enemyParams',
+		file: 'datatable/enemy/PB_DT_CharacterParameterMaster',
 	},
 ];
 
@@ -20,7 +24,7 @@ async function init()
 {
 	const data = await getData( artsSources );
 
-	artsInit( data );
+	enemiesInit( data );
 }
 
 init();
