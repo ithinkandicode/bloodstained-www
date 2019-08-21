@@ -6,6 +6,7 @@
 - Add bools for canBeBought, canBeSold, hasIcon
 - Add more string data, see Notes below
 - Add pages for general info
+- Add all details for Arts (MP cost, isContinuous, input delay)
 
 ## Arts
 
@@ -25,20 +26,4 @@ Numbers mean directions. Check your numpad for reference.
 
 ## Notes
 
-String data to add:
-
-```
-ARTS_TXT
-DIARY_TXT
-ENEMY_EXPLAIN
-ENEMY_NAME
-HELP_TXT
-INTRO
-ITEM_EXPLAIN
-ITEM_EXPLAIN_ARTS
-ITEM_NAME
-ITEM_NAME_ARTS
-SHARD_EFFECT_TXT
-SHARD_EXPLAIN
-SHARD_NAME
-```
+...
