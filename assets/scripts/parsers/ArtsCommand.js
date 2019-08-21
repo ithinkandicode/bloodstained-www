@@ -202,7 +202,7 @@ function buildArtsArray( ARTS )
 		const weaponLinks = [];
 
 		// Make weapons link to items page
-		weapons.list.forEach( wpnId => weaponLinks.push( `<a href="/items.html#${wpnId}">${wpnId}</a>` ) );
+		weapons.list.forEach( wpnId => weaponLinks.push( `<a href="/weaponsarmor.html#${wpnId}">${wpnId}</a>` ) );
 
 		const row = [
 			id,

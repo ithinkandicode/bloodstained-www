@@ -78,8 +78,8 @@ aside {
  */
 
 .screen-cover {
-    height: 100vh;
-    width: 100vw;
+	height: 100vh;
+	width: 100vw;
 }
 
 .loading {
@@ -141,8 +141,8 @@ thead tr {
 }
 
 th {
-	background-color: #ddd;
-	box-shadow: 0 10px 10px rgba(83, 83, 83, 0.50);
+	background-color: hsl(0, 0%, 87%);
+	box-shadow: 0 10px 10px hsla(0, 0%, 33%, 0.5);
 	font-weight: 700;
 	position: sticky;
 	text-align: left;
@@ -153,7 +153,7 @@ th {
 
 th,
 td {
-	border-right: 1px solid white;
+	border-right: 1px solid hsl(0, 0%, 100%);
 	padding: 2px 5px;
 	vertical-align: middle;
 }
@@ -165,11 +165,11 @@ td:last-child {
 }
 
 tr {
-	border-top: 1px solid #fff;
+	border-top: 1px solid hsl(0, 0%, 100%);
 }
 
 tr:nth-child(even) {
-	background-color: rgb(226, 226, 226);
+	background-color: hsl(0, 0%, 89%);
 }
 
 
@@ -186,7 +186,7 @@ tr:nth-child(even) {
 /**
  * Column Visibility
  *
- * #TOD: Use data attributes instead
+ * @TODO: Use data attributes instead
  */
 
 /* Hidden by default */
@@ -199,7 +199,7 @@ tr:nth-child(even) {
 /* Shown by default */
 
 .item-icon,
-.item-key,
+.item-id,
 .item-name,
 .item-type,
 .item-max,
@@ -214,7 +214,7 @@ tr:nth-child(even) {
 .show-icon-id .item-icon-id,
 .show-item-index .item-index,
 .show-item-index .item-name,
-.show-item-key .item-key,
+.show-item-id .item-id,
 .show-item-type .item-type,
 .show-item-max .item-max,
 .show-item-shop .item-shop,
@@ -228,7 +228,7 @@ tr:nth-child(even) {
 .hide-icon-id .item-icon-id,
 .hide-item-index .item-index,
 .hide-item-name .item-name,
-.hide-item-key .item-key,
+.hide-item-id .item-id,
 .hide-item-type .item-type,
 .hide-item-max .item-max,
 .hide-item-shop .item-shop,
@@ -273,17 +273,17 @@ body.loaded .item-icon-zoom {
 }
 
 .item-icon-zoom {
-	background-color: white;
+	background-color: hsl(0, 0%, 100%);
 	display: none;
 	position: relative;
 	z-index: 1;
 }
 
 .item-icon-zoom .item-icon-img {
-	background-color: #ddd;
+	background-color: hsl(0, 0%, 87%);
 	border-radius: 5px;
-	border: 1px solid #9f9e9e;
-	box-shadow: 1px 1px 10px #00000099;
+	border: 1px solid hsl(0, 1%, 62%);
+	box-shadow: 1px 1px 10px hsla(0, 0%, 0%, 0.6);
 	height: 128px;
 	left: 30px;
 	margin: 5px;
@@ -308,11 +308,11 @@ body.loaded .item-icon-zoom {
 }
 
 .bool-bg-true {
-	background-color: rgba(64, 156, 76, 0.192);
+	background-color: hsla(128, 42%, 43%, 0.192);
 }
 
 .bool-bg-false {
-	background-color: rgba(136, 56, 56, 0.192);
+	background-color: hsla(0, 42%, 38%, 0.192);
 }
 
 .bool-emoji {
@@ -331,8 +331,8 @@ body.loaded .item-icon-zoom {
 .item-info code {
 	display: inline-block;
 	margin-left: 2px;
-	background-color: white;
-	border: 1px dotted rgb(83, 83, 83);
+	background-color: hsl(0, 0%, 100%);
+	border: 1px dotted hsl(0, 0%, 33%);
 	padding: 0 2px;
 }
 
@@ -346,79 +346,101 @@ body.loaded .item-icon-zoom {
 
 
 /**
- * Toggles
+ * Toggle Rows
  */
 
 .toggles-row {
-	color: white;
+	color: hsl(0, 0%, 100%);
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .toggles-row + .toggles-row {
-	margin-top: 5px;
+	margin-top: 20px;
 }
 
-.toggle-button {
-	border-radius: 2px;
-	border: 0;
-	border: 2px solid transparent;
-	color: rgba(255, 255, 255, 0.8);
-	font-size: .9em;
-	margin-bottom: 5px;
-	padding: 5px 8px;
+
+/**
+ * Toggle Row Widths
+ */
+
+.toggles-row--thirds .toggle-container {
+	margin-right: 0;
+	width: 33%;
 }
 
-.toggle-button:hover {
-	border-color: white;
+.toggles-row--thirds .toggle-btn {
+	width: 100%;
 }
 
-.toggle-state--active {
-	background-color: rgb(49, 160, 45);
-	/* background-color: rgb(113, 184, 111); */
+/* first in row of 3rds */
+.toggles-row--thirds .toggle-container:nth-child(3n-4) {
+	padding-left: 0;
+	padding-right: 4px;
 }
 
-.toggle-state--inactive {
-	background-color: rgb(160, 45, 45);
-	/* background-color: rgb(184, 111, 111); */
+/* last in row of 3rds */
+.toggles-row--thirds .toggle-container:nth-child(3n+1) {
+	padding-left: 4px;
+	padding-right: 0;
 }
 
-.toggle-item-title {
+
+/**
+ * Toggle Containers
+ */
+
+.toggle-container--wide,
+.toggle-container--wide .toggle-btn {
+	width: 100%;
+}
+
+
+/**
+ * Toggle Title
+ */
+
+.toggles-title {
 	font-weight: bold;
 	margin-bottom: 10px;
 	text-align: center;
 	width: 100%;
 }
 
-.toggle-item {
-	margin-right: 5px;
-}
-
-.toggle-item--wide,
-.toggle-item--wide .toggle-button {
-	width: 100%;
-}
-
 
 /**
- * Toggle Widths
+ * Toggle Btns
  */
 
-.toggles-row--thirds .toggle-item {
-	margin-right: 0;
-	width: 33%;
+.toggle-btn {
+	border-radius: 2px;
+	border: 0;
+	border: 2px solid transparent;
+	color: hsla(0, 0%, 100%, 0.8);
+	font-size: .9em;
+	margin-bottom: 5px;
+	padding: 5px 8px;
 }
 
-.toggles-row--thirds .toggle-button {
-	width: 55px;
+.toggle-btn:hover {
+	box-shadow: inset 2px 2px hsl(0, 0%, 100%), inset -2px -2px hsl(0, 0%, 100%);
 }
 
+.toggle-btn-state--active {
+	background-color: hsl(0, 0%, 39%);
+}
+
+.toggle-btn-state--inactive {
+	background-color: hsla(0, 0%, 0%, 0.3);
+    color: hsla(0, 0%, 100%, 0.6);
+    opacity: 0.5;
+}
 
 /**
  * Toggle Icons
  */
 
-.toggle-button--hasicon {
+.toggle-btn--hasicon {
 	background-position: center;
 	background-size: 70px;
 	border-radius: 5px;
@@ -426,20 +448,29 @@ body.loaded .item-icon-zoom {
 	width: 55px;
 }
 
-.toggle-button--hasicon.toggle-state--active {
-	background-color: rgb(113, 184, 111);
-}
-
-.toggle-button--hasicon.toggle-state--inactive {
-	background-color: rgb(184, 111, 111);
-}
-
-
 /**
  * Misc
  */
 
+/* class added from url hash */
 .row-scrolled-into-view {
-    background-color: #c7d8c7 !important;
-    color: #047d04;
+	background-color: hsl(120, 18%, 81%) !important;
+	color: hsl(120, 94%, 25%);
+}
+
+.aside-links {
+	text-align: center;
+}
+
+.aside-links a {
+	color: hsla(0, 0%, 100%, .6);
+	display: block;
+	padding: 3px;
+	width: 100%;
+	text-decoration: none;
+}
+
+.aside-links a:hover {
+	text-decoration: underline;
+	color: hsla(0, 0%, 100%);
 }

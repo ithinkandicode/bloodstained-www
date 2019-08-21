@@ -36,8 +36,6 @@ const PBD = (function() {
 		whenDataReady: function( data )
 		{
 			this.createTable( data );
-
-
 		},
 
 		whenMarkupReady: function()
@@ -105,6 +103,76 @@ const PBD = (function() {
 		},
 
 		/**
+		 * Quick and dirty fix to split shards and items across two pages
+		 *
+		 * @return  {Object}  Object contianing page vars. Atm this is just
+		 */
+		getPageVars: function()
+		{
+			if ( !window.PBVARS )
+			{
+				console.error( 'Need to define window.PBVARS' );
+			}
+			else
+			{
+				return window.PBVARS;
+			}
+		},
+
+		allowType: function( type )
+		{
+			if ( !type )
+			{
+				console.error( '[allowType] Type was not defined' );
+			}
+
+			const currentType = this.getPageVars().currentType;
+
+			if ( currentType === 'all' )
+			{
+				return true;
+			}
+
+			const types = {
+				items: [
+					'Type',
+					'Potion',
+					'Ingredient',
+					'None',
+					'Book',
+					'FoodStuff',
+					'Food',
+					'Seed',
+					'Key',
+					'Ingredient',
+				],
+				weaponsArmor: [
+					'Weapon',
+					'Head',
+					'Muffler',
+					'Accessory',
+					'Body',
+					'Bullet',
+				],
+				shards: [
+					'TriggerShard',
+					'EffectiveShard',
+					'DirectionalShard',
+					'EnchantShard',
+					'FamiliarShard',
+					'Skill'
+				],
+				none: [
+					'None'
+				]
+			};
+
+			console.log( types[currentType] );
+
+			return types[currentType].includes( type );
+		},
+
+		/**
 		 * Create an HTML table using supplied data
 		 *
 		 * #TODO: Pass data to another function to add to page,
@@ -129,7 +197,7 @@ const PBD = (function() {
 						<th class="item-index">Index</th>
 
 						<th class="item-name">Name</th>
-						<th class="item-key">Key</th>
+						<th class="item-id">ID</th>
 						<th class="item-type">Type</th>
 
 						<th class="item-heal">Heal</th>
@@ -148,11 +216,6 @@ const PBD = (function() {
 					</tr>
 				</thead>
 			`;
-
-			// USed to separate the two ingredient types
-			let seenIngredients = false;
-			let pastFirstIngredients = false;
-			let reachedSecondIngredients = false;
 
 			// Loop through the items
 			data.items.forEach( ( item, index ) =>
@@ -177,6 +240,25 @@ const PBD = (function() {
 				 * @var  {array}
 				 */
 				let rowCells = [];
+
+
+				// Types
+				// Type is checked first, against page vars
+
+				// Get the item type (Potion, Ingredient, etc)
+				let type = ItemType.replace( 'ECarriedCatalog::', '' );
+				let niceType = type; // Store original type
+
+				// Remove integer affix from accessory
+				niceType = ( niceType === 'Accessory1' ) ? 'Accessory' : niceType;
+
+				// Only show row3s that match the type
+				//@TODO super hacky fix and horrible unperfomant. you can tell it's getting late ;)
+
+				if ( !this.allowType( niceType ) )
+				{
+					return;
+				}
 
 
 				// Name
@@ -212,61 +294,12 @@ const PBD = (function() {
 				`);
 
 
-				// Types
-
-				// Get the item type (Potion, Ingredient, etc)
-				let type = ItemType.replace( 'ECarriedCatalog::', '' );
-				let niceType = type; // Store original type
-
-				// Remove integer affix from accessory
-				niceType = ( niceType === 'Accessory1' ) ? 'Accessory' : niceType;
-
-
-				/**
-				 * Turns out this whole logic was unnecessary.
-				 * I must have made a mistake checking files
-				 */
-
-				/*
-				// There are two types marked "Ingredient". This logic splits
-				// them into two sub-types
-
-				const isIngredient = ( type === 'Ingredient' );
-
-				//#TODO: This logic is hard to read, pls clarify
-
-				if ( isIngredient && !seenIngredients )
-				{
-					// Flag set at the first ingredient
-					seenIngredients = true;
-				}
-				else if ( !isIngredient && seenIngredients && !pastFirstIngredients )
-				{
-					// Flag set at the next item type after the first list of ingredients
-					pastFirstIngredients = true;
-				}
-				else if ( isIngredient && pastFirstIngredients )
-				{
-					reachedSecondIngredients = true;
-				}
-
-				// Change the ingredient type text
-				if ( isIngredient && !reachedSecondIngredients )
-				{
-					niceType = 'IngredientItem';
-				}
-				else if ( isIngredient && reachedSecondIngredients )
-				{
-					niceType = 'IngredientFood';
-				}
-
-				*/
-
+				// Type
 
 				rowCells.push(`
 					<!-- Name & Type -->
 					<td class="item-name">${stringName}</td>
-					<td class="item-key">${ID}</td>
+					<td class="item-id">${ID}</td>
 					<td class="item-type">${niceType}</td>
 				`);
 
@@ -401,8 +434,8 @@ const PBD = (function() {
 				btn.addEventListener( 'click', ( ) =>
 				{
 					// State class
-					btn.classList.toggle( 'toggle-state--inactive' );
-					btn.classList.toggle( 'toggle-state--active' );
+					btn.classList.toggle( 'toggle-btn-state--inactive' );
+					btn.classList.toggle( 'toggle-btn-state--active' );
 
 					// Body toggle class
 					const bodyCls = btn.getAttribute( 'data-toggle' );
@@ -468,7 +501,7 @@ const PBD = (function() {
 
 
 		/*
-		Full type list. Note ingredient appears twice: Once for foodstuff, then for items
+		Full type list. Note ingredient appears twice
 
 		Type
 		Potion
