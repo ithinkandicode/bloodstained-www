@@ -1,0 +1,136 @@
+
+// Body
+// ============================================================================
+
+main {
+	font-family: consolas;
+	font-size: 12px;
+	margin: 0;
+}
+
+
+// Links
+// ============================================================================
+
+a {
+	color: darkblue;
+	text-decoration: none;
+}
+
+
+// Containers
+// ============================================================================
+
+//...
+
+
+// Table
+// ============================================================================
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	text-align: left;
+}
+
+thead {
+	border-bottom: 2px solid #ddd;
+}
+
+th,
+td {
+	vertical-align: top;
+	border: 1px solid #ddd;
+	padding: 2px 4px;
+}
+
+// Sticky first col
+th:nth-child(1),
+td:nth-child(1) {
+    position: sticky;
+    left: 0;
+	z-index: 5;
+	border-right: 2px solid #ddd;
+	box-shadow: inset -1px 0px #ddd;
+}
+
+// Row stripes
+th,
+tr:nth-child(even) td {
+	background-color: rgb(246, 246, 246);
+}
+
+tr:nth-child(odd) td {
+	background-color: #fff;
+}
+
+tr:hover td {
+	background-color: rgb(226, 226, 226);
+}
+
+// #TODO Use classes instead of this hacky nonsense
+
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6),
+td:nth-child(7),
+td:nth-child(8),
+td:nth-child(9),
+td:nth-child(10),
+td:nth-child(11),
+td:nth-child(12),
+td:nth-child(13),
+td:nth-child(14),
+td:nth-child(15),
+td:nth-child(16),
+td:nth-child(17),
+td:nth-child(18),
+td:nth-child(19),
+td:nth-child(21) {
+	text-align: center;
+}
+
+// Key
+// td:nth-child(1) {}
+
+// Type
+td:nth-child(3) {
+	color: green;
+}
+
+// Input count + weapon count
+td:nth-child(4),
+td:nth-child(21) {
+	color: grey;
+}
+
+// Input numbers
+td:nth-child(5),
+td:nth-child(6),
+td:nth-child(7),
+td:nth-child(8),
+td:nth-child(9),
+td:nth-child(10) {
+	color: purple;
+}
+
+// Input arrows
+td:nth-child(11),
+td:nth-child(12),
+td:nth-child(13),
+td:nth-child(14),
+td:nth-child(15),
+td:nth-child(16) {
+	/* color: black; */
+	font-weight: 700;
+}
+
+// Booleans
+td:nth-child(17),
+td:nth-child(18) {
+	color: orange;
+}
+
+

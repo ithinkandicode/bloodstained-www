@@ -1,24 +1,50 @@
 {
-  "name": "bloodstained",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass --watch ./assets/styles/scss -o ./assets/styles/css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ithinkandicode/bloodstained.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ithinkandicode/bloodstained/issues"
-  },
-  "homepage": "https://github.com/ithinkandicode/bloodstained#readme",
-  "dependencies": {
-    "chalk": "^2.4.2"
-  }
+	"name": "bloodstained",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ithinkandicode/bloodstained-www.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ithinkandicode/bloodstained-www/issues"
+	},
+	"homepage": "https://github.com/ithinkandicode/bloodstained-www#readme",
+	"devDependencies": {
+		"autoprefixer": "^9.6.1",
+		"browser-sync": "^2.26.7",
+		"browserify": "^16.5.0",
+		"chalk": "^2.4.2",
+		"eslint": "^6.2.2",
+		"node-sass": "^4.12.0",
+		"npm-run-all": "^4.1.5",
+		"npm-watch": "^0.6.0",
+		"postcss-cli": "^6.1.3",
+		"tinyify": "^2.5.1"
+	},
+	"scripts": {
+		"start": "npm-run-all -p watch browser-sync",
+		"autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers '&gt; 5%' -r ./app/assets/dist/styles/**/*",
+		"browser-sync": "browser-sync start --server ./app --files ./app/*.html ./app/assets/dist",
+		"eslint": "eslint ./app/assets/src/scripts/app.js",
+		"scripts": "browserify ./app/assets/src/scripts/app.js -p tinyify > ./app/assets/dist/scripts/bundle.min.js",
+		"styles": "node-sass ./app/assets/src/styles -o ./app/assets/dist/styles --output-style compressed --source-map true",
+		"watch": "npm-watch",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"watch": {
+		"autoprefixer": "./app/assets/dist/styles",
+		"scripts": "./app/assets/src/scripts/app.js",
+		"styles": {
+			"patterns": [
+				"./app/assets/src/styles"
+			],
+			"extensions": "scss",
+			"quiet": false
+		}
+	}
 }

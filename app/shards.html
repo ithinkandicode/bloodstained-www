@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="/assets/dist/styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="/assets/dist/styles/main.css">
+
+	<title>BS Shards</title>
+
+	<script>
+		window.PBVARS = {
+			currentType: 'shards'
+		};
+	</script>
+</head>
+<body class="view-items">
+	<header></header>
+
+	<section class="show-until-loaded">
+		<div class="screen-cover loading">
+			<p>Loading...</p>
+		</div>
+	</section>
+
+	<main>
+		<section class="lookup-item-container hide-until-loaded">
+			<h2 class="hide">Items</h2>
+			<div class="lookup-item"></div>
+		</section>
+
+		<aside class="hide-until-loaded">
+
+			<div class="toggles-row">
+				<div class="toggle-container toggle-container--wide">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="toggle-all-types">Invert Toggles</button>
+				</div>
+			</div>
+
+			<div class="toggles-row toggles-row--thirds toggles-row--hasicons">
+				<div class="toggles-title">Shards</div>
+				<div class="toggle-container">
+					<button title="Toggle TriggerShard" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="TriggerShard" style="background-image: url('/assets/images/item-types/triggershard.png');">
+						<span class="a11y">Toggle TriggerShard</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle EffectiveShard" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="EffectiveShard" style="background-image: url('/assets/images/item-types/effectiveshard.png');">
+						<span class="a11y">Toggle EffectiveShard</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle DirectionalShard" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="DirectionalShard" style="background-image: url('/assets/images/item-types/directionalshard.png');">
+						<span class="a11y">Toggle DirectionalShard</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle EnchantShard" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="EnchantShard" style="background-image: url('/assets/images/item-types/enchantshard.png');">
+						<span class="a11y">Toggle EnchantShard</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle FamiliarShard" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="FamiliarShard" style="background-image: url('/assets/images/item-types/familiarshard.png');">
+						<span class="a11y">Toggle FamiliarShard</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle Skill" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Skill" style="background-image: url('/assets/images/item-types/skill.png');">
+						<span class="a11y">Toggle Skill</span>
+					</button>
+				</div>
+			</div>
+
+			<div class="toggles-row toggles-row--thirds">
+				<div class="toggles-title">Columns</div>
+				<!-- Hidden by default -->
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn--small-text toggle-btn-state--inactive" data-toggle="show-icon-id">IconId</button>
+				</div>
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn--small-text toggle-btn-state--inactive" data-toggle="show-item-index">Index</button>
+				</div>
+				<!-- Shown by default -->
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="hide-item-icon">Icon</button>
+				</div>
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="hide-item-name">Name</button>
+				</div>
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="hide-item-id">ID</button>
+				</div>
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="hide-item-type">Type</button>
+				</div>
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="hide-item-heal">Heal</button>
+				</div>
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="hide-item-max">Max</button>
+				</div>
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="hide-item-shop">Shop</button>
+				</div>
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="hide-item-bools">Bools</button>
+				</div>
+				<div class="toggle-container">
+					<button class="toggle-btn toggle-btn-state--active" data-toggle="hide-item-info">Info</button>
+				</div>
+			</div>
+
+			<div class="toggles-row">
+				<div class="toggles-title">Options</div>
+				<div class="toggle-container toggle-container--wide">
+					<button class="toggle-btn toggle-btn-state--inactive" data-toggle="show-large-icons">Large Icons</button>
+				</div>
+				<div class="toggle-container toggle-container--wide">
+					<button class="toggle-btn toggle-btn-state--inactive" data-toggle="show-emoji-bools">Emoji Booleans</button>
+				</div>
+				<div class="toggle-container toggle-container--wide">
+					<!-- <button class="toggle-btn toggle-btn-state--inactive" data-toggle="show-br">Info Line Breaks</button> -->
+				</div>
+				<div class="toggle-container toggle-container--wide">
+					<button class="toggle-btn toggle-btn-state--inactive" data-toggle="show-cell-padding">Extra Padding</button>
+				</div>
+			</div>
+
+			<div class="toggles-row aside-links">
+				<div class="toggles-title">Links</div>
+				<a href="/">Home</a>
+				<a href="/items.html">Items</a>
+				<a href="/weaponsarmor.html">Combat Items</a>
+				<a href="/shards.html">Shards</a>
+				<a href="/all.html">All</a>
+			</div>
+		</aside>
+	</main>
+
+	<div class="hide">
+		<section class="hide-until-loaded">
+			<h2>Characters</h2>
+			<div class="lookup-character"></div>
+		</section>
+		<section class="hide-until-loaded">
+			<h2>Shards</h2>
+			<div class="lookup-shard"></div>
+		</section>
+	</div>
+
+	<script type="module" src="/assets/src/scripts/items.js"></script>
+</body>
+</html>

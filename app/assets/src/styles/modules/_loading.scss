@@ -1,0 +1,30 @@
+
+// Loading
+// ============================================================================
+
+body:not(.loaded) {
+	overflow: hidden;
+}
+
+body.loaded .hide-until-loaded {
+	display: block;
+}
+
+body.loaded .show-until-loaded {
+	display: none;
+}
+
+.hide-until-loaded {
+	display: none;
+}
+
+.loading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.screen-cover {
+	height: 100vh;
+	width: 100vw;
+}
