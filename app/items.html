@@ -4,18 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css" href="/assets/styles/css/reset.min.css">
-	<link rel="stylesheet" type="text/css" href="/assets/styles/css/items.css">
+	<link rel="stylesheet" type="text/css" href="/assets/dist/styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="/assets/dist/styles/main.css">
 
-	<title>BS Weapons, Armor, Bullets</title>
+	<title>BS Items</title>
 
 	<script>
 		window.PBVARS = {
-			currentType: 'weaponsArmor'
+			currentType: 'items'
 		};
 	</script>
 </head>
-<body>
+<body class="view-items">
 	<header></header>
 
 	<section class="show-until-loaded">
@@ -39,36 +39,40 @@
 			</div>
 
 			<div class="toggles-row toggles-row--thirds toggles-row--hasicons">
-				<div class="toggles-title">Combat Items</div>
+				<div class="toggles-title">Items</div>
 				<div class="toggle-container">
-					<button title="Toggle Weapon" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Weapon" style="background-image: url('/assets/images/item-types/weapon.png');">
-						<span class="a11y">Toggle Weapon</span>
+					<button title="Toggle Potion" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Potion" style="background-image: url('/assets/images/item-types/potion.png');">
+						<span class="a11y">Toggle Potion</span>
 					</button>
 				</div>
 				<div class="toggle-container">
-					<button title="Toggle Head" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Head" style="background-image: url('/assets/images/item-types/head.png');">
-						<span class="a11y">Toggle Head</span>
+					<button title="Toggle IngredientFood" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Ingredient" style="background-image: url('/assets/images/item-types/ingredient.png');">
+						<span class="a11y">Toggle IngredientFood</span>
 					</button>
 				</div>
 				<div class="toggle-container">
-					<button title="Toggle Scarf" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Muffler" style="background-image: url('/assets/images/item-types/muffler.png');">
-						<span class="a11y">Toggle Scarf</span>
+					<button title="Toggle FoodStuff" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="FoodStuff" style="background-image: url('/assets/images/item-types/foodstuff.png');">
+						<span class="a11y">Toggle FoodStuff</span>
 					</button>
 				</div>
 				<div class="toggle-container">
-					<button title="Toggle Accessory" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Accessory" style="background-image: url('/assets/images/item-types/accessory.png');">
-						<span class="a11y">Toggle Accessory</span>
+					<button title="Toggle Food" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Food" style="background-image: url('/assets/images/item-types/food.png');">
+						<span class="a11y">Toggle Food</span>
 					</button>
 				</div>
 				<div class="toggle-container">
-					<button title="Toggle Body" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Body" style="background-image: url('/assets/images/item-types/body.png');">
-						<span class="a11y">Toggle Body</span>
+					<button title="Toggle Seed" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Seed" style="background-image: url('/assets/images/item-types/seed.png');">
+						<span class="a11y">Toggle Seed</span>
 					</button>
 				</div>
-
 				<div class="toggle-container">
-					<button title="Toggle Bullet" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Bullet" style="background-image: url('/assets/images/item-types/bullet.png');">
-						<span class="a11y">Toggle Bullet</span>
+					<button title="Toggle Key" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Key" style="background-image: url('/assets/images/item-types/key.png');">
+						<span class="a11y">Toggle Key</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle Book" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Book" style="background-image: url('/assets/images/item-types/book.png');">
+						<span class="a11y">Toggle Book</span>
 					</button>
 				</div>
 			</div>
@@ -112,6 +116,33 @@
 				</div>
 			</div>
 
+
+			<div class="toggles-row toggles-row--thirds">
+				<div class="toggles-title">Rows</div>
+
+				<div class="toggle-container">
+					<button title="Toggle New Game+" class="toggle-btn toggle-btn-state--active" data-toggle="row" data-toggle-row="carryToNewGamePlus">
+						<span>NG+</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle New Game+" class="toggle-btn toggle-btn-state--active" data-toggle="row" data-toggle-row="carryToBossRush">
+						<span>BR</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle New Game+" class="toggle-btn toggle-btn-state--active" data-toggle="row" data-toggle-row="listedInArchive">
+						<span>Arc</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle New Game+" class="toggle-btn toggle-btn-state--active" data-toggle="show-type" data-toggle-row="requiredForCompletion">
+						<span>100%</span>
+					</button>
+				</div>
+			</div>
+
+
 			<div class="toggles-row">
 				<div class="toggles-title">Options</div>
 				<div class="toggle-container toggle-container--wide">
@@ -150,6 +181,6 @@
 		</section>
 	</div>
 
-	<script type="module" src="/assets/scripts/items.js"></script>
+	<script type="module" src="/assets/src/scripts/items.js"></script>
 </body>
 </html>

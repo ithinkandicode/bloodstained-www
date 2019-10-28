@@ -87,7 +87,8 @@ const PBD = (function() {
 		{
 			const stringTable = this.data.strings.Table;
 
-			if ( key && stringTable.hasOwnProperty( key ) )
+			// if ( key && stringTable.hasOwnProperty( key ) )
+			if ( key && key in stringTable )
 			{
 				return stringTable[key];
 			}
@@ -135,39 +136,34 @@ const PBD = (function() {
 
 			const types = {
 				items: [
-					'Type',
-					'Potion',
-					'Ingredient',
-					'None',
 					'Book',
-					'FoodStuff',
 					'Food',
-					'Seed',
-					'Key',
+					'FoodStuff',
 					'Ingredient',
+					'Key',
+					'Potion',
+					'Seed',
 				],
 				weaponsArmor: [
-					'Weapon',
-					'Head',
-					'Muffler',
 					'Accessory',
 					'Body',
 					'Bullet',
+					'Head',
+					'Muffler',
+					'Weapon',
 				],
 				shards: [
-					'TriggerShard',
-					'EffectiveShard',
 					'DirectionalShard',
+					'EffectiveShard',
 					'EnchantShard',
 					'FamiliarShard',
-					'Skill'
+					'Skill',
+					'TriggerShard',
 				],
 				none: [
 					'None'
 				]
 			};
-
-			console.log( types[currentType] );
 
 			return types[currentType].includes( type );
 		},
@@ -210,7 +206,7 @@ const PBD = (function() {
 						<th class="item-bools" title="Carry to New Game Plus (!NotInheritable)">NG+</th>
 						<th class="item-bools" title="Carry to Boss Rush (CarryToBossRushMode)">BR</th>
 						<th class="item-bools" title="Listed in the Archive (!NotListedInArchive)">Arc</th>
-						<th class="item-bools" title="Required for Completion (!NotCountAsCompleteness)">Req</th>
+						<th class="item-bools" title="Count as Completeness (!NotCountAsCompleteness)">Cmpl</th>
 
 						<th class="item-info">Info</th>
 					</tr>
@@ -279,6 +275,18 @@ const PBD = (function() {
 					iconEl = `<img class="item-icon-img" src="/assets/images/items/${iconIndex}.png" alt="${stringName}">`;
 				}
 
+				// Healing
+
+				let healValue = '';
+				const healData = data.heal.find( ( item => item.Key === ID ) );
+
+				// Weird data for SwordMastery. Mistake in the source data?
+				//#TODO: Add toggle to handle outliers
+				if ( healData && ID !== 'SwordMastery' )
+				{
+					healValue = ( healData.Value.Parameter01 > 0 ) ? healData.Value.Parameter01 : '';
+				}
+
 				rowCells.push(`
 					<!-- Icons & IDs -->
 					<td class="item-icon item-icon-cell">
@@ -293,29 +301,12 @@ const PBD = (function() {
 					<td class="item-index text-mono">${index}</td>
 				`);
 
-
-				// Type
-
 				rowCells.push(`
 					<!-- Name & Type -->
 					<td class="item-name">${stringName}</td>
 					<td class="item-id">${ID}</td>
 					<td class="item-type">${niceType}</td>
 				`);
-
-
-
-				// Healing
-
-				let healValue = '';
-				const healData = data.heal.find( ( item => item.Key === ID ) );
-
-				// Weird data for SwordMastery. Mistake in the source data?
-				//#TODO: Add toggle to handle outliers
-				if ( healData && ID !== 'SwordMastery' )
-				{
-					healValue = ( healData.Value.Parameter01 > 0 ) ? healData.Value.Parameter01 : '';
-				}
 
 				rowCells.push(`
 					<!-- Heal -->
@@ -334,24 +325,37 @@ const PBD = (function() {
 				`);
 
 
-
 				// Booleans
 
 				// Note: Some bools are flipped for visual clarity
 				const bools = {
-					carryToBossRush:       CarryToBossRushMode,
 					carryToNewGamePlus:    !NotInheritable,
+					carryToBossRush:       CarryToBossRushMode,
+					listedInArchive:       !NotListedInArchive,
 					requiredForCompletion: !NotCountAsCompleteness,
-					listedInArchive:       !NotListedInArchive
 				};
 
 
+				// Added to <tr>
+				const rowClasses = [];
+
+
 				const boolColumns = [];
+
 
 				// Generate columns (td) for each bool
 				Object.keys( bools ).forEach( boolKey =>
 				{
 					const boolValue = bools[boolKey];
+
+					// Set row bool, if applicable
+					if ( boolValue )
+					{
+						// Row class types:
+						rowClasses.push( 'row-type-' + boolKey );
+					}
+
+					// Set bool col class and emoji
 					const boolCls   = ( boolValue ) ? 'true' : 'false';
 					const boolEmoji = ( boolValue ) ? '✔️'   : '❌';
 
@@ -386,7 +390,17 @@ const PBD = (function() {
 					<td class="item-info has-toggle-br">${info}</td>
 				`);
 
-				const rowOpen  = `<tr id="${ID}" class="item-row item-type-${niceType}">`;
+				let rowClassesStr = '';
+				if ( rowClasses.length !== 0 )
+				{
+					// rowClasses.forEach( rc => {
+					// 	rowClassesStr += 'row-type-' + rc;
+					// });
+
+					rowClassesStr = rowClasses.join( '  ' );
+				}
+
+				const rowOpen  = `<tr id="${ID}" class="item-row item-type-${niceType} ${rowClassesStr}">`;
 				const rowClose = '</tr>';
 
 				tableRows.push( rowOpen, rowCells.join( '\n' ), rowClose );
@@ -441,26 +455,28 @@ const PBD = (function() {
 					const bodyCls = btn.getAttribute( 'data-toggle' );
 
 					// Special cases
-
 					if ( bodyCls === 'toggle-all-types' )
 					{
 						// Click all type toggles
-						// Quick and dirty until toggles are proerly refactored
+						// Quick and dirty until toggles are properly refactored
 						document.querySelectorAll( '[data-toggle-type]' ).forEach( btn => btn.click() );
 					}
 					else if ( bodyCls === 'show-type' )
 					{
 						const typeTarget = btn.getAttribute( 'data-toggle-type' );
 						const typeTargetCls = 'item-type-' + typeTarget;
-
-						// console.log(typeTarget, typeTargetCls);
-
 						const targets = document.querySelectorAll( '.' + typeTargetCls );
 
-						targets.forEach( typeRow =>
-						{
-							typeRow.classList.toggle( 'hide' );
-						});
+						targets.forEach( typeRow => typeRow.classList.toggle( 'hide' ) );
+					}
+					else if ( bodyCls === 'row' )
+					{
+						// Applies hide only (?)
+						const typeTarget = btn.getAttribute( 'data-toggle-row' );
+						const typeTargetCls = 'row-type-' + typeTarget;
+						const targets = document.querySelectorAll( '.' + typeTargetCls );
+
+						targets.forEach( typeRow => typeRow.classList.toggle( 'hide' ) );
 					}
 					else
 					{

@@ -1,48 +1,6 @@
-/**
- * Global
- */
 
-* {
-	box-sizing: border-box;
-}
-
-body {
-	font-size: 15px;
-	font-family: Calibri, 'Trebuchet MS', sans-serif;
-	position: relative;
-	overflow: initial;
-}
-
-body:not(.loaded) {
-	overflow: hidden;
-}
-
-
-/**
- * Utiity
- */
-
-.hide {
-	display: none !important;
-}
-
-.show-block {
-	display: block !important;
-}
-
-.a11y {
-	clip: rect(1px, 1px, 1px, 1px);
-	height: 1px;
-	overflow: hidden;
-	position: absolute !important;
-	white-space: nowrap; /* added line */
-	width: 1px;
-}
-
-
-/**
- * Sections
- */
+// Sections
+// ============================================================================
 
 main {
 	display: flex;
@@ -56,54 +14,10 @@ main {
 
 
 /**
- * Aside
- */
-
-aside {
-	/* display: none !important; */
-	background-color: rgb(63, 63, 63);
-	flex-shrink: 0;
-	max-height: 100vh;
-	overflow-y: auto;
-	padding: 10px;
-	position: sticky;
-	right: 0;
-	top: 0;
-	width: 200px;
-}
-
-
-/**
- * Loading
- */
-
-.screen-cover {
-	height: 100vh;
-	width: 100vw;
-}
-
-.loading {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.hide-until-loaded {
-	display: none;
-}
-
-.loaded .hide-until-loaded {
-	display: block;
-}
-
-.loaded .show-until-loaded {
-	display: none;
-}
-
-
-/**
  * Text
  */
+// Loading
+// ============================================================================
 
 h2 {
 	font-size: 30px;
@@ -129,6 +43,8 @@ h2 {
 /**
  * Items Table
  */
+// Loading
+// ============================================================================
 
 table {
 	width: 100%;
@@ -176,6 +92,8 @@ tr:nth-child(even) {
 /**
  * Table Display Options
  */
+// Loading
+// ============================================================================
 
 .show-cell-padding th,
 .show-cell-padding td {
@@ -188,6 +106,8 @@ tr:nth-child(even) {
  *
  * @TODO: Use data attributes instead
  */
+// Loading
+// ============================================================================
 
 /* Hidden by default */
 
@@ -242,6 +162,8 @@ tr:nth-child(even) {
 /**
  * Icons
  */
+// Loading
+// ============================================================================
 
 .item-icon {
 	max-width: 140px; /* large icon width + padding */
@@ -267,6 +189,8 @@ tr:nth-child(even) {
 /**
  * Icon Zoom
  */
+// Loading
+// ============================================================================
 
 body.loaded .item-icon-zoom {
 	display: none;
@@ -302,6 +226,8 @@ body.loaded .item-icon-zoom {
 /**
  * Boolean Cells
  */
+// Loading
+// ============================================================================
 
 .bool-th {
 	min-width: 25px;
@@ -327,6 +253,8 @@ body.loaded .item-icon-zoom {
 /**
  * Info Cells
  */
+// Loading
+// ============================================================================
 
 .item-info code {
 	display: inline-block;
@@ -345,9 +273,44 @@ body.loaded .item-icon-zoom {
 }
 
 
-/**
- * Toggle Rows
- */
+// Sidebar
+// ============================================================================
+
+aside {
+	/* display: none !important; */
+	background-color: rgb(63, 63, 63);
+	flex-shrink: 0;
+	max-height: 100vh;
+	overflow-y: auto;
+	padding: 10px;
+	position: sticky;
+	right: 0;
+	top: 0;
+	width: 200px;
+}
+
+.aside-links {
+	text-align: center;
+}
+
+.aside-links a {
+	color: hsla(0, 0%, 100%, .6);
+	display: block;
+	padding: 3px;
+	width: 100%;
+	text-decoration: none;
+}
+
+.aside-links a:hover {
+	text-decoration: underline;
+	color: hsl(0, 0%, 100%);
+}
+
+
+// Toggles
+// ============================================================================
+
+// Toggle Rows
 
 .toggles-row {
 	color: hsl(0, 0%, 100%);
@@ -359,10 +322,7 @@ body.loaded .item-icon-zoom {
 	margin-top: 20px;
 }
 
-
-/**
- * Toggle Row Widths
- */
+// Toggle Row Widths
 
 .toggles-row--thirds .toggle-container {
 	margin-right: 0;
@@ -385,20 +345,14 @@ body.loaded .item-icon-zoom {
 	padding-right: 0;
 }
 
-
-/**
- * Toggle Containers
- */
+// Toggle Containers
 
 .toggle-container--wide,
 .toggle-container--wide .toggle-btn {
 	width: 100%;
 }
 
-
-/**
- * Toggle Title
- */
+// Toggle Title
 
 .toggles-title {
 	font-weight: bold;
@@ -407,10 +361,7 @@ body.loaded .item-icon-zoom {
 	width: 100%;
 }
 
-
-/**
- * Toggle Btns
- */
+// Toggle Btns
 
 .toggle-btn {
 	border-radius: 2px;
@@ -436,9 +387,7 @@ body.loaded .item-icon-zoom {
     opacity: 0.5;
 }
 
-/**
- * Toggle Icons
- */
+// Toggle Icons
 
 .toggle-btn--hasicon {
 	background-position: center;
@@ -448,29 +397,12 @@ body.loaded .item-icon-zoom {
 	width: 55px;
 }
 
-/**
- * Misc
- */
 
-/* class added from url hash */
+// Misc
+// ============================================================================
+
+// Class added from url hash
 .row-scrolled-into-view {
 	background-color: hsl(120, 18%, 81%) !important;
 	color: hsl(120, 94%, 25%);
-}
-
-.aside-links {
-	text-align: center;
-}
-
-.aside-links a {
-	color: hsla(0, 0%, 100%, .6);
-	display: block;
-	padding: 3px;
-	width: 100%;
-	text-decoration: none;
-}
-
-.aside-links a:hover {
-	text-decoration: underline;
-	color: hsla(0, 0%, 100%);
 }

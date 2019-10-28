@@ -1,25 +1,31 @@
-/* #TODO Use SASS */
 
-body {
+// Body
+// ============================================================================
+
+main {
 	font-family: consolas;
 	font-size: 12px;
 	margin: 0;
 }
 
-/* pre */
 
-.code-fullpage {
-	height: 100vh;
-	width: 100vh;
+// Links
+// ============================================================================
+
+a {
+	color: darkblue;
+	text-decoration: none;
 }
 
-.code-halfpage {
-	height: 50vh;
-	width: 100vh;
-	border-bottom: 1px solid #ddd;
-}
 
-/* table */
+// Containers
+// ============================================================================
+
+//...
+
+
+// Table
+// ============================================================================
 
 table {
 	border-collapse: collapse;
@@ -40,8 +46,7 @@ td {
 	padding: 2px 4px;
 }
 
-/* sticky first col */
-
+// Sticky first col
 th:nth-child(1),
 td:nth-child(1) {
     position: sticky;
@@ -51,7 +56,7 @@ td:nth-child(1) {
 	box-shadow: inset -1px 0px #ddd;
 }
 
-/* row stripes */
+// Row stripes
 th,
 tr:nth-child(even) td {
 	background-color: rgb(246, 246, 246);
@@ -65,7 +70,7 @@ tr:hover td {
 	background-color: rgb(226, 226, 226);
 }
 
-/* #TODO Use classes instead of this hacky nonsense */
+// #TODO Use classes instead of this hacky nonsense
 
 td:nth-child(4),
 td:nth-child(5),
@@ -87,23 +92,21 @@ td:nth-child(21) {
 	text-align: center;
 }
 
-/* key */
-td:nth-child(1) {
-	/* color: black; */
-}
+// Key
+// td:nth-child(1) {}
 
-/* type */
+// Type
 td:nth-child(3) {
 	color: green;
 }
 
-/* input count + weapon count */
+// Input count + weapon count
 td:nth-child(4),
 td:nth-child(21) {
 	color: grey;
 }
 
-/* input numbers */
+// Input numbers
 td:nth-child(5),
 td:nth-child(6),
 td:nth-child(7),
@@ -113,7 +116,7 @@ td:nth-child(10) {
 	color: purple;
 }
 
-/* input arrows */
+// Input arrows
 td:nth-child(11),
 td:nth-child(12),
 td:nth-child(13),
@@ -124,18 +127,10 @@ td:nth-child(16) {
 	font-weight: 700;
 }
 
-/* bools */
+// Booleans
 td:nth-child(17),
 td:nth-child(18) {
 	color: orange;
 }
 
 
-/**
- * Links
- */
-
-a {
-	color: darkblue;
-	text-decoration: none;
-}

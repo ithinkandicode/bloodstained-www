@@ -51,6 +51,6 @@ async function getData( sources = [], log = false )
 
 		return false;
 	}
-};
+}
 
 export { getData };

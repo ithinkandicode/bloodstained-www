@@ -4,18 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" type="text/css" href="/assets/styles/css/reset.min.css">
-	<link rel="stylesheet" type="text/css" href="/assets/styles/css/items.css">
+	<link rel="stylesheet" type="text/css" href="/assets/dist/styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="/assets/dist/styles/main.css">
 
-	<title>BS None</title>
+	<title>BS Weapons, Armor, Bullets</title>
 
 	<script>
 		window.PBVARS = {
-			currentType: 'none'
+			currentType: 'weaponsArmor'
 		};
 	</script>
 </head>
-<body>
+<body class="view-items">
 	<header></header>
 
 	<section class="show-until-loaded">
@@ -39,10 +39,36 @@
 			</div>
 
 			<div class="toggles-row toggles-row--thirds toggles-row--hasicons">
-				<div class="toggles-title">Misc</div>
+				<div class="toggles-title">Combat Items</div>
 				<div class="toggle-container">
-					<button title="Toggle Misc" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="None" style="background-image: url('/assets/images/item-types/all.png');">
-						<span class="a11y">Toggle Misc</span>
+					<button title="Toggle Weapon" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Weapon" style="background-image: url('/assets/images/item-types/weapon.png');">
+						<span class="a11y">Toggle Weapon</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle Head" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Head" style="background-image: url('/assets/images/item-types/head.png');">
+						<span class="a11y">Toggle Head</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle Scarf" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Muffler" style="background-image: url('/assets/images/item-types/muffler.png');">
+						<span class="a11y">Toggle Scarf</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle Accessory" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Accessory" style="background-image: url('/assets/images/item-types/accessory.png');">
+						<span class="a11y">Toggle Accessory</span>
+					</button>
+				</div>
+				<div class="toggle-container">
+					<button title="Toggle Body" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Body" style="background-image: url('/assets/images/item-types/body.png');">
+						<span class="a11y">Toggle Body</span>
+					</button>
+				</div>
+
+				<div class="toggle-container">
+					<button title="Toggle Bullet" class="toggle-btn toggle-btn--hasicon toggle-btn-state--active" data-toggle="show-type" data-toggle-type="Bullet" style="background-image: url('/assets/images/item-types/bullet.png');">
+						<span class="a11y">Toggle Bullet</span>
 					</button>
 				</div>
 			</div>
@@ -124,6 +150,6 @@
 		</section>
 	</div>
 
-	<script type="module" src="/assets/scripts/items.js"></script>
+	<script type="module" src="/assets/src/scripts/items.js"></script>
 </body>
 </html>
