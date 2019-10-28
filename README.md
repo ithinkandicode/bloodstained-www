@@ -1,5 +1,7 @@
 # Bloodstained Data
 
+https://bloodstained.ithinkandicode.com
+
 ## Todo
 
 - Item name links to wiki
