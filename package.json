@@ -28,7 +28,7 @@
 	},
 	"scripts": {
 		"start": "npm-run-all -p watch browser-sync",
-		"autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers '&gt; 5%' -r ./app/assets/dist/styles/**/*",
+		"autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers '> 5%' -r ./app/assets/dist/styles/**/*",
 		"browser-sync": "browser-sync start --server ./app --files ./app/*.html ./app/assets/dist",
 		"eslint": "eslint ./app/assets/src/scripts/app.js",
 		"scripts": "browserify ./app/assets/src/scripts/app.js -p tinyify > ./app/assets/dist/scripts/bundle.min.js",
