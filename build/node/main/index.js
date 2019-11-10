@@ -3,28 +3,47 @@
 // ============================================================================
 
 // Custom
+const getJsonFileAsObject = require('../utils/file/getJsonFileAsObject');
+const checkPath = require('../utils/file/checkPath');
 const buildItemsJson = require('./buildItemsJson');
 const saveItemsJson = require('./saveItemsJson');
+
+// Utils
+const logError = require('../utils/log/logError');
 
 
 // Constants
 // ============================================================================
 
 const paths = {
-	outputFile: '../../data/output/items.json',
+	stringTable: '../data/input/stringtable/PBMasterStringTable.json',
+	outputFile: '../data/output/items.json',
 };
-
 
 // Functions
 // ============================================================================
 
 async function init()
 {
-	// Build items object
-	const itemsObj = buildItemsJson();
+	try
+	{
+		// Get string table data
+		const parsedStringTableJson = await getJsonFileAsObject( paths.stringTable );
 
-	// Save items JSON
-	await saveItemsJson( paths.outputPath, itemsObj );
+		// Where the good stuff is
+		const stringTable = parsedStringTableJson.Table;
+
+		// Build items object
+		const itemsObj = await buildItemsJson( stringTable );
+
+		// Save items JSON
+		await saveItemsJson( paths.outputFile, itemsObj );
+	}
+	catch( err )
+	{
+		logError( err );
+		logError( 'BUILD FAILED' );
+	}
 }
 
 

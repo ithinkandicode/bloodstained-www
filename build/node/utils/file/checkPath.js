@@ -8,6 +8,7 @@ const { promisify } = require('util');
 
 // Utils
 const logStatus = require('../log/logStatus');
+const logError = require('../log/logError');
 
 // Promisified
 const statPromise = promisify( fs.stat );
@@ -19,59 +20,56 @@ const mkdirPromise = promisify( fs.mkdir );
 
 /**
  * Asynchronously check if a path exists, and optionally create one it it
- * doesn't
+ * doesn't.
  *
  * @async
  *
- * @param   {string}   path     Path to check
- * @param   {Boolean}  makeDir  True to make the path if it doesn't exist
- * @param   {Boolean}  log      True to log status
+ * @param   {string}   path         Path to check
+ * @param   {Boolean}  makeDir      True to make the path if it doesn't exist
+ * @param   {Boolean}  [log=false]  True to log status
  *
- * @return  {Promise}           Resolves if the path exists, or if it was successfully created. Otherwise, rejects with error object
+ * @return  {Boolean}  Returns true if a path exists. If it does not, and makeDir is true, makes the path and returns true. Otherwise returns false
  */
 async function checkPath( path, makeDir = false, log = false )
 {
-	return new Promise( async ( resolve, reject ) =>
+	try
 	{
-		try
+		await statPromise( path );
+		return true;
+	}
+	catch( err )
+	{
+		if ( makeDir )
 		{
-			await statPromise( path );
-			resolve();
+			try
+			{
+				await mkdirPromise( path );
+
+				if ( log )
+				{
+					logStatus( 'success', 'Created path: ' + path );
+				}
+
+				return true;
+			}
+			catch (err)
+			{
+				if ( log )
+				{
+					logError( 'Path does not exist, AND failed to make path: ' + "\n" + path );
+				}
+
+				return false;
+			}
 		}
-		catch( err )
+
+		if ( log )
 		{
-			if ( makeDir )
-			{
-				try
-				{
-					await mkdirPromise( path );
-
-					if ( log )
-					{
-						logStatus( 'success', 'Created path: ' + path );
-					}
-
-					resolve();
-				}
-				catch (err)
-				{
-					if ( log )
-					{
-						logStatus( 'error', 'Failed to make path: ' + path );
-					}
-
-					reject( err );
-				}
-			}
-
-			if ( log )
-			{
-				logStatus( 'error', 'Path does not exist: ' + path );
-			}
-
-			reject( err );
+			logError( 'Path does not exist: ' + path );
 		}
-	});
+
+		return false;
+	}
 }
 
 

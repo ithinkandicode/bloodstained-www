@@ -6,7 +6,7 @@
 // const logError = require('../utils/log/logError');
 
 // Custom
-const getStringTableObject = require('./getStringTableObject');
+const getJsonFileAsObject = require('../utils/file/getJsonFileAsObject');
 
 
 // Functions
@@ -17,9 +17,8 @@ const getStringTableObject = require('./getStringTableObject');
  *
  * Each item is an object with keys for the item name (`name`) and its description (`explain`)
  */
-async function buildItemsJson()
+async function buildItemsJson( stringTable )
 {
-	const stringTable = await getStringTableObject();
 	const stringTableKeys = Object.keys( stringTable );
 
 	// Empty items object

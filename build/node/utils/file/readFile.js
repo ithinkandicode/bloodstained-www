@@ -4,56 +4,53 @@
 
 // Native
 const fs = require('fs');
+const { promisify } = require('util');
 
 // Utils
 const logStatus = require('../log/logStatus');
+const logError = require('../log/logError');
+
+// Promisified
+const readFilePromise = promisify( fs.readFile );
 
 
 // Functions
 // ============================================================================
 
 /**
- * Asynchronously get the contents of a single file
+ * Asynchronously read the contents of a single file, and return it as a string
+ *
+ * Throws an error on failure
  *
  * @async
  *
- * @param   {string}  filePath     File path
- * @param   {boolean} [log=false]  True to log info
+ * @param   {string}   filePath     File path
+ * @param   {boolean}  [log=false]  True to log info
  *
- * @return  {Promise}               Resolves with file data. Rejects with error object
+ * @return  {string}   File data string if succesful. Throws an error on failure
  */
-async function readFile( filePath, log )
+async function readFile( filePath, log = false )
 {
-	return new Promise( ( resolve, reject ) =>
+	try
 	{
-		try
+		const data = await readFilePromise( filePath, 'utf8' );
+
+		if ( log )
 		{
-			fs.readFile( filePath, 'utf8', ( err, data ) =>
-			{
-				if ( err )
-				{
-					if ( log )
-					{
-						logStatus( 'error', 'Error reading file' );
-					}
-
-					reject( err );
-				}
-
-				logStatus( 'misc', 'ReadFile OK: ' + filePath );
-				resolve( data );
-			});
+			logStatus( 'misc', 'ReadFile OK: ' + filePath );
 		}
-		catch( err )
+
+		return data;
+	}
+	catch( err )
+	{
+		if ( log )
 		{
-			if ( log )
-			{
-				logStatus( 'error', 'Error reading file' );
-			}
-
-			reject( err );
+			logError( err );
 		}
-	});
+
+		throw new Error( 'Error reading file' );
+	}
 }
 
 
