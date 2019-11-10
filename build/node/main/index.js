@@ -4,7 +4,6 @@
 
 // Custom
 const getJsonFileAsObject = require('../utils/file/getJsonFileAsObject');
-const checkPath = require('../utils/file/checkPath');
 const buildItemsJson = require('./buildItemsJson');
 const saveItemsJson = require('./saveItemsJson');
 
