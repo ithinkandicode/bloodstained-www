@@ -1,0 +1,117 @@
+{
+	"Cazilk": {
+		"effect": "Curse",
+		"factor": 2,
+		"is8bit": false
+	},
+	"Hoffdo": {
+		"effect": "Curse",
+		"factor": 3,
+		"is8bit": false
+	},
+	"DrillWideEnd": {
+		"effect": "Curse",
+		"factor": 3,
+		"is8bit": true
+	},
+	"DrillWideEnd2": {
+		"effect": "Curse",
+		"factor": 2,
+		"is8bit": true
+	},
+	"DrillWideEnd3": {
+		"effect": "Curse",
+		"factor": 1,
+		"is8bit": true
+	},
+	"PoisonKukri": {
+		"effect": "Poison",
+		"factor": 3,
+		"is8bit": false
+	},
+	"Stinger": {
+		"effect": "Poison",
+		"factor": 3,
+		"is8bit": false
+	},
+	"Snakebyte": {
+		"effect": "Poison",
+		"factor": 3,
+		"is8bit": false
+	},
+	"PoisonSpikeShoes": {
+		"effect": "Poison",
+		"factor": 3,
+		"is8bit": true
+	},
+	"PoisonSpikeShoes2": {
+		"effect": "Poison",
+		"factor": 2,
+		"is8bit": true
+	},
+	"PoisonSpikeShoes3": {
+		"effect": "Poison",
+		"factor": 1,
+		"is8bit": true
+	},
+	"Mulgres": {
+		"effect": "Stone",
+		"factor": 3,
+		"is8bit": false
+	},
+	"Karadanda": {
+		"effect": "Stone",
+		"factor": 3,
+		"is8bit": false
+	},
+	"XrossBrade": {
+		"effect": "Stone",
+		"factor": 3,
+		"is8bit": true
+	},
+	"XrossBrade2": {
+		"effect": "Stone",
+		"factor": 2,
+		"is8bit": true
+	},
+	"XrossBrade3": {
+		"effect": "Stone",
+		"factor": 1,
+		"is8bit": true
+	},
+	"PetrifactionSword": {
+		"effect": "Stone",
+		"factor": 3,
+		"is8bit": true
+	},
+	"PetrifactionSword2": {
+		"effect": "Stone",
+		"factor": 2,
+		"is8bit": true
+	},
+	"PetrifactionSword3": {
+		"effect": "Stone",
+		"factor": 1,
+		"is8bit": true
+	},
+	"IcePillarSpear": {
+		"effect": "Stone",
+		"factor": 3,
+		"is8bit": true
+	},
+	"IcePillarSpear2": {
+		"effect": "Stone",
+		"factor": 2,
+		"is8bit": true
+	},
+	"IcePillarSpear3": {
+		"effect": "Stone",
+		"factor": 1,
+		"is8bit": true
+	},
+	"Swordbreaker": {
+		"effect": "Debuff enemy STR",
+		"factor": 1,
+		"is8bit": false
+	}
+}

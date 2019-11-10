@@ -6,6 +6,9 @@
 const writeFile = require('../utils/file/writeFile');
 const logError = require('../utils/log/logError');
 
+// Custom
+const getStringTableObject = require('./getStringTableObject');
+
 
 // Constants
 // ============================================================================
@@ -17,8 +20,6 @@ const paths = {
 
 // Functions
 // ============================================================================
-
-const getStringTableObject = require('./getStringTableObject');
 
 async function init()
 {
@@ -37,15 +38,23 @@ async function init()
 	const itemNamesMaster = stringTableKeys.filter( key => key.startsWith( 'ITEM_NAME_' ) );
 	const itemExplains = stringTableKeys.filter( key => key.startsWith( 'ITEM_EXPLAIN_') );
 
-	itemNamesMaster.forEach( itemId =>
+	itemNamesMaster.forEach( itemNameId =>
 	{
+		const itemId = itemNameId.replace( 'ITEM_NAME_', '' );
+
 		itemsObj[itemId] = {};
 
 		const nameKey = itemNamesMaster.find( name => name === 'ITEM_NAME_' + itemId );
 		const explainKey = itemExplains.find( explain => explain === 'ITEM_EXPLAIN_' + itemId );
 
 		const itemName = stringTable[nameKey];
-		const itemExplain = stringTable[explainKey];
+		let itemExplain = stringTable[explainKey];
+
+		// Replace breaks in itemExplain
+		itemExplain = itemExplain.replace( '\r\n', ' ' );
+
+		// Replace double spaces, caused by the above replace!
+		itemExplain = itemExplain.replace( '  ', ' ' );
 
 		itemsObj[itemId] = {
 			name: itemName,
@@ -55,7 +64,7 @@ async function init()
 
 	try
 	{
-		itemsJson = JSON.stringify( itemsObj );
+		itemsJson = JSON.stringify( itemsObj, null, '\t' );
 	}
 	catch( err )
 	{
@@ -63,8 +72,16 @@ async function init()
 		return;
 	}
 
-	// Save the data
-	await writeFile( paths.outputFile, itemsJson, true );
+	try
+	{
+		// Save the data
+		await writeFile( paths.outputFile, itemsJson, true );
+	}
+	catch( err )
+	{
+		logError( err );
+	}
+
 }
 
 

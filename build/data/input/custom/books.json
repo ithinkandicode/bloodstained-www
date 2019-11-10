@@ -1,0 +1,86 @@
+{
+	"Bookofstiffness": {
+		"info": "STR +10",
+		"name": ""
+	},
+	"Abookofwisemen": {
+		"info": "INT +10",
+		"name": ""
+	},
+	"GuardiansBook": {
+		"info": "CON +10",
+		"name": ""
+	},
+	"Bookoffaith": {
+		"info": "MND +10",
+		"name": ""
+	},
+	"BookofFortune": {
+		"info": "LCK +5",
+		"name": ""
+	},
+	"BookofFury": {
+		"info": "LCK +15",
+		"name": ""
+	},
+	"Bookofwinter": {
+		"info": "+15 Resist Ice",
+		"name": ""
+	},
+	"Heatresistantbook": {
+		"info": "+15 Resist Fire",
+		"name": ""
+	},
+	"LightningProtectionBook": {
+		"info": "+15 Resist Thunder",
+		"name": ""
+	},
+	"Bookoflatency": {
+		"info": "+15 Resist Dark",
+		"name": ""
+	},
+	"ShadingBook": {
+		"info": "+15 Resist Light",
+		"name": ""
+	},
+	"Bookoffossilstone": {
+		"info": "+15 Resist Petrify",
+		"name": ""
+	},
+	"Bookofdetoxification": {
+		"info": "+15 Resist Poison",
+		"name": ""
+	},
+	"TheBookofMonster": {
+		"info": "+15 Resist Curse",
+		"name": ""
+	},
+	"BookoftheMighty": {
+		"info": "Attack speed +20%",
+		"name": ""
+	},
+	"Abookofthegale": {
+		"info": "Movement speed +20%",
+		"name": ""
+	},
+	"BookofTactics": {
+		"info": "EXP gain +20%",
+		"name": ""
+	},
+	"Bookofexercise": {
+		"info": "Technique EXP +20%",
+		"name": ""
+	},
+	"Bookofthechampion": {
+		"info": "Prowess, Tailwind, Mastery and Tactician books",
+		"name": ""
+	},
+	"Bookofthefollower": {
+		"info": "Familiar power +20%",
+		"name": ""
+	},
+	"BookofDevils": {
+		"info": "Directional share pwer +20%",
+		"name": ""
+	}
+}

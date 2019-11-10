@@ -1,0 +1,67 @@
+{
+	"Burtgang": {
+		"name": "Blutgang",
+		"id": "Burtgang",
+		"info": "Unique technique: Parry"
+	},
+	"BradBlingerLv1": {
+		"name": "Bloodbringer",
+		"id": "BradBlingerLv1",
+		"info": "Gains power as Bloodbringer familiar levels up, up to +55 ATK"
+	},
+	"SwordWhip": {
+		"name": "Sword Whip",
+		"id": "SwordWhip",
+		"info": ""
+	},
+	"RemoteDart": {
+		"name": "Flying Edge",
+		"id": "RemoteDart",
+		"info": "Weapon flies forward to attack nemies"
+	},
+	"OracleBlade": {
+		"name": "Oracle Blade",
+		"id": "OracleBlade",
+		"info": "Weapon flies forward to attack nemies"
+	},
+	"ValralAltar": {
+		"name": "Rhava Velar",
+		"id": "ValralAltar",
+		"info": "Auto attacks when the attack button is held"
+	},
+	"Assaultsollette": {
+		"name": "Steam Boots",
+		"id": "Assaultsollette",
+		"info": "Squeak when walking"
+	},
+	"Decapitator": {
+		"name": "Hell's Knells",
+		"id": "Decapitator",
+		"info": "Decapitates!"
+	},
+	"Triplet": {
+		"name": "Sanjiegun",
+		"id": "Triplet",
+		"info": "Unique technique: Lunging Serpent"
+	},
+	"Truesixteenthnight": {
+		"name": "Grand Izayoi",
+		"id": "Truesixteenthnight",
+		"info": "+58 at 4444 blood ─ Needs confirming"
+	},
+	"CrystalSword": {
+		"name": "Redbeast's Edge",
+		"id": "CrystalSword",
+		"info": "+52 ATK at 30 dishes eaten (needs confirming). Also changes from a dagger to a rapier. Not sure if this is from 16/32bit coin upgrades, or dishes eaten"
+	},
+	"IceSlewShoes": {
+		"name": "Boreal Rime Boots",
+		"id": "IceSlewShoes",
+		"info": "Slippery movement with no benefits"
+	},
+	"ValkyrieSword": {
+		"name": "Valkyrie Sword",
+		"id": "ValkyrieSword",
+		"info": "Hidden Technique: Down, Down, Attack (requires 100% Mastery)"
+	}
+}

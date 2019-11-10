@@ -7,7 +7,7 @@ const fs = require('fs');
 
 // Utils
 const logStatus = require('../log/logStatus');
-
+const logError = require('../log/logError');
 
 // Functions
 // ============================================================================
@@ -23,31 +23,41 @@ const logStatus = require('../log/logStatus');
  *
  * @return  {Promise}              Resolves with nothing. Rejects with error object
  */
-function writeFile( writePath, fileData, log = false )
+async function writeFile( writePath, fileData, log = false )
 {
 	return new Promise( ( resolve, reject ) =>
 	{
 		try
 		{
-			fs.writeFile( fileData, writePath, err =>
+			fs.writeFile( writePath, fileData, err =>
 			{
 				if ( err )
 				{
 					if ( log )
 					{
 						logStatus( 'error', 'Error writing file' );
+						logError( err );
 					}
 
 					reject( err );
 				}
 
-				logStatus( 'misc', 'WriteFile OK: ' + writePath );
+				if ( log )
+				{
+					logStatus( 'misc', 'WriteFile OK: ' + writePath );
+				}
+
 				resolve();
 			});
 		}
 		catch( err )
 		{
-			logStatus( 'error', 'Error writing file' );
+			if ( log )
+			{
+				logStatus( 'error', 'Error writing file' );
+				logError( err );
+			}
+
 			reject( err );
 		}
 	});
