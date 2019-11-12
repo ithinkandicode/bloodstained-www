@@ -5,9 +5,9 @@
 // Custom
 const getJsonFileAsObject = require('../utils/file/getJsonFileAsObject');
 const buildItemsJson = require('./buildItemsJson');
-const saveItemsJson = require('./saveItemsJson');
 
 // Utils
+const saveObjectAsJsonFile = require('../utils/file/saveObjectAsJsonFile');
 const logError = require('../utils/log/logError');
 
 
@@ -19,10 +19,11 @@ const paths = {
 	outputFile: '../data/output/items.json',
 };
 
+
 // Functions
 // ============================================================================
 
-async function init()
+async function generateAndSaveItemsJson()
 {
 	try
 	{
@@ -36,7 +37,7 @@ async function init()
 		const itemsObj = await buildItemsJson( stringTable );
 
 		// Save items JSON
-		await saveItemsJson( paths.outputFile, itemsObj );
+		await saveObjectAsJsonFile( paths.outputFile, itemsObj );
 	}
 	catch( err )
 	{
@@ -46,7 +47,15 @@ async function init()
 }
 
 
-// Auto Init
+// async function init()
+// {
+// 	generateAndSaveItemsJson();
+// }
+
+// init();
+
+
+// Export
 // ============================================================================
 
-init();
+module.exports = generateAndSaveItemsJson;

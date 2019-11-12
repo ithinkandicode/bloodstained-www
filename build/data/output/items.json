@@ -1,2869 +1,3586 @@
 {
 	"AriesHorns": {
+		"id": "AriesHorns",
 		"name": "Aries' Horns",
 		"explain": "A hair accessory that resembles ram horns. Miriam's favorite."
 	},
 	"Headband": {
+		"id": "Headband",
 		"name": "Hairband",
 		"explain": "A simple hairband that keeps hair away from the wearer's eyes."
 	},
 	"PirateTriangleCap": {
+		"id": "PirateTriangleCap",
 		"name": "Pirate Hat",
 		"explain": "A hat worn by pirates."
 	},
 	"Garbohat": {
+		"id": "Garbohat",
 		"name": "Garbo Hat",
 		"explain": "An elegant hat with a billowed brim."
 	},
 	"Circlet": {
+		"id": "Circlet",
 		"name": "Circlet",
 		"explain": "A crown encrusted with cheap jewels."
 	},
 	"DurahanMaherm": {
+		"id": "DurahanMaherm",
 		"name": "Dullahammer Helm",
 		"explain": "A dullahammer head that has been refashioned into human armor."
 	},
 	"Santacap": {
+		"id": "Santacap",
 		"name": "Santa Hat",
 		"explain": "Just what you need to get into the Christmas spirit."
 	},
 	"Beastberet": {
+		"id": "Beastberet",
 		"name": "Beast Beret",
 		"explain": "A cap fashioned from leather."
 	},
 	"Cutebeastberet": {
+		"id": "Cutebeastberet",
 		"name": "Cute Beast Beret",
 		"explain": "A cap made to resemble an adorable puppy."
 	},
 	"Crowhat": {
+		"id": "Crowhat",
 		"name": "Crow Hat",
 		"explain": "A jet black hat."
 	},
 	"BunnyEars": {
+		"id": "BunnyEars",
 		"name": "Bunny Ears",
 		"explain": "An accessory that adorns the wearer with the ears of a rabbit."
 	},
 	"GadgetBand": {
+		"id": "GadgetBand",
 		"name": "Gadget Band",
 		"explain": "A hairband fitted with gadgetry."
 	},
 	"WolfHood": {
+		"id": "WolfHood",
 		"name": "Wolf Hood",
 		"explain": "A hood designed to resemble a wolf."
 	},
 	"HermitsBeret": {
+		"id": "HermitsBeret",
 		"name": "Hermit's Beret",
 		"explain": "A cap that helps mask the wearer's presence."
 	},
 	"FeatherCrown": {
+		"id": "FeatherCrown",
 		"name": "Feather Crown",
 		"explain": "A hair accessory adorned with beautiful plumage."
 	},
 	"DemonHorns": {
+		"id": "DemonHorns",
 		"name": "Demon Horns",
 		"explain": "A hair accessory inspired by demon horns."
 	},
 	"CowboyHat": {
+		"id": "CowboyHat",
 		"name": "Cowboy Hat",
 		"explain": "A hat worn by cowboys. Increases the power of firearms."
 	},
 	"SilverTiara": {
+		"id": "SilverTiara",
 		"name": "Silver Tiara",
 		"explain": "A stunning piece of silverwork."
 	},
 	"CatEars": {
+		"id": "CatEars",
 		"name": "Cat Ears",
 		"explain": "An adorable accessory that gives the wearer cat ears."
 	},
 	"Flightcapoftraveler": {
+		"id": "Flightcapoftraveler",
 		"name": "Traveler's Hat",
 		"explain": "A wide-brimmed hat that is ideal for extended journeys."
 	},
 	"Circletoffire": {
+		"id": "Circletoffire",
 		"name": "Flame Circlet",
 		"explain": "A circlet under the protection of fire."
 	},
 	"Icecirclet": {
+		"id": "Icecirclet",
 		"name": "Ice Circlet",
 		"explain": "A circlet under the protection of ice."
 	},
 	"Thunderscirclet": {
+		"id": "Thunderscirclet",
 		"name": "Thunder Circlet",
 		"explain": "A circlet under the protection of thunder."
 	},
 	"Maidheadband": {
+		"id": "Maidheadband",
 		"name": "Maid's Hairband",
 		"explain": "A hairband with cute frills that can only be described as \"maid to order.\" "
 	},
 	"Westernhat": {
+		"id": "Westernhat",
 		"name": "Gunslinger's Hat",
 		"explain": "A hat that doubles the ammunition you use but makes firearms stronger."
 	},
 	"PictureHat": {
+		"id": "PictureHat",
 		"name": "Picture Hat",
 		"explain": "An elegant and ornate hat."
 	},
 	"ribbon": {
+		"id": "ribbon",
 		"name": "Ribbon",
 		"explain": "A hair accessory reminiscent of butterfly wings."
 	},
 	"Magushat": {
+		"id": "Magushat",
 		"name": "Witch's Hat",
 		"explain": "A witch's hat that aids concentration and hastens magic recovery."
 	},
 	"KitsuneMask": {
+		"id": "KitsuneMask",
 		"name": "Kitsune Mask",
 		"explain": "A gift from a fox spirit that holds supernatural powers."
 	},
 	"BraveBeret": {
+		"id": "BraveBeret",
 		"name": "Beret of Bravery",
 		"explain": "A cap that grants the wearer courage in the face of difficulty."
 	},
 	"ElderTiara": {
+		"id": "ElderTiara",
 		"name": "Ancient Tiara",
 		"explain": "A crown passed down since times of yore."
 	},
 	"Recyclehat": {
+		"id": "Recyclehat",
 		"name": "Recycle Hat",
 		"explain": "A strange hat that stops ammunition from depleting."
 	},
 	"Pleiades": {
+		"id": "Pleiades",
 		"name": "Pleiades",
 		"explain": "A precious crown adorned with jewels arranged like the stars."
 	},
 	"Dentistshat": {
+		"id": "Dentistshat",
 		"name": "Diabolist's Cap",
 		"explain": "A hat worn by Eastern necromancers."
 	},
 	"HumptyDumpty": {
+		"id": "HumptyDumpty",
 		"name": "Guardian Egg Helm",
 		"explain": "A helm bearing the visage of the beloved patron saint of eggs."
 	},
 	"LoveOfBenki": {
+		"id": "LoveOfBenki",
 		"name": "Dumping Helmet",
 		"explain": "The ideal helmet for times When they scare it out of you."
 	},
 	"Plan9FOSpace": {
+		"id": "Plan9FOSpace",
 		"name": "Space Helmet",
 		"explain": "A fish bowl that got stuck on your head."
 	},
 	"Mega64Head": {
+		"id": "Mega64Head",
 		"name": "Mega64 Helmet",
 		"explain": "A powerful helmet made by a sinister scientist."
 	},
 	"ValkyrieTiara": {
+		"id": "ValkyrieTiara",
 		"name": "Valkyrie Tiara",
 		"explain": "A tiara to grace a warmaiden's brow."
 	},
 	"Skinbreastplate": {
+		"id": "Skinbreastplate",
 		"name": "Leather Chestguard",
 		"explain": "A chestguard made of tanned leather."
 	},
 	"Tunic": {
+		"id": "Tunic",
 		"name": "Tunic",
 		"explain": "A long shirt made of plain cloth."
 	},
 	"Countrydress": {
+		"id": "Countrydress",
 		"name": "Country Dress",
 		"explain": "A common, plain dress."
 	},
 	"Copperbreastplate": {
+		"id": "Copperbreastplate",
 		"name": "Bronze Chestguard",
 		"explain": "A chestguard made of bronze."
 	},
 	"Chemisedress": {
+		"id": "Chemisedress",
 		"name": "Chemise",
 		"explain": "A thin dress made of muslin."
 	},
 	"Scalearmor": {
+		"id": "Scalearmor",
 		"name": "Scale Armor",
 		"explain": "Armor made by weaving together metal plates in a scale pattern."
 	},
 	"Brigandine": {
+		"id": "Brigandine",
 		"name": "Brigandine",
 		"explain": "Armor fortified by riveting a line of metal plates to the inside. "
 	},
 	"Ironbreastplate": {
+		"id": "Ironbreastplate",
 		"name": "Iron Breastplate",
 		"explain": "An iron breastplate designed to not impede movement."
 	},
 	"KungFuBest": {
+		"id": "KungFuBest",
 		"name": "Kung Fu Vest",
 		"explain": "A traditional Eastern garment designed for ease of movement."
 	},
 	"Teadress": {
+		"id": "Teadress",
 		"name": "Tea Dress",
 		"explain": "A light dress for tea parties."
 	},
 	"Chainmail": {
+		"id": "Chainmail",
 		"name": "Chainmail",
 		"explain": "Armor that is made of many small metal rings linked together."
 	},
 	"Featherrobe": {
+		"id": "Featherrobe",
 		"name": "Feather Robe",
 		"explain": "A robe so feather-light that a single hit may send you fluttering away."
 	},
 	"LamellarArmor": {
+		"id": "LamellarArmor",
 		"name": "Lamellar Armor",
 		"explain": "Armor made of metal plates arranged in rows."
 	},
 	"IronMansApron": {
+		"id": "IronMansApron",
 		"name": "Apron",
 		"explain": "An apron imbued with the soul of a departed chef."
 	},
 	"Silkdress": {
+		"id": "Silkdress",
 		"name": "Silk Dress",
 		"explain": "A light dress with a beautiful white sheen."
 	},
 	"Steelbreastplate": {
+		"id": "Steelbreastplate",
 		"name": "Steel Breastplate",
 		"explain": "A fortified steel breastplate."
 	},
 	"Beastleather": {
+		"id": "Beastleather",
 		"name": "Hound Vest",
 		"explain": "A vest crafted from the pelt of a ferocious beast."
 	},
 	"Maturedress": {
+		"id": "Maturedress",
 		"name": "Mantua",
 		"explain": "A loose and elegant gown."
 	},
 	"Shovelarmorsarmor": {
+		"id": "Shovelarmorsarmor",
 		"name": "Ex Shovel Armor",
 		"explain": "Armor formerly worn by a certain valiant knight."
 	},
 	"DuelBrest": {
+		"id": "DuelBrest",
 		"name": "Duelist's Guard",
 		"explain": "A chestguard worn by duelists."
 	},
 	"Crimsondress": {
+		"id": "Crimsondress",
 		"name": "Scarlet Dress",
 		"explain": "A blood red dress designed to catch the eye."
 	},
 	"Cureus": {
+		"id": "Cureus",
 		"name": "Knight's Cuirass",
 		"explain": "A knight's durable chest armor."
 	},
 	"RidingHabit": {
+		"id": "RidingHabit",
 		"name": "Riding Habit",
 		"explain": "A riding garment designed with elasticity in mind."
 	},
 	"VoronezDress": {
+		"id": "VoronezDress",
 		"name": "Polonaise",
 		"explain": "Loungewear that is all the rage with fashionable noble ladies."
 	},
 	"BreastplateofAguilar": {
+		"id": "BreastplateofAguilar",
 		"name": "Aegis Plate",
 		"explain": "A breastplate that nullifies all damage from traps and hazardous environments."
 	},
 	"InnocentWhite": {
+		"id": "InnocentWhite",
 		"name": "Invisible Overcoat",
 		"explain": "An overcoat that makes it difficult for enemies to see you."
 	},
 	"CrusadeArmor": {
+		"id": "CrusadeArmor",
 		"name": "Crusader's Armor",
 		"explain": "Armor emblazoned with a cross."
 	},
 	"Silverbreastplate": {
+		"id": "Silverbreastplate",
 		"name": "Silver Breastplate",
 		"explain": "A silver breastplate imbued with protections against evil."
 	},
 	"Caracilis": {
+		"id": "Caracilis",
 		"name": "Kalasiris",
 		"explain": "A see-through tunic worn by affluent members of ancient Egyptian society."
 	},
 	"Assassinvest": {
+		"id": "Assassinvest",
 		"name": "Assassin's Vest",
 		"explain": "Assassin's garb that increases the speed of your attacks."
 	},
 	"SpikeBreast": {
+		"id": "SpikeBreast",
 		"name": "Spiked Breastplate",
 		"explain": "A breastplate lined with sharp spikes that injure whoever touches them."
 	},
 	"ShiningBreast": {
+		"id": "ShiningBreast",
 		"name": "Flame Mail",
 		"explain": "Armor mantled in searing fire."
 	},
 	"GloriousBreast": {
+		"id": "GloriousBreast",
 		"name": "Majestic Plate",
 		"explain": "A breastplate presented by a ruler to one who performs great deeds."
 	},
 	"Crystalscale": {
+		"id": "Crystalscale",
 		"name": "Crystal Armor",
 		"explain": "Specially crafted armor with crystal scales. Resistant to darkness."
 	},
 	"Goldbreastplate": {
+		"id": "Goldbreastplate",
 		"name": "Gold Breastplate",
 		"explain": "A gold breastplate so bright that it dazzles beholders."
 	},
 	"ImperialArmor": {
+		"id": "ImperialArmor",
 		"name": "Imperial Armor",
 		"explain": "Luxurious and stately armor that bears nary a scratch."
 	},
 	"Ashinbacostume": {
+		"id": "Ashinbacostume",
 		"name": "Shinobi Garb",
 		"explain": "A garment from the Far East that allows you to move silently."
 	},
 	"DragonScale": {
+		"id": "DragonScale",
 		"name": "Dragon Armor",
 		"explain": "Armor fashioned from a weave of dragon scales."
 	},
 	"Shieldless": {
+		"id": "Shieldless",
 		"name": "Tatenashi",
 		"explain": "Armor so tough that its name claims a shield is unnecessary."
 	},
 	"Coronationdress": {
+		"id": "Coronationdress",
 		"name": "Coronation Gown",
 		"explain": "A breathtaking dress fit for no less than a queen."
 	},
 	"Valkyriedress": {
+		"id": "Valkyriedress",
 		"name": "Valkyrie Dress",
 		"explain": "A warmaiden's distinct dress."
 	},
 	"Eyeglasses": {
+		"id": "Eyeglasses",
 		"name": "Eyeglasses",
 		"explain": "Eyeglasses with plain lenses."
 	},
 	"NoseEyeglasses": {
+		"id": "NoseEyeglasses",
 		"name": "Nose Glasses",
 		"explain": "Eyeglasses with a false nose attached to the frame."
 	},
 	"sunglasses": {
+		"id": "sunglasses",
 		"name": "Sunglasses",
 		"explain": "Eyeglasses designed to protect the eyes from strong sunlight."
 	},
 	"Gebelsglasses": {
+		"id": "Gebelsglasses",
 		"name": "Gebel's Glasses",
 		"explain": "Hand-me-downs from Johannes. A reminder of days that are now lost."
 	},
 	"Bottleglasses": {
+		"id": "Bottleglasses",
 		"name": "Thick Glasses",
 		"explain": "Eyeglasses with thick lenses."
 	},
 	"Enlargedglasses": {
+		"id": "Enlargedglasses",
 		"name": "Convex Glasses",
 		"explain": "Eyeglasses to correct farsightedness. Everything looks bigger!"
 	},
 	"Measurementglasses": {
+		"id": "Measurementglasses",
 		"name": "Gauge Glasses",
 		"explain": "Magical eyeglasses that reveal enemy health."
 	},
 	"Horuseyes": {
+		"id": "Horuseyes",
 		"name": "Eye of Horus",
 		"explain": "A monocle that lets you look down on the world like a bird."
 	},
 	"OfudaTalisman": {
+		"id": "OfudaTalisman",
 		"name": "Ofuda Talisman",
 		"explain": "A ritual Eastern talisman imbued with the protection of the kami."
 	},
 	"DanceMask": {
+		"id": "DanceMask",
 		"name": "Dance Mask",
 		"explain": "A mask used at dances."
 	},
 	"Stonemask": {
+		"id": "Stonemask",
 		"name": "Stone Mask",
 		"explain": "A stone mask once used by a tribal chief during ritual sacrifices."
 	},
 	"Breathingforcedmask": {
+		"id": "Breathingforcedmask",
 		"name": "Hyperventilator",
 		"explain": "A mask designed to push the wearer to his or her physical limit."
 	},
 	"Transformationmask": {
+		"id": "Transformationmask",
 		"name": "Voice Changer",
 		"explain": "A mask devised by a playful inventor. It distorts the wearer's voice."
 	},
 	"Crowmask": {
+		"id": "Crowmask",
 		"name": "Crow Mask",
 		"explain": "A mask designed to resemble a crow."
 	},
 	"Elfearcap": {
+		"id": "Elfearcap",
 		"name": "Elf Ears",
 		"explain": "Wearable ears that resemble those of a certain sylvan race."
 	},
 	"BigMustache": {
+		"id": "BigMustache",
 		"name": "Big Mustache",
 		"explain": "Bold bristles that evoke an AWESOME sense of daditude!"
 	},
 	"PlagueDoctorFace": {
+		"id": "PlagueDoctorFace",
 		"name": "Plague Doctor Face",
 		"explain": "A grim bird for swimming in death."
 	},
 	"The-BazMask": {
+		"id": "The-BazMask",
 		"name": "The-Baz Mask",
 		"explain": "A cheap mask that prevents the wearer from finding success."
 	},
 	"HeyI’mGrump": {
+		"id": "HeyI’mGrump",
 		"name": "Hey I'm Grump",
 		"explain": "Arin's head from Game Grumps. Useless."
 	},
 	"I’mNotSoGrump": {
+		"id": "I’mNotSoGrump",
 		"name": " I'm Not So Grump",
 		"explain": "Dan's head from Game Grumps. Pointless"
 	},
 	"AKindaFunnyMask": {
+		"id": "AKindaFunnyMask",
 		"name": "A Kinda Funny Mask",
 		"explain": "Could be funnier. Could be less."
 	},
 	"Blackbelt": {
+		"id": "Blackbelt",
 		"name": "Black Belt",
 		"explain": "A belt worn by Eastern masters of the martial arts. Increases attack speed."
 	},
 	"Striderbelt": {
+		"id": "Striderbelt",
 		"name": "Strider Belt",
 		"explain": "A belt made to withstand rough movement. Improves sliding ability."
 	},
 	"Moonring": {
+		"id": "Moonring",
 		"name": "Moon Belt",
 		"explain": "A belt with a moon design that improves your backstep ability."
 	},
 	"Speedstar": {
+		"id": "Speedstar",
 		"name": "Speed Belt",
 		"explain": "A strange belt that compels wearers to run. Increases movement speed."
 	},
 	"Necklace": {
+		"id": "Necklace",
 		"name": "Necklace",
 		"explain": "A simple necklace that matches most outfits."
 	},
 	"SkullNecklace": {
+		"id": "SkullNecklace",
 		"name": "Skull Necklace",
 		"explain": "A necklace that amplifies the power of shards at increased magic cost. "
 	},
 	"DemonNecklace": {
+		"id": "DemonNecklace",
 		"name": "Demon Necklace",
 		"explain": "A demon necklace that eliminates vulnerability when using shards. "
 	},
 	"WarlocksNecklace": {
+		"id": "WarlocksNecklace",
 		"name": "Warlock's Necklace",
 		"explain": "The beloved necklace of a great sorcerer. Reduces magic depletion."
 	},
 	"Ring": {
+		"id": "Ring",
 		"name": "Ring",
 		"explain": "A cheap, common ring."
 	},
 	"Flamering": {
+		"id": "Flamering",
 		"name": "Flame Ring",
 		"explain": "A ring blessed by a fire god. Strengthens fire abilities."
 	},
 	"Icering": {
+		"id": "Icering",
 		"name": "Ice Ring",
 		"explain": "A ring blessed by an ice god. Strengthens ice abilities."
 	},
 	"Thunderring": {
+		"id": "Thunderring",
 		"name": "Thunder Ring",
 		"explain": "A ring blessed by a thunder god. Strengthens thunder abilities."
 	},
 	"Gamblersring": {
+		"id": "Gamblersring",
 		"name": "Gambler's Ring",
 		"explain": "A ring that bestows both luck and pluck to would-be gamblers."
 	},
 	"Comboring": {
+		"id": "Comboring",
 		"name": "Combo Ring",
 		"explain": "A ring that increases your strength with each successive hit."
 	},
 	"AssassinsRing": {
+		"id": "AssassinsRing",
 		"name": "Assassin's Ring",
 		"explain": "A ring that slightly increases damage and frequency of critical hits."
 	},
 	"LethalityRing": {
+		"id": "LethalityRing",
 		"name": "Lethality Ring",
 		"explain": "A ring that increases the damage you inflict with critical hits."
 	},
 	"Criticalring": {
+		"id": "Criticalring",
 		"name": "Critical Ring",
 		"explain": "A ring that increases the likelihood of critical hits."
 	},
 	"CutpursesRing": {
+		"id": "CutpursesRing",
 		"name": "Cutpurse's Ring",
 		"explain": "A ring that makes enemies more likely to drop gold."
 	},
 	"PlunderersRing": {
+		"id": "PlunderersRing",
 		"name": "Plunderer's Ring",
 		"explain": "A ring that increases the rate of item drops."
 	},
 	"RingofSolomon": {
+		"id": "RingofSolomon",
 		"name": "Solomon's Ring",
 		"explain": "A ring that increases how often enemies yield shards."
 	},
 	"WeightedRing": {
+		"id": "WeightedRing",
 		"name": "Weighted Ring",
 		"explain": "A heavy ring that increases your experience intake."
 	},
 	"UnicornRing": {
+		"id": "UnicornRing",
 		"name": "Unicorn Ring",
 		"explain": "A ring that amplifies the restorative properties of items you use."
 	},
 	"RoseRing": {
+		"id": "RoseRing",
 		"name": "Rose Ring",
 		"explain": "A ring that increases the amount of magic restored by mana roses."
 	},
 	"Cursering": {
+		"id": "Cursering",
 		"name": "Cursed Ring",
 		"explain": "A ring that embodies all the hatred in this world."
 	},
 	"RustedRing": {
+		"id": "RustedRing",
 		"name": "Rusted Ring",
 		"explain": "A rusted ring."
 	},
 	"Riskring": {
+		"id": "Riskring",
 		"name": "Risk Ring",
 		"explain": "A ring that sacrifices defense to increase attack power."
 	},
 	"Safering": {
+		"id": "Safering",
 		"name": "Safe Ring",
 		"explain": "A ring that sacrifices attack power to increase defense."
 	},
 	"Walkerking": {
+		"id": "Walkerking",
 		"name": "Traverser's Ring",
 		"explain": "A ring that increases attack power in proportion to how much of the map you have completed."
 	},
 	"Goldmanring": {
+		"id": "Goldmanring",
 		"name": "Gold Power Ring",
 		"explain": "A ring that increases attack power in proportion to your wealth."
 	},
 	"Silvermanring": {
+		"id": "Silvermanring",
 		"name": "Silver Power Ring",
 		"explain": "A ring that increases attack power in proportion to the number of enemies you have slain."
 	},
 	"Adversityring": {
+		"id": "Adversityring",
 		"name": "Adversity Ring",
 		"explain": "A ring that causes status inflictions to increase your power."
 	},
 	"Muffler": {
+		"id": "Muffler",
 		"name": "Scarf",
 		"explain": "Miriam's favorite scarf."
 	},
 	"Turbinemuffler": {
+		"id": "Turbinemuffler",
 		"name": "Tattered Scarf",
 		"explain": "A scarf made of ragged cloth."
 	},
 	"Batwing": {
+		"id": "Batwing",
 		"name": "Bat Wings",
 		"explain": "A scarf that resembles bat wings."
 	},
 	"Usagimuffler": {
+		"id": "Usagimuffler",
 		"name": "Bunny Scarf",
 		"explain": "A scarf with a rabbit motif that is certain to get you hopping."
 	},
 	"Outlinestyle": {
+		"id": "Outlinestyle",
 		"name": "Gunman's Scarf",
 		"explain": "A scarf that makes you quick on the draw and increases firing rate."
 	},
 	"Firemuffler": {
+		"id": "Firemuffler",
 		"name": "Flame Scarf",
 		"explain": "A scarf that resembles fire."
 	},
 	"FaerieScarf": {
+		"id": "FaerieScarf",
 		"name": "Faerie Scarf",
 		"explain": "A scarf with a mystical air about it."
 	},
 	"TalismanScarf": {
+		"id": "TalismanScarf",
 		"name": "Talisman Scarf",
 		"explain": "A scarf made of many individually prepared talismans."
 	},
 	"Sendomuffler": {
+		"id": "Sendomuffler",
 		"name": "Fangshi Scarf",
 		"explain": "A scarf woven from the threads of a rare insect."
 	},
 	"OvertheRainbow": {
+		"id": "OvertheRainbow",
 		"name": "Over the Rainbow",
 		"explain": "A scarf that brings good luck and blessings to whoever finds it."
 	},
 	"Made-to-order": {
+		"id": "Made-to-order",
 		"name": "Order-made Scarf",
 		"explain": "A personalized scarf that can be dyed the color of your choice."
 	},
 	"ARTS_01": {
+		"id": "ARTS_01",
 		"name": "Assassinate",
 		"explain": "Maneuver behind enemies and attack their blind side."
 	},
 	"ARTS_02": {
+		"id": "ARTS_02",
 		"name": "Surprise Gift",
 		"explain": "Hurl your equipped weapon at enemies."
 	},
 	"ARTS_03": {
+		"id": "ARTS_03",
 		"name": "Force Blast",
 		"explain": "Draw on your sword's magical power and unleash it upon enemies."
 	},
 	"ARTS_04": {
+		"id": "ARTS_04",
 		"name": "Parry",
 		"explain": "Deflect physical attacks."
 	},
 	"ARTS_05": {
+		"id": "ARTS_05",
 		"name": "Sickle Moon",
 		"explain": "Close the distance and slash upward."
 	},
 	"ARTS_06": {
+		"id": "ARTS_06",
 		"name": "Trucidating Gyre",
 		"explain": "Spin toward enemies and transfer the momentum to your blade."
 	},
 	"ARTS_07": {
+		"id": "ARTS_07",
 		"name": "Thousand Blossoms",
 		"explain": "Riddle enemies with a blur of thrusts too fast to count."
 	},
 	"ARTS_08": {
+		"id": "ARTS_08",
 		"name": "Lasting Wound",
 		"explain": "Unleash a trio of slashes in a single breath."
 	},
 	"ARTS_09": {
+		"id": "ARTS_09",
 		"name": "Orbital Wheel",
 		"explain": "Create a defensive barrier by spinning your spear."
 	},
 	"ARTS_10": {
+		"id": "ARTS_10",
 		"name": "Penetrate",
 		"explain": "Charge through enemies with your spear at the ready."
 	},
 	"ARTS_11": {
+		"id": "ARTS_11",
 		"name": "Lunging Serpent",
 		"explain": "A sanjiegun technique that lets you release the staff to strike afar."
 	},
 	"ARTS_12": {
+		"id": "ARTS_12",
 		"name": "Dragon Kick",
 		"explain": "Attack enemies by executing a kick in midair."
 	},
 	"ARTS_13": {
+		"id": "ARTS_13",
 		"name": "Flashing Air Kick",
 		"explain": "Perform up to three spinning kicks by repeating the same command."
 	},
 	"ARTS_14": {
+		"id": "ARTS_14",
 		"name": "Hatchet Heel",
 		"explain": "While airborne, bring your heel down on enemies like the fall of an axe."
 	},
 	"ARTS_15": {
+		"id": "ARTS_15",
 		"name": "Critical Swing",
 		"explain": "Lash at enemies with a single, mighty strike."
 	},
 	"ARTS_16": {
+		"id": "ARTS_16",
 		"name": "Jinrai",
 		"explain": "Draw your blade and strike opponents down in one fierce motion."
 	},
 	"ARTS_17": {
+		"id": "ARTS_17",
 		"name": "Helmsplitter",
 		"explain": "Leap forward and bring your blade down on the enemy's head."
 	},
 	"ARTS_18": {
+		"id": "ARTS_18",
 		"name": "Crimson Storm",
 		"explain": "Channel your fighting spirit into your blade, then unleash it."
 	},
 	"ARTS_19": {
+		"id": "ARTS_19",
 		"name": "Crescent Stroke",
 		"explain": "Slash upward as if drawing an arc."
 	},
 	"ARTS_20": {
+		"id": "ARTS_20",
 		"name": "Eleventh Hour",
 		"explain": "Deflect physical attacks."
 	},
 	"ARTS_21": {
+		"id": "ARTS_21",
 		"name": "Sansetsuzan",
 		"explain": "Chain together up to three vicious strikes by repeating the command."
 	},
 	"ARTS_22": {
+		"id": "ARTS_22",
 		"name": "Back Steal",
 		"explain": "A bandit blade art that lets you slip behind foes and steal from them."
 	},
 	"ARTS_23": {
+		"id": "ARTS_23",
 		"name": "Rapid Fire",
 		"explain": "Hold the command button to keep firing."
 	},
 	"ARTS_24": {
+		"id": "ARTS_24",
 		"name": "Power Slash",
 		"explain": "A powerful one-handed blade attack."
 	},
 	"Potion": {
+		"id": "Potion",
 		"name": "Potion",
 		"explain": "Medicine for restoring a small amount of health."
 	},
 	"HighPotion": {
+		"id": "HighPotion",
 		"name": "High Potion",
 		"explain": "Medicine for restoring a large amount of health."
 	},
 	"ExPotion": {
+		"id": "ExPotion",
 		"name": "Ex Potion",
 		"explain": "Medicine for fully restoring health."
 	},
 	"Ether": {
+		"id": "Ether",
 		"name": "Ether",
 		"explain": "Medicine for restoring a small amount of magic."
 	},
 	"HighEther": {
+		"id": "HighEther",
 		"name": "High Ether",
 		"explain": "Medicine for restoring a large amount of magic."
 	},
 	"ExEther": {
+		"id": "ExEther",
 		"name": "Ex Ether",
 		"explain": "Medicine for fully restoring magic."
 	},
 	"Mithridate": {
+		"id": "Mithridate",
 		"name": "Mithridate",
 		"explain": "Medicine for purging poison from the body."
 	},
 	"HolyWater": {
+		"id": "HolyWater",
 		"name": "Holy Water",
 		"explain": "Water that has been blessed. Removes curses."
 	},
 	"Stonethaw": {
+		"id": "Stonethaw",
 		"name": "Stonethaw",
 		"explain": "Medicine that restores flexibility to petrified flesh."
 	},
 	"CloakingTonic": {
+		"id": "CloakingTonic",
 		"name": "Cloaking Tonic",
 		"explain": "Magical medicine that renders you invisible for a period of time. "
 	},
 	"Poison": {
+		"id": "Poison",
 		"name": "Poison",
 		"explain": "A substance that poisons you and drains health over a period of time."
 	},
 	"Waystone": {
+		"id": "Waystone",
 		"name": "Waystone",
 		"explain": "A relic that takes you wherever you picture. Requires concentration."
 	},
 	"Panacea": {
+		"id": "Panacea",
 		"name": "Panacea",
 		"explain": "A medicine that dispels all afflictions."
 	},
 	"FaerieMedicine": {
+		"id": "FaerieMedicine",
 		"name": "Faerie Medicine",
 		"explain": "Medicine for restoring a small amount of health. Only used by Carabosse."
 	},
 	"FaerieElixir": {
+		"id": "FaerieElixir",
 		"name": "Faerie Elixir",
 		"explain": "Medicine for restoring a large amount of health. Only used by Carabosse."
 	},
 	"FaerieAllheal": {
+		"id": "FaerieAllheal",
 		"name": "Faerie Allheal",
 		"explain": "Medicine for fully restoring health. Only used by Carabosse."
 	},
 	"FaeriePanacea": {
+		"id": "FaeriePanacea",
 		"name": "Faerie Panacea",
 		"explain": "A medicine that dispels all afflictions. Only used by Carabosse."
 	},
 	"Softpoint": {
+		"id": "Softpoint",
 		"name": "SP Rounds",
 		"explain": "Soft-point rounds with no penetrative capability."
 	},
 	"Hollowpoint": {
+		"id": "Hollowpoint",
 		"name": "HP Rounds",
 		"explain": "Hollow-point rounds used in hunting and good for inflicting damage."
 	},
 	"ArmorPiercing": {
+		"id": "ArmorPiercing",
 		"name": "AP Rounds",
 		"explain": "Armor-piercing rounds with sharp points that penetrate targets."
 	},
 	"Firebullet": {
+		"id": "Firebullet",
 		"name": "Flame Rounds",
 		"explain": "Bullets imbued with fire magic."
 	},
 	"Icebullet": {
+		"id": "Icebullet",
 		"name": "Ice Rounds",
 		"explain": "Bullets imbued with ice magic."
 	},
 	"ThunderRounds": {
+		"id": "ThunderRounds",
 		"name": "Thunder Rounds",
 		"explain": "Bullets imbued with thunder magic."
 	},
 	"SilverBullets": {
+		"id": "SilverBullets",
 		"name": "Silver Bullets",
 		"explain": "Silver bullets that are especially effective against the forces of evil."
 	},
 	"DiamondBullets": {
+		"id": "DiamondBullets",
 		"name": "Diamond Bullets",
 		"explain": "Potent ammunition made from the hardest substance on earth."
 	},
 	"RagdollRounds": {
+		"id": "RagdollRounds",
 		"name": "Ragdoll Rounds",
 		"explain": "Strange bullets that contort targets and send them flying."
 	},
 	"Shotshell": {
+		"id": "Shotshell",
 		"name": "Scattershot",
 		"explain": "Ammunition that fires in a wide spread."
 	},
 	"PoisonRounds": {
+		"id": "PoisonRounds",
 		"name": "Poison Rounds",
 		"explain": "Bullets with poison-laced tips."
 	},
 	"PetrifyingRounds": {
+		"id": "PetrifyingRounds",
 		"name": "Petrifying Rounds",
 		"explain": "Bullets capable of turning targets to stone."
 	},
 	"CurseRounds": {
+		"id": "CurseRounds",
 		"name": "Curse Rounds",
 		"explain": "Bullets that carry a curse."
 	},
 	"CriticalBullet": {
+		"id": "CriticalBullet",
 		"name": "Critical Rounds",
 		"explain": "Bullets that fragment on impact, dealing frequent critical hits."
 	},
 	"WeaponbaneRounds": {
+		"id": "WeaponbaneRounds",
 		"name": "Weaponbane Rounds",
 		"explain": "Special bullets that lower the offensive capabilities of targets."
 	},
 	"ShieldbaneRounds": {
+		"id": "ShieldbaneRounds",
 		"name": "Shieldbane Rounds",
 		"explain": "Special bullets that lower the defensive capabilities of targets."
 	},
 	"Bullet_Defaultbullet": {
+		"id": "Bullet_Defaultbullet",
 		"name": "Infinite Rounds",
 		"explain": "Magical bullets that never deplete. However, they are quite weak."
 	},
 	"Bookofstiffness": {
+		"id": "Bookofstiffness",
 		"name": "Might Tome",
 		"explain": "A book imbued with magic that increases strength (STR)."
 	},
 	"Abookofwisemen": {
+		"id": "Abookofwisemen",
 		"name": "Sage's Tome",
 		"explain": "A book imbued with magic that increases intelligence (INT)."
 	},
 	"GuardiansBook": {
+		"id": "GuardiansBook",
 		"name": "Sentinel Tome",
 		"explain": "A book imbued with magic that increases constitution (CON)."
 	},
 	"Bookoffaith": {
+		"id": "Bookoffaith",
 		"name": "Believer's Tome",
 		"explain": "A book imbued with magic that increases mind (MND)."
 	},
 	"BookofFortune": {
+		"id": "BookofFortune",
 		"name": "Fortune Tome",
 		"explain": "A curious book that seems to bring good fortune. Increases LUCK."
 	},
 	"BookofFury": {
+		"id": "BookofFury",
 		"name": "Godsend Tome",
 		"explain": "A marvelous book that brings wondrous fortune. Greatly increases LUCK."
 	},
 	"Bookofwinter": {
+		"id": "Bookofwinter",
 		"name": "Coldstave Tome",
 		"explain": "A book that is warm to the touch. Increases resistance to ice."
 	},
 	"Heatresistantbook": {
+		"id": "Heatresistantbook",
 		"name": "Heatstave Tome",
 		"explain": "A book that is cold to the touch. Increases resistance to fire."
 	},
 	"LightningProtectionBook": {
+		"id": "LightningProtectionBook",
 		"name": "Shockstave Tome",
 		"explain": "A book under divine protection. Increases resistance to thunder."
 	},
 	"Bookoflatency": {
+		"id": "Bookoflatency",
 		"name": "Empyreal Tome",
 		"explain": "A holy book containing God's power. Increases resistance to darkness."
 	},
 	"ShadingBook": {
+		"id": "ShadingBook",
 		"name": "Obscurity Tome",
 		"explain": "A book brimming with dark energy. Increases resistance to light."
 	},
 	"Bookoffossilstone": {
+		"id": "Bookoffossilstone",
 		"name": "Corporeity Tome",
 		"explain": "A book holding secrets of the flesh. Increases petrification resistance."
 	},
 	"Bookofdetoxification": {
+		"id": "Bookofdetoxification",
 		"name": "Immunity Tome",
 		"explain": "A book imbued with fortifying magic. Increases poison resistance."
 	},
 	"TheBookofMonster": {
+		"id": "TheBookofMonster",
 		"name": "Blessed Tome",
 		"explain": "A book that a priest has blessed. Increases curse resistance."
 	},
 	"BookoftheMighty": {
+		"id": "BookoftheMighty",
 		"name": "Prowess Tome",
 		"explain": "A book that speeds muscle movement. Increases standard attack speed."
 	},
 	"Abookofthegale": {
+		"id": "Abookofthegale",
 		"name": "Tailwind Tome",
 		"explain": "A book that fortifies the legs. Increases movement speed."
 	},
 	"BookofTactics": {
+		"id": "BookofTactics",
 		"name": "Tactician's Tome",
 		"explain": "A book of power by a great tactician. Increases EXP intake."
 	},
 	"Bookofexercise": {
+		"id": "Bookofexercise",
 		"name": "Mastery Tome",
 		"explain": "A book by a warrior of great skill. Hastens proficiency growth."
 	},
 	"Bookofthechampion": {
+		"id": "Bookofthechampion",
 		"name": "Tome of Conquest",
 		"explain": "The ultimate tome. Equivalent to the Prowess, Tailwind, and Mastery Tomes."
 	},
 	"Bookofthefollower": {
+		"id": "Bookofthefollower",
 		"name": "Ancillary Tome",
 		"explain": "A book by a legendary summoner. Increases the power of familiars."
 	},
 	"BookofDevils": {
+		"id": "BookofDevils",
 		"name": "Deadeye Tome",
 		"explain": "A book written by a godlike hunter. Makes directional shards stronger."
 	},
 	"ShipMap": {
+		"id": "ShipMap",
 		"name": "Galleon Map",
 		"explain": "A map of the Minerva."
 	},
 	"CastleMap1": {
+		"id": "CastleMap1",
 		"name": "Castle Map 1",
 		"explain": "A partial map of the demon castle."
 	},
 	"CastleMap2": {
+		"id": "CastleMap2",
 		"name": "Castle Map 2",
 		"explain": "A partial map of the demon castle."
 	},
 	"IDphoto": {
+		"id": "IDphoto",
 		"name": "Identification",
 		"explain": "The latest in ecclesiastical research: a rather hazy \"photograph.\""
 	},
 	"Certificationboard": {
+		"id": "Certificationboard",
 		"name": "Passplate",
 		"explain": "A relic required to pass through the demons' entry gate."
 	},
 	"Silverbromide": {
+		"id": "Silverbromide",
 		"name": "Silver Bromide",
 		"explain": "A special mineral required to produce \"photographs\"."
 	},
 	"Keyofbacker1": {
+		"id": "Keyofbacker1",
 		"name": "Carpenter's Key",
 		"explain": "Unlocks a special room, inside which a demon awaits your challenge."
 	},
 	"Keyofbacker2": {
+		"id": "Keyofbacker2",
 		"name": "Warhorse's Key",
 		"explain": "Unlocks a special room, inside which a demon awaits your challenge."
 	},
 	"Keyofbacker3": {
+		"id": "Keyofbacker3",
 		"name": "Millionaire's Key",
 		"explain": "Unlocks a special room, inside which a demon awaits your challenge."
 	},
 	"Keyofbacker4": {
+		"id": "Keyofbacker4",
 		"name": "Celeste's Key",
 		"explain": "Unlock Celeste's room."
 	},
 	"Worldfashionfirstissue": {
+		"id": "Worldfashionfirstissue",
 		"name": "Hair Apparent I",
 		"explain": "A magazine issue that glamorizes the \"French braid.\""
 	},
 	"WorldfashionNo02": {
+		"id": "WorldfashionNo02",
 		"name": "Hair Apparent II",
 		"explain": "A magazine issue that glamorizes \"swept-back\" hairstyles."
 	},
 	"WorldfashionNo03": {
+		"id": "WorldfashionNo03",
 		"name": "Hair Apparent III",
 		"explain": "A magazine issue that glamorizes \"hair bunches.\""
 	},
 	"WorldfashionNo04": {
+		"id": "WorldfashionNo04",
 		"name": "Hair Apparent IV",
 		"explain": "A magazine issue that glamorizes the \"double bun.\""
 	},
 	"WorldfashionNo05": {
+		"id": "WorldfashionNo05",
 		"name": "Hair Apparent V",
 		"explain": "A magazine issue that glamorizes \"straight long\" hairstyles."
 	},
 	"WorldfashionNo06": {
+		"id": "WorldfashionNo06",
 		"name": "Hair Apparent VI",
 		"explain": "A magazine issue that glamorizes \"boyish\" hairstyles."
 	},
 	"WorldfashionNo07": {
+		"id": "WorldfashionNo07",
 		"name": "Hair Apparent VII",
 		"explain": "A magazine issue that glamorizes the \"ponytail.\""
 	},
 	"WorldfashionNo08": {
+		"id": "WorldfashionNo08",
 		"name": "Hair Apparent VIII",
 		"explain": "A magazine issue that glamorizes \"geisha\" hairstyles."
 	},
 	"WorldfashionNo09": {
+		"id": "WorldfashionNo09",
 		"name": "Hair Apparent IX",
 		"explain": "A magazine issue that glamorizes \"braided bangs.\""
 	},
 	"WorldfashionNo10": {
+		"id": "WorldfashionNo10",
 		"name": "Hair Apparent X",
 		"explain": "A magazine issue that glamorizes \"vintage curls.\""
 	},
 	"WorldfashionNo11": {
+		"id": "WorldfashionNo11",
 		"name": "Hair Apparent XI",
 		"explain": "A magazine issue that glamorizes \"high forehead\" hairstyles."
 	},
 	"WorldfashionNo12": {
+		"id": "WorldfashionNo12",
 		"name": "Hair Apparent XII",
 		"explain": "A magazine issue that glamorizes \"valkyrie\" hairstyles."
 	},
 	"VillageKey": {
+		"id": "VillageKey",
 		"name": "Village Key",
 		"explain": "A key that opens the locked door in the shelter."
 	},
 	"DiscountCard": {
+		"id": "DiscountCard",
 		"name": "Discount Card",
 		"explain": "A card given to the supply post's loyal customers. Allows you to purchase items at a discount."
 	},
 	"Medal001": {
+		"id": "Medal001",
 		"name": "Vepar Medal",
 		"explain": "Proof that you have triumphed over Vepar."
 	},
 	"Medal002": {
+		"id": "Medal002",
 		"name": "Zangetsu Medal",
 		"explain": "Proof that you have triumphed over Zangetsu."
 	},
 	"Medal003": {
+		"id": "Medal003",
 		"name": "Craftwork Medal",
 		"explain": "Proof that you have triumphed over the Craftwork."
 	},
 	"Medal004": {
+		"id": "Medal004",
 		"name": "Andrealphus Medal",
 		"explain": "Proof that you have triumphed over Andrealphus."
 	},
 	"Medal005": {
+		"id": "Medal005",
 		"name": "Glutton Train Medal",
 		"explain": "Proof that you have triumphed over the Glutton Train."
 	},
 	"Medal006": {
+		"id": "Medal006",
 		"name": "Valac Medal",
 		"explain": "Proof that you have triumphed over Valac."
 	},
 	"Medal007": {
+		"id": "Medal007",
 		"name": "Bathin Medal",
 		"explain": "Proof that you have triumphed over Bathin."
 	},
 	"Medal008": {
+		"id": "Medal008",
 		"name": "Abyssal Guardian Medal",
 		"explain": "Proof that you have triumphed over the Abyssal Guardian."
 	},
 	"Medal009": {
+		"id": "Medal009",
 		"name": "Gebel Medal",
 		"explain": "Proof that you have triumphed over Gebel."
 	},
 	"Medal010": {
+		"id": "Medal010",
 		"name": "Bloodless Medal",
 		"explain": "Proof that you have triumphed over Bloodless."
 	},
 	"Medal011": {
+		"id": "Medal011",
 		"name": "Alfred Medal",
 		"explain": "Proof that you have triumphed over Alfred."
 	},
 	"Medal012": {
+		"id": "Medal012",
 		"name": "Orobas Medal",
 		"explain": "Proof that you have triumphed over Orobas."
 	},
 	"Medal013": {
+		"id": "Medal013",
 		"name": "True Zangetsu Medal",
 		"explain": "Proof that you have triumphed over Zangetsu at his most powerful."
 	},
 	"Medal014": {
+		"id": "Medal014",
 		"name": "Valefar Medal",
 		"explain": "Proof that you have triumphed over Valefar."
 	},
 	"Medal015": {
+		"id": "Medal015",
 		"name": "Gremory Medal",
 		"explain": "Proof that you have triumphed over Gremory."
 	},
 	"Medal016": {
+		"id": "Medal016",
 		"name": "Dominique Medal",
 		"explain": "Proof that you have triumphed over Dominique."
 	},
 	"Medal017": {
+		"id": "Medal017",
 		"name": "Bael Medal",
 		"explain": "Proof that you have triumphed over Bael."
 	},
 	"Medal018": {
+		"id": "Medal018",
 		"name": "O.D. Medal",
 		"explain": "Proof that you have triumphed over Orlok Dracule."
 	},
 	"Medal019": {
+		"id": "Medal019",
 		"name": "Thracula Medal",
 		"explain": "Proof that you have triumphed over Thracula."
 	},
 	"Medal020": {
+		"id": "Medal020",
 		"name": "IGA Medal",
 		"explain": "Proof that you have triumphed over IGA."
 	},
 	"Medal021": {
+		"id": "Medal021",
 		"name": "8-bit Medal",
 		"explain": "Proof that you have triumphed over the Eight Bit Overlord."
 	},
 	"Medal022": {
+		"id": "Medal022",
 		"name": "8-bit Nightmare",
 		"explain": "A book inside which an ancient demon overlord has been imprisoned."
 	},
 	"Medal023": {
+		"id": "Medal023",
 		"name": "Doppelganger Medal",
 		"explain": "Proof that you have triumphed over the Doppelganger."
 	},
 	"Ruby": {
+		"id": "Ruby",
 		"name": "Ruby",
 		"explain": "A scarlet gemstone."
 	},
 	"Sapphire": {
+		"id": "Sapphire",
 		"name": "Sapphire",
 		"explain": "A deep blue gemstone."
 	},
 	"Emerald": {
+		"id": "Emerald",
 		"name": "Emerald",
 		"explain": "A bright green gemstone."
 	},
 	"Alexandrite": {
+		"id": "Alexandrite",
 		"name": "Alexandrite",
 		"explain": "A type of chrysoberyl with color-changing properties."
 	},
 	"Bixbite": {
+		"id": "Bixbite",
 		"name": "Bixbite",
 		"explain": "An extremely rare red gemstone."
 	},
 	"Diamond": {
+		"id": "Diamond",
 		"name": "Diamond",
 		"explain": "A gemstone with a beautiful sparkle."
 	},
 	"Silver": {
+		"id": "Silver",
 		"name": "Silver",
 		"explain": "A precious metal."
 	},
 	"Gold": {
+		"id": "Gold",
 		"name": "Gold",
 		"explain": "Not just any gold. This was created by Alchemists."
 	},
 	"Alkhahest": {
+		"id": "Alkhahest",
 		"name": "Alkahest",
 		"explain": "A single-use solvent that is used to break down transmuted materials."
 	},
 	"Ectoplasm": {
+		"id": "Ectoplasm",
 		"name": "Ectoplasm",
 		"explain": "A flossy, astral matter."
 	},
 	"Sulfur": {
+		"id": "Sulfur",
 		"name": "Sulfur",
 		"explain": "An ore used in alchemy."
 	},
 	"Saltpeter": {
+		"id": "Saltpeter",
 		"name": "Saltpeter",
 		"explain": "A niter ore."
 	},
 	"Mercury": {
+		"id": "Mercury",
 		"name": "Mercury",
 		"explain": "A common alchemic material."
 	},
 	"Sulfate": {
+		"id": "Sulfate",
 		"name": "Sulfate",
 		"explain": "A liquid acid."
 	},
 	"Bronze": {
+		"id": "Bronze",
 		"name": "Bronze",
 		"explain": "A metal that changes color from added tin."
 	},
 	"Iron": {
+		"id": "Iron",
 		"name": "Iron",
 		"explain": "A common form of metal."
 	},
 	"Obsidian": {
+		"id": "Obsidian",
 		"name": "Obsidian",
 		"explain": "A black gemstone formed by volcanic lava."
 	},
 	"Clystal": {
+		"id": "Clystal",
 		"name": "Crystal",
 		"explain": "A precious mineral with purifying properties that has been revered as holy since ancient times."
 	},
 	"Steel": {
+		"id": "Steel",
 		"name": "Steel",
 		"explain": "A sturdy alloy made from iron ore that is easy to work with and suited for fine detailing."
 	},
 	"Platinum": {
+		"id": "Platinum",
 		"name": "Platinum",
 		"explain": "A bright metal resistant to oxidation and corrosion. It is difficult to mine and quite precious."
 	},
 	"Mithril": {
+		"id": "Mithril",
 		"name": "Mithril",
 		"explain": "An argent mineral that is both durable and light. However, only the finest of smiths can work it."
 	},
 	"Cotton": {
+		"id": "Cotton",
 		"name": "Hemp",
 		"explain": "Cloth made from plant fibers. It is comfortable to wear and breathes well, but falls apart easily."
 	},
 	"Hemp": {
+		"id": "Hemp",
 		"name": "Cotton",
 		"explain": "Cloth made from a plant. It is durable, absorbent, and soft on the skin."
 	},
 	"Silk": {
+		"id": "Silk",
 		"name": "Silk",
 		"explain": "Precious, lustrous cloth made from the cocoon of the silkworm. Prized since ancient times."
 	},
 	"Felt": {
+		"id": "Felt",
 		"name": "Wool",
 		"explain": "Versatile cloth made from sheep's wool that is cool in the summer and warm in winter."
 	},
 	"Leather": {
+		"id": "Leather",
 		"name": "Cashmere",
 		"explain": "A fine, downy wool taken from a goat. It is lightweight and quite lovely to look at."
 	},
 	"Gunpowder": {
+		"id": "Gunpowder",
 		"name": "Gunpowder",
 		"explain": "A powder that burns quickly and explodes, making it useful, but dangerous to handle."
 	},
 	"DamascusSteel": {
+		"id": "DamascusSteel",
 		"name": "Damascus",
 		"explain": "A sturdy metal with attractive banding."
 	},
 	"Orichalcum": {
+		"id": "Orichalcum",
 		"name": "Orichalcum",
 		"explain": "A legendary metal excavated from a lost country."
 	},
 	"Hihiirokane": {
+		"id": "Hihiirokane",
 		"name": "Crimsonite",
 		"explain": "A legendary metal as bright as the sun."
 	},
 	"8BitCoin": {
+		"id": "8BitCoin",
 		"name": "8-bit Coin",
 		"explain": "A valuable coin that can be found in circulation."
 	},
 	"16BitCoin": {
+		"id": "16BitCoin",
 		"name": "16-bit Coin",
 		"explain": "A rare and valuable coin that can be found in circulation."
 	},
 	"32BitCoin": {
+		"id": "32BitCoin",
 		"name": "32-bit Coin",
 		"explain": "An extremely rare and valuable coin that can be found in circulation."
 	},
 	"Halite": {
+		"id": "Halite",
 		"name": "Halite",
 		"explain": "Salt extracted from rocks."
 	},
 	"ElmLumber": {
+		"id": "ElmLumber",
 		"name": "Elm",
 		"explain": "A cheap lumber."
 	},
 	"OakLumber": {
+		"id": "OakLumber",
 		"name": "Oak",
 		"explain": "A fairly sturdy lumber."
 	},
 	"WalnutLumber": {
+		"id": "WalnutLumber",
 		"name": "Walnut",
 		"explain": "An extremely sturdy lumber."
 	},
 	"MahoganyLumber": {
+		"id": "MahoganyLumber",
 		"name": "Mahogany",
 		"explain": "A rare and beautiful lumber."
 	},
 	"CypressLumber": {
+		"id": "CypressLumber",
 		"name": "Cypress",
 		"explain": "A fine lumber favored in the East."
 	},
 	"Paddy": {
+		"id": "Paddy",
 		"name": "Rice",
 		"explain": "A grain that features prominently in Eastern diets."
 	},
 	"SeedCorn": {
+		"id": "SeedCorn",
 		"name": "Corn Seed",
 		"explain": "Corn that has been kept for planting. You could use it to create more corn."
 	},
 	"SeedRice": {
+		"id": "SeedRice",
 		"name": "Rice Seed",
 		"explain": "Rice that has been kept for planting. You could use it to create more rice."
 	},
 	"SeedPotato": {
+		"id": "SeedPotato",
 		"name": "Potato Seed",
 		"explain": "A potato that has been kept for planting. Salt allows you to grow a larger crop."
 	},
 	"Flour": {
+		"id": "Flour",
 		"name": "Flour",
 		"explain": "A grain found in nearly every household and used in many dishes."
 	},
 	"Egg": {
+		"id": "Egg",
 		"name": "Egg",
 		"explain": "A freshly laid chicken egg. You can pick up the yolk with your fingers."
 	},
 	"DragonsEgg": {
+		"id": "DragonsEgg",
 		"name": "Dragon Egg",
 		"explain": "An egg laid by a dragon. Fetches good coin among gourmands."
 	},
 	"Salt": {
+		"id": "Salt",
 		"name": "Halite",
 		"explain": "An essential seasoning harvested from the sea."
 	},
 	"Sugar": {
+		"id": "Sugar",
 		"name": "Sugar",
 		"explain": "A sweetener and essential ingredient when making desserts."
 	},
 	"SoySauce": {
+		"id": "SoySauce",
 		"name": "Soy Sauce",
 		"explain": "A liquid condiment made from soybeans that is essential to Eastern cuisine."
 	},
 	"Miso": {
+		"id": "Miso",
 		"name": "Miso",
 		"explain": "A paste of fermented soybeans that's hard on the eyes but full of flavor."
 	},
 	"Pepper": {
+		"id": "Pepper",
 		"name": "Black Pepper",
 		"explain": "A spice used to punch up cooking. Often appears next to salt."
 	},
 	"Ginger": {
+		"id": "Ginger",
 		"name": "Ginger",
 		"explain": "A spice that imparts a refreshing bite and warms the body."
 	},
 	"Garlic": {
+		"id": "Garlic",
 		"name": "Garlic",
 		"explain": "A spice with a distinct smell that vampires utterly detest."
 	},
 	"Cinnamon": {
+		"id": "Cinnamon",
 		"name": "Cinnamon",
 		"explain": "A spice with a unique aroma made from a type of tree bark."
 	},
 	"MocoOil": {
+		"id": "MocoOil",
 		"name": "Moco Oil",
 		"explain": "Oil harvested from moco weeds. Works wonders on the skin."
 	},
 	"Rennet": {
+		"id": "Rennet",
 		"name": "Rennet",
 		"explain": "A complex of enzymes used to produce cheese."
 	},
 	"Milk": {
+		"id": "Milk",
 		"name": "Milk",
 		"explain": "Fresh milk packed with nutrients to help you grow strong."
 	},
 	"MilkofZagan": {
+		"id": "MilkofZagan",
 		"name": "Beast Milk",
 		"explain": "Milk taken from a zagan. Truly the pinnacle of dairy delights."
 	},
 	"Corn": {
+		"id": "Corn",
 		"name": "Corn",
 		"explain": "A vegetable covered in small yellow kernels. Feeds people and livestock."
 	},
 	"Potato": {
+		"id": "Potato",
 		"name": "Potato",
 		"explain": "A hardy tuber that thrives in poor soil. Beware the poisonous sprouts."
 	},
 	"Tomato": {
+		"id": "Tomato",
 		"name": "Tomato",
 		"explain": "A ruby-red vegetable that appears in everything from salads to stews."
 	},
 	"MocoOnion": {
+		"id": "MocoOnion",
 		"name": "Moco Leek",
 		"explain": "An onion harvested from moco weeds. Cooking it brings out its sweetness."
 	},
 	"DaturaLeaf": {
+		"id": "DaturaLeaf",
 		"name": "Fey Leaf",
 		"explain": "The poisonous leaf of a Datura. It can be made edible if properly heated. "
 	},
 	"CerberaLeaf": {
+		"id": "CerberaLeaf",
 		"name": "Fell Leaf",
 		"explain": "The nutrient-rich leaf of a Cerbera. It is valued for its medicinal properties."
 	},
 	"Clam": {
+		"id": "Clam",
 		"name": "Clam",
 		"explain": "A shellfish that needs to be purged of sand before eating."
 	},
 	"Uni": {
+		"id": "Uni",
 		"name": "Sea Urchin",
 		"explain": "A sea delicacy best enjoyed raw— the fresher the better."
 	},
 	"RedBean": {
+		"id": "RedBean",
 		"name": "Red Bean",
 		"explain": "A type of bean grown in the Orient and used to make desserts."
 	},
 	"CacaoBean": {
+		"id": "CacaoBean",
 		"name": "Cacao Bean",
 		"explain": "A fragrant bean that tastes bitter when you bite into it."
 	},
 	"ForneusFilet": {
+		"id": "ForneusFilet",
 		"name": "Forneus Filet",
 		"explain": "Meat from Forneus. It's classified under white fish."
 	},
 	"DeeseamaFilet": {
+		"id": "DeeseamaFilet",
 		"name": "Aquatic Filet",
 		"explain": "Deeseama meat. It's extremely tough and rubbery."
 	},
 	"G-LabolasFilet": {
+		"id": "G-LabolasFilet",
 		"name": "G-Bone Steak",
 		"explain": "Meat from a glasya-labolas. The light flavor compliments any cuisine."
 	},
 	"YorktonMeat": {
+		"id": "YorktonMeat",
 		"name": "Plume Pork",
 		"explain": "Pork from a plume parma. Try the sirloin; it's delicious."
 	},
 	"ZaganMeat": {
+		"id": "ZaganMeat",
 		"name": "Beast Beef",
 		"explain": "The meat of a zagan. It melts in your mouth with each bite."
 	},
 	"HaagentiFilet": {
+		"id": "HaagentiFilet",
 		"name": "Flying Beef",
 		"explain": "Scrumptious haagenti meat that will have you mooing for more."
 	},
 	"Strawberry": {
+		"id": "Strawberry",
 		"name": "Strawberry",
 		"explain": "A sweet and sour fruit that makes delicious preserves."
 	},
 	"Apple": {
+		"id": "Apple",
 		"name": "Apple",
 		"explain": "A juicy, red fruit that can be eaten without removing the skin."
 	},
 	"Lemon": {
+		"id": "Lemon",
 		"name": "Lemon",
 		"explain": "A yellow and very sour fruit that can be used to mask the smell of fish."
 	},
 	"Ambrosia": {
+		"id": "Ambrosia",
 		"name": "Ambrosia",
 		"explain": "A legendary fruit said to grant immortality."
 	},
 	"BakingSoda": {
+		"id": "BakingSoda",
 		"name": "Baking Soda",
 		"explain": "Powder used to make dough rise or remove stains from teacups."
 	},
 	"Butter": {
+		"id": "Butter",
 		"name": "Butter",
 		"explain": "A dairy product used in everything from sweets to sautés."
 	},
 	"Cheese": {
+		"id": "Cheese",
 		"name": "Cheese",
 		"explain": "A dairy product made by fermenting milk."
 	},
 	"Soda": {
+		"id": "Soda",
 		"name": "Soda Water",
 		"explain": "Carbonated water. Mix it with fruit juice for a delicious beverage."
 	},
 	"Consommé": {
+		"id": "Consommé",
 		"name": "Consommé",
 		"explain": "A clear, amber broth. Delicious served both hot and cold."
 	},
 	"SaltBroth": {
+		"id": "SaltBroth",
 		"name": "Salt Broth",
 		"explain": "A simple broth that has been flavored with salt."
 	},
 	"SoyBroth": {
+		"id": "SoyBroth",
 		"name": "Soy Broth",
 		"explain": "A Nipponese broth flavored with soy sauce."
 	},
 	"TonkotsuBroth": {
+		"id": "TonkotsuBroth",
 		"name": "Tonkotsu Broth",
 		"explain": "A cloudy broth made by slowly boiling pork bones."
 	},
 	"MisoBroth": {
+		"id": "MisoBroth",
 		"name": "Miso Broth",
 		"explain": "A hearty broth made with dissolved miso."
 	},
 	"HeavyCream": {
+		"id": "HeavyCream",
 		"name": "Heavy Cream",
 		"explain": "A thick, white liquid made from butterfat."
 	},
 	"RedBeanPaste": {
+		"id": "RedBeanPaste",
 		"name": "Red Bean Paste",
 		"explain": "Boiled, sweetened red beans that may be mashed and skinned or left whole."
 	},
 	"Cocoa": {
+		"id": "Cocoa",
 		"name": "Cocoa",
 		"explain": "A sweet beverage made from cacao beans."
 	},
 	"ChineseNoodles": {
+		"id": "ChineseNoodles",
 		"name": "Chinese Noodles",
 		"explain": "Thin, frizzly noodles from China that are often consumed with broth."
 	},
 	"Pasta": {
+		"id": "Pasta",
 		"name": "Pasta",
 		"explain": "Noodles made from durum wheat flour. They become chewy once boiled."
 	},
 	"Bread": {
+		"id": "Bread",
 		"name": "Bread",
 		"explain": "A flour-based dough that has been leavened and then baked."
 	},
 	"PieDough": {
+		"id": "PieDough",
 		"name": "Pie Dough",
 		"explain": "A dough made from flour and plenty of butter. Makes a nice, flaky crust."
 	},
 	"PizzaDough": {
+		"id": "PizzaDough",
 		"name": "Pizza Dough",
 		"explain": "A flour-based dough that is kneaded and stretched into a thin circle."
 	},
 	"CrepeDough": {
+		"id": "CrepeDough",
 		"name": "Crepe Dough",
 		"explain": "A dough made by soaking flour in water. It is rolled paper thin."
 	},
 	"CurryPowder": {
+		"id": "CurryPowder",
 		"name": "Curry Powder",
 		"explain": "A powdered mixture of fragrant spices that whets the appetite."
 	},
 	"CurrySauce": {
+		"id": "CurrySauce",
 		"name": "Curry Sauce",
 		"explain": "A hot sauce made from a mixture of fragrant spices."
 	},
 	"WhiteSauce": {
+		"id": "WhiteSauce",
 		"name": "White Sauce",
 		"explain": "A white sauce made from a roux of fat and flour."
 	},
 	"VongoleSauce": {
+		"id": "VongoleSauce",
 		"name": "Vongole Sauce",
 		"explain": "A clam-based sauce that tastes delicious when tossed with pasta."
 	},
 	"RiceBall": {
+		"id": "RiceBall",
 		"name": "Rice Ball",
 		"explain": "Cooked rice shaped into a portable snack for when you feel peckish."
 	},
 	"UniDon": {
+		"id": "UniDon",
 		"name": "Uni Rice Bowl",
 		"explain": "A simple dish consisting of sea urchin on cooked rice. Delectable."
 	},
 	"AppleRisotto": {
+		"id": "AppleRisotto",
 		"name": "Apple Risotto",
 		"explain": "An improvised risotto made with apple and rice. Surprisingly good."
 	},
 	"EggonRice": {
+		"id": "EggonRice",
 		"name": "Egg on Rice",
 		"explain": "The ultimate everyman's breakfast: raw egg and soy sauce over rice."
 	},
 	"Omurice": {
+		"id": "Omurice",
 		"name": "Omurice",
 		"explain": "Rice wrapped in an omelette. A novel idea, but tricky to prepare."
 	},
 	"ChickenCasserole": {
+		"id": "ChickenCasserole",
 		"name": "Chicken Casserole",
 		"explain": "Chicken and rice covered in white sauce and baked. Don't burn yourself."
 	},
 	"Curry&Rice": {
+		"id": "Curry&Rice",
 		"name": "Curry & Rice",
 		"explain": "Curry sauce over rice. Delicious, but imagine it with meat or vegetables..."
 	},
 	"BeefCurry": {
+		"id": "BeefCurry",
 		"name": "Beef Curry",
 		"explain": "An extravagant curry and rice plate loaded with beef. Seconds, please!"
 	},
 	"PorkCurry": {
+		"id": "PorkCurry",
 		"name": "Pork Curry",
 		"explain": "A curry and rice plate with large chunks of pork. Tasty and filling."
 	},
 	"ChickenCurry": {
+		"id": "ChickenCurry",
 		"name": "Chicken Curry",
 		"explain": "Curry and rice made with chicken that has soaked up the flavor."
 	},
 	"SeafoodCurry": {
+		"id": "SeafoodCurry",
 		"name": "Seafood Curry",
 		"explain": "Curry and rice with seafood that will make waves in your mouth."
 	},
 	"MacaroniGratin": {
+		"id": "MacaroniGratin",
 		"name": "Macaroni Gratin",
 		"explain": "Macaroni covered in white sauce and baked. Don't miss the crispy bottom."
 	},
 	"ClassicSpaghetti": {
+		"id": "ClassicSpaghetti",
 		"name": "Classic Spaghetti",
 		"explain": "Pasta tossed in tomato sauce. Certain to put a smile on any face."
 	},
 	"PastaCarbonara": {
+		"id": "PastaCarbonara",
 		"name": "Pasta Carbonara",
 		"explain": "A popular pasta made with a thick, creamy sauce. Quick and delicious."
 	},
 	"PastaVongole": {
+		"id": "PastaVongole",
 		"name": "Pasta Vongole",
 		"explain": "A clam and garlic pasta that floods your mouth with flavor."
 	},
 	"SeaUrchinPasta": {
+		"id": "SeaUrchinPasta",
 		"name": "Sea Urchin Pasta",
 		"explain": "Pasta tossed in creamy sea urchin and accented with an acidic tomato note."
 	},
 	"BerrySpaghetti": {
+		"id": "BerrySpaghetti",
 		"name": "Berry Spaghetti",
 		"explain": "An improvised dessert pasta made with strawberries and cream. It works!"
 	},
 	"ShirukoSpaghetti": {
+		"id": "ShirukoSpaghetti",
 		"name": "Shiruko Spaghetti",
 		"explain": "A chance creation made with sweet red bean juice. Not for everyone..."
 	},
 	"SaltRamen": {
+		"id": "SaltRamen",
 		"name": "Salt Ramen",
 		"explain": "Chinese noodles in salt broth. Goes well with a bowl of rice."
 	},
 	"SoyRamen": {
+		"id": "SoyRamen",
 		"name": "Soy Ramen",
 		"explain": "Chinese noodles in soy broth. It's polite to drink all the soup."
 	},
 	"TonkotsuRamen": {
+		"id": "TonkotsuRamen",
 		"name": "Tonkotsu Ramen",
 		"explain": "Chinese noodles in tonkotsu broth. A rich flavor you'll learn to crave."
 	},
 	"MisoRamen": {
+		"id": "MisoRamen",
 		"name": "Miso Ramen",
 		"explain": "Chinese noodles in miso broth. Warms the body and soul."
 	},
 	"CornChowder": {
+		"id": "CornChowder",
 		"name": "Corn Chowder",
 		"explain": "A thick but smooth corn soup that hovers between a food and a drink."
 	},
 	"Steak": {
+		"id": "Steak",
 		"name": "Steak",
 		"explain": "A slice of meat cooked on a hot surface. You'll savor every bite."
 	},
 	"ExquisiteSteak": {
+		"id": "ExquisiteSteak",
 		"name": "Exquisite Steak",
 		"explain": "Steak made with the choicest meat. Meals like this can change your life."
 	},
 	"Sukiyaki": {
+		"id": "Sukiyaki",
 		"name": "Sukiyaki",
 		"explain": "A hot pot made with meat and vegetables which are dipped in egg."
 	},
 	"ChickenSauté": {
+		"id": "ChickenSauté",
 		"name": "Chicken Sauté",
 		"explain": "A chicken thigh fried in fat, yielding crispy skin and juicy meat."
 	},
 	"GarlicChicken": {
+		"id": "GarlicChicken",
 		"name": "Garlic Chicken",
 		"explain": "Chicken cooked in garlic sauce. One whiff is enough to make you hungry."
 	},
 	"Tonkatsu": {
+		"id": "Tonkatsu",
 		"name": "Pork Cutlet",
 		"explain": "A slice of pork that has been breaded and fried for a crispy outside."
 	},
 	"MisoCutlet": {
+		"id": "MisoCutlet",
 		"name": "Miso Cutlet",
 		"explain": "A pork cutlet topped with miso. Popular in some parts of Nippon."
 	},
 	"GingerPork": {
+		"id": "GingerPork",
 		"name": "Ginger Pork",
 		"explain": "Thinly sliced pork simmered in ginger sauce. Pairs well with rice."
 	},
 	"MeatHotPot": {
+		"id": "MeatHotPot",
 		"name": "Meat Hot Pot",
 		"explain": "An invigorating hot pot brimming with slices of meat."
 	},
 	"FriedPotatoes": {
+		"id": "FriedPotatoes",
 		"name": "Fried Potatoes",
 		"explain": "Potatoes fried in oil, which gets all over your hands... You won't care."
 	},
 	"Pizza": {
+		"id": "Pizza",
 		"name": "Pizza",
 		"explain": "Pizza dough covered in toppings and an irresistible layer of cheese."
 	},
 	"FriedFish": {
+		"id": "FriedFish",
 		"name": "Fried Fish",
 		"explain": "Whitefish that has been breaded and fried to enhance flavor and texture."
 	},
 	"FishAndChips": {
+		"id": "FishAndChips",
 		"name": "Fish & Chips",
 		"explain": "Fried fish and fried potatoes on a single plate. Fattening? Never."
 	},
 	"SimmeredForneus": {
+		"id": "SimmeredForneus",
 		"name": "Simmered Forneus",
 		"explain": "Simmered whitefish that falls apart in your mouth."
 	},
 	"ForneusMeunière": {
+		"id": "ForneusMeunière",
 		"name": "Forneus Meunière",
 		"explain": "Whitefish fried in a bit of fat until it turns a scrumptious golden brown."
 	},
 	"ForneusinGarlic": {
+		"id": "ForneusinGarlic",
 		"name": "Forneus in Garlic",
 		"explain": "Whitefish fried in garlic and fat. The smell clings to your garments."
 	},
 	"FishHotPot": {
+		"id": "FishHotPot",
 		"name": "Fish Hot Pot",
 		"explain": "A hot pot made with whitefish. Add rice at the end for a risotto."
 	},
 	"Flan": {
+		"id": "Flan",
 		"name": "Flan",
 		"explain": "A steamed egg-and-milk custard. Every bite is bliss."
 	},
 	"Manju": {
+		"id": "Manju",
 		"name": "Manju",
 		"explain": "An Eastern afternoon treat made of bean paste wrapped in dough."
 	},
 	"ApplePie": {
+		"id": "ApplePie",
 		"name": "Apple Pie",
 		"explain": "A pie with an apple slice filling that gives it a subtle sweetness."
 	},
 	"LemonPie": {
+		"id": "LemonPie",
 		"name": "Lemon Cream Pie",
 		"explain": "A summer treat made with a lemon juice filling and topped with cream."
 	},
 	"StrawberryPie": {
+		"id": "StrawberryPie",
 		"name": "Strawberry Pie",
 		"explain": "A pie encrusted with strawberries. It's as pretty as jewelry."
 	},
 	"StrawberryCrepe": {
+		"id": "StrawberryCrepe",
 		"name": "Strawberry Crepe",
 		"explain": "Cream and strawberries wrapped in a crepe for a delightful combination."
 	},
 	"ChocolateCrepe": {
+		"id": "ChocolateCrepe",
 		"name": "Chocolate Crepe",
 		"explain": "A simple crepe that gets a subtle bitter note from the chocolate."
 	},
 	"Cookies": {
+		"id": "Cookies",
 		"name": "Cookies",
 		"explain": "A classic baked sweet that can be made in all shapes and sizes."
 	},
 	"ChocolateCookies": {
+		"id": "ChocolateCookies",
 		"name": "Chocolate Cookies",
 		"explain": "A cookie made with bitter chocolate for a more sophisticated flavor."
 	},
 	"CinnamonCookies": {
+		"id": "CinnamonCookies",
 		"name": "Cinnamon Cookies",
 		"explain": "A fragrant cookie that pairs well with black tea."
 	},
 	"SpongeCake": {
+		"id": "SpongeCake",
 		"name": "Sponge Cake",
 		"explain": "A fluffy cake that rises in the oven and tastes great all on its own."
 	},
 	"ChiffonCake": {
+		"id": "ChiffonCake",
 		"name": "Chiffon Cake",
 		"explain": "A silky sponge cake that's nothing short of a culinary miracle."
 	},
 	"CheeseCake": {
+		"id": "CheeseCake",
 		"name": "Cheesecake",
 		"explain": "A moist and mildly sweet cake made with an ample helping of cheese."
 	},
 	"ChocolateCake": {
+		"id": "ChocolateCake",
 		"name": "Chocolate Cake",
 		"explain": "A luxurious chocolate cake. Also, a cavity waiting to happen."
 	},
 	"StrawberryCake": {
+		"id": "StrawberryCake",
 		"name": "Strawberry Cake",
 		"explain": "A cake containing strawberries (which discerning eaters save for last)."
 	},
 	"ScrambledEggs": {
+		"id": "ScrambledEggs",
 		"name": "Scrambled Eggs",
 		"explain": "A dish made by whisking eggs before cooking them. Or, a failed omelette."
 	},
 	"RolledOmelette": {
+		"id": "RolledOmelette",
 		"name": "Rolled Omelette",
 		"explain": "A whisked eggs spread flat while cooking and then rolled up."
 	},
 	"FriedEgg": {
+		"id": "FriedEgg",
 		"name": "Fried Egg",
 		"explain": "The simplest of egg dishes. Needs no more than a dash of salt and pepper."
 	},
 	"EggSoufflé": {
+		"id": "EggSoufflé",
 		"name": "Egg Soufflé",
 		"explain": "An egg dish that looks and tastes as fluffy as a cloud."
 	},
 	"AppleJuice": {
+		"id": "AppleJuice",
 		"name": "Apple Juice",
 		"explain": "Apple juice made the right way: by carefully selecting the best fruit."
 	},
 	"StrawberryAuLait": {
+		"id": "StrawberryAuLait",
 		"name": "Strawberry Au Lait",
 		"explain": "A glass of milk with strawberries in it. They always sink to the bottom..."
 	},
 	"Lemonade": {
+		"id": "Lemonade",
 		"name": "Lemonade",
 		"explain": "A refreshing, summery drink made from sweetened lemon juice."
 	},
 	"Smoothie": {
+		"id": "Smoothie",
 		"name": "Smoothie",
 		"explain": "Fruit blended into a smooth drink. A recipe for beautiful skin."
 	},
 	"FruitJuice": {
+		"id": "FruitJuice",
 		"name": "Fruit Juice",
 		"explain": "Nutrient-rich juice. Drink in moderation to avoid a bellyache."
 	},
 	"Nectar": {
+		"id": "Nectar",
 		"name": "Nectar",
 		"explain": "The libation of the gods. Grants immortality and staves off wrinkles."
 	},
 	"DarkMatter": {
+		"id": "DarkMatter",
 		"name": "Dark Matter",
 		"explain": "An ominous black mass that is probably edible...but you first."
 	},
 	"MacaroniAndCheese": {
+		"id": "MacaroniAndCheese",
 		"name": "Macaroni & Cheese",
 		"explain": "A classic made by slathering pasta with cheese. But this seems off..."
 	},
 	"Batfang": {
+		"id": "Batfang",
 		"name": "Bat Fang",
 		"explain": "A fang from a bat."
 	},
 	"DemonDogFang": {
+		"id": "DemonDogFang",
 		"name": "Demon Dog Fang",
 		"explain": "A sharp fang from a demon canine."
 	},
 	"Ivory": {
+		"id": "Ivory",
 		"name": "Monster Fang",
 		"explain": "A fang from a monster."
 	},
 	"Sabnacfang": {
+		"id": "Sabnacfang",
 		"name": "Leonine Fang",
 		"explain": "The fang of a ferocious lion demon."
 	},
 	"Devilsfang": {
+		"id": "Devilsfang",
 		"name": "Sinister Fang",
 		"explain": "The fang of an unusually cruel demon."
 	},
 	"Gusionfang": {
+		"id": "Gusionfang",
 		"name": "Demon Fang",
 		"explain": "A fang from a demon."
 	},
 	"Silverwolffang": {
+		"id": "Silverwolffang",
 		"name": "Lupine Fang",
 		"explain": "The fang of a werewolf that has claimed many a victim."
 	},
 	"Marbasfang": {
+		"id": "Marbasfang",
 		"name": "Fiend Fang",
 		"explain": "A fang embued with dark energy."
 	},
 	"Gieremundfang": {
+		"id": "Gieremundfang",
 		"name": "Imbrued Fang",
 		"explain": "A fang caked with horrific amounts of blood."
 	},
 	"Gieremundnail": {
+		"id": "Gieremundnail",
 		"name": "Monster Claw",
 		"explain": "A claw from a monster."
 	},
 	"Gargoylenail": {
+		"id": "Gargoylenail",
 		"name": "Gargoyle Claw",
 		"explain": "The broken-off claw of a gargoyle."
 	},
 	"Buerclaw": {
+		"id": "Buerclaw",
 		"name": "Leonine Claw",
 		"explain": "A claw taken from a lion demon."
 	},
 	"Raptorclaw": {
+		"id": "Raptorclaw",
 		"name": "Sinister Claw",
 		"explain": "The claw of an unusually cruel demon."
 	},
 	"Wolfclaw": {
+		"id": "Wolfclaw",
 		"name": "Lycan Claw",
 		"explain": "A razor-sharp wolf's claw."
 	},
 	"Apenail": {
+		"id": "Apenail",
 		"name": "Demon Claw",
 		"explain": "A claw from a demon."
 	},
 	"Dragonclaw": {
+		"id": "Dragonclaw",
 		"name": "Dragon Talons",
 		"explain": "A rare find: the talons of a dragon."
 	},
 	"Daemonnail": {
+		"id": "Daemonnail",
 		"name": "Fiend Claw",
 		"explain": "A claw embued with dark energy."
 	},
 	"Chicomecoatlhorn": {
+		"id": "Chicomecoatlhorn",
 		"name": "Monster Horn",
 		"explain": "A horn taken from something horrible."
 	},
 	"Gaaphorn": {
+		"id": "Gaaphorn",
 		"name": "Demon Horn",
 		"explain": "A horn taken from something unspeakable."
 	},
 	"Daemonhorn": {
+		"id": "Daemonhorn",
 		"name": "Fiend Horn",
 		"explain": "A claw embued with dark energy."
 	},
 	"Malphasbeak": {
+		"id": "Malphasbeak",
 		"name": "Monster Beak",
 		"explain": "A jet black beak taken from a hideous creature."
 	},
 	"Giantratteeth": {
+		"id": "Giantratteeth",
 		"name": "Rat Teeth",
 		"explain": "The incisors of a giant rat."
 	},
 	"Gamiginhoof": {
+		"id": "Gamiginhoof",
 		"name": "Hellhorse Hoof",
 		"explain": "A hoof that has treaded on who knows what carnage."
 	},
 	"Glashtynhoof": {
+		"id": "Glashtynhoof",
 		"name": "Water Horse Hoof",
 		"explain": "The hoof of a demon that lurks beneath the water."
 	},
 	"Recklesslimb": {
+		"id": "Recklesslimb",
 		"name": "Writhing Limb",
 		"explain": "A branch (?) that continues its disgusting flailing."
 	},
 	"MeltedBone": {
+		"id": "MeltedBone",
 		"name": "Melting Bone",
 		"explain": "A bone that is slightly sticky to touch."
 	},
 	"Lightbone": {
+		"id": "Lightbone",
 		"name": "Monster Bone",
 		"explain": "A bone from a monster."
 	},
 	"Jeneralbone": {
+		"id": "Jeneralbone",
 		"name": "Sinister Bone",
 		"explain": "A bone that is, incredibly, quite sinister."
 	},
 	"Dragonbone": {
+		"id": "Dragonbone",
 		"name": "Dragon Bone",
 		"explain": "A precious find, even in this castle."
 	},
 	"Knightbone": {
+		"id": "Knightbone",
 		"name": "Demon Bone",
 		"explain": "A bone from a demon."
 	},
 	"Warriorbone": {
+		"id": "Warriorbone",
 		"name": "Fiend Bone",
 		"explain": "A bone embued with dark energy."
 	},
 	"Bloodybone": {
+		"id": "Bloodybone",
 		"name": "Imbrued Bone",
 		"explain": "A bone steeped in blood."
 	},
 	"MeltingSkull": {
+		"id": "MeltingSkull",
 		"name": "Melting Skull",
 		"explain": "A skull that looks eerier from melting."
 	},
 	"Lightskull": {
+		"id": "Lightskull",
 		"name": "Monster Skull",
 		"explain": "A skull from a monster."
 	},
 	"Jeneralskull": {
+		"id": "Jeneralskull",
 		"name": "Sinister Skull",
 		"explain": "A skull that is, against all odds, quite sinister."
 	},
 	"Knightskull": {
+		"id": "Knightskull",
 		"name": "Demon Skull",
 		"explain": "A skull from a demon."
 	},
 	"Warriorskull": {
+		"id": "Warriorskull",
 		"name": "Fiend Skull",
 		"explain": "A skull embued with dark energy."
 	},
 	"Bloodyskull": {
+		"id": "Bloodyskull",
 		"name": "Imbrued Skull",
 		"explain": "A frightful skull that is bathed in blood."
 	},
 	"Mimicshell": {
+		"id": "Mimicshell",
 		"name": "Grotesque Shell",
 		"explain": "The hardy shell of a monster."
 	},
 	"Dethtrapshell": {
+		"id": "Dethtrapshell",
 		"name": "Inhuman Carapace",
 		"explain": "The formidable shell of a demon."
 	},
 	"CannonDebris": {
+		"id": "CannonDebris",
 		"name": "Cannon Scrap",
 		"explain": "A scrap from a shattered cannon."
 	},
 	"Gargoyledebris": {
+		"id": "Gargoyledebris",
 		"name": "Gargoyle Stone",
 		"explain": "A fragment claimed from the wreckage of a gargoyle."
 	},
 	"Mimicchairdebris": {
+		"id": "Mimicchairdebris",
 		"name": "Chair Remnants",
 		"explain": "A fragment claimed from the wreckage of a chair."
 	},
 	"deathBringerDebris": {
+		"id": "deathBringerDebris",
 		"name": "Sword Fragment",
 		"explain": "One piece of a shattered demon blade."
 	},
 	"SharpRazor": {
+		"id": "SharpRazor",
 		"name": "Sharp Razor",
 		"explain": "A razor that has cut through more than hair."
 	},
 	"MonsterBirdHair": {
+		"id": "MonsterBirdHair",
 		"name": "Monster Bird Hair",
 		"explain": "The lovely hair of a demon...bird?"
 	},
 	"Gamiginhair": {
+		"id": "Gamiginhair",
 		"name": "Hellhorse Mane",
 		"explain": "The mane of an untameable equine demon."
 	},
 	"Glashtynhair": {
+		"id": "Glashtynhair",
 		"name": "Water Horse Mane",
 		"explain": "The mane of a water horse."
 	},
 	"ManeLion": {
+		"id": "ManeLion",
 		"name": "Lion Mane",
 		"explain": "A very soft and fluffy mane."
 	},
 	"Marbasmane": {
+		"id": "Marbasmane",
 		"name": "Lion Lord's Mane",
 		"explain": "A mane that continues to exude valor. "
 	},
 	"WindFeathers": {
+		"id": "WindFeathers",
 		"name": "Flight Feather",
 		"explain": "An elegant feather."
 	},
 	"ThunderbirdFeathers": {
+		"id": "ThunderbirdFeathers",
 		"name": "Thunderbird Plume",
 		"explain": "A light, yet sturdy feather."
 	},
 	"Haagentifeather": {
+		"id": "Haagentifeather",
 		"name": "Bovine Plume",
 		"explain": "A feather imbued with the power of levitation."
 	},
 	"BatFeather": {
+		"id": "BatFeather",
 		"name": "Small Webbing",
 		"explain": "The wing membrane of a bat."
 	},
 	"Toadwing": {
+		"id": "Toadwing",
 		"name": "Toad Webbing",
 		"explain": "The wing membrane of a flying toad."
 	},
 	"Gaapwing": {
+		"id": "Gaapwing",
 		"name": "Demon Wing",
 		"explain": "A wing from a demon."
 	},
 	"Toadtail": {
+		"id": "Toadtail",
 		"name": "Toad Tail",
 		"explain": "A tail from a toad."
 	},
 	"Giantrattail": {
+		"id": "Giantrattail",
 		"name": "Rat Tail",
 		"explain": "The tail of a giant rat."
 	},
 	"DevilRoyalTail": {
+		"id": "DevilRoyalTail",
 		"name": "Demon Tail",
 		"explain": "A tail from a demon."
 	},
 	"Lilimtail": {
+		"id": "Lilimtail",
 		"name": "Lili Tail",
 		"explain": "A charming prize taken from a murderous rabbit-lady-thing."
 	},
 	"Lamastutail": {
+		"id": "Lamastutail",
 		"name": "Queen's Tail",
 		"explain": "An elegant and regal tail."
 	},
 	"Lilimear": {
+		"id": "Lilimear",
 		"name": "Lili Ears",
 		"explain": "The ears of a half-rabbit, half-human."
 	},
 	"Dineseawing": {
+		"id": "Dineseawing",
 		"name": "Faerie Wing",
 		"explain": "A wing plucked from a faerie."
 	},
 	"Tytaniawing": {
+		"id": "Tytaniawing",
 		"name": "Vespine Wing",
 		"explain": "A wing plucked from a wasp-like faerie."
 	},
 	"FairyPowder": {
+		"id": "FairyPowder",
 		"name": "Faerie Dust",
 		"explain": "Glittering dust produced from the scales of faerie wings."
 	},
 	"TytaniaPoisonedNeedle": {
+		"id": "TytaniaPoisonedNeedle",
 		"name": "Vespine Stinger",
 		"explain": "A stinger containing deadly venom."
 	},
 	"Dragonscales": {
+		"id": "Dragonscales",
 		"name": "Dragon Scale",
 		"explain": "A scale as rigid as armor."
 	},
 	"Abyssguardianbastard": {
+		"id": "Abyssguardianbastard",
 		"name": "Dragon's Wrath",
 		"explain": "A rare scale that is oft said to be the source of a dragon's rage."
 	},
 	"DemonCloth": {
+		"id": "DemonCloth",
 		"name": "Dreadful Rag",
 		"explain": "A scrap of cloth once worn by a demon."
 	},
 	"Lerajecloth": {
+		"id": "Lerajecloth",
 		"name": "Sinister Rag",
 		"explain": "A scrap of cloth once worn by an especially awful demon."
 	},
 	"Assasincloth": {
+		"id": "Assasincloth",
 		"name": "Durable Rag",
 		"explain": "A scrap of cloth once worn by an assassin."
 	},
 	"Ninjacloth": {
+		"id": "Ninjacloth",
 		"name": "Eastern Fabric",
 		"explain": "A scrap of cloth once worn by a shinobi."
 	},
 	"DemonDogSkin": {
+		"id": "DemonDogSkin",
 		"name": "Houndskin",
 		"explain": "The hide of a demonic dog."
 	},
 	"Decarabialeather": {
+		"id": "Decarabialeather",
 		"name": "Durable Leather",
 		"explain": "Tough leather that will not tear easily."
 	},
 	"DevilBookLeather": {
+		"id": "DevilBookLeather",
 		"name": "Strange Leather",
 		"explain": "Leather with unusual patterning."
 	},
 	"Decimaleather": {
+		"id": "Decimaleather",
 		"name": "Slimy Leather",
 		"explain": "Tough leather that still glistens with...ugh..."
 	},
 	"Buerfur": {
+		"id": "Buerfur",
 		"name": "Leonine Pelt",
 		"explain": "The thick pelt of a lion demon."
 	},
 	"MonkeyFur": {
+		"id": "MonkeyFur",
 		"name": "Monster Fur",
 		"explain": "A fur from a monster."
 	},
 	"Wolfmanfur": {
+		"id": "Wolfmanfur",
 		"name": "Sinister Pelt",
 		"explain": "The pelt of an unusually cruel demon."
 	},
 	"Silverwolffur": {
+		"id": "Silverwolffur",
 		"name": "Demon Pelt",
 		"explain": "A loathsome pelt taken from a demon."
 	},
 	"Gusionfur": {
+		"id": "Gusionfur",
 		"name": "Fiend Pelt",
 		"explain": "A pelt clouded in darkness."
 	},
 	"Poisontoadeye": {
+		"id": "Poisontoadeye",
 		"name": "Toad Eye",
 		"explain": "A slightly creepy, goggling eyeball."
 	},
 	"DecarabiaEye": {
+		"id": "DecarabiaEye",
 		"name": "Monster Eye",
 		"explain": "The eye of something dreadful."
 	},
 	"Evileye": {
+		"id": "Evileye",
 		"name": "Sinister Eye",
 		"explain": "An evil eye, literally."
 	},
 	"SeekerEye": {
+		"id": "SeekerEye",
 		"name": "Demon Eye",
 		"explain": "The probing eye of a demon."
 	},
 	"TracerEye": {
+		"id": "TracerEye",
 		"name": "Crimson Eye",
 		"explain": "An eye with a lovely shade of red."
 	},
 	"DevilRoyalEyeball": {
+		"id": "DevilRoyalEyeball",
 		"name": "Fiend Eye",
 		"explain": "An eye that sees only darkness."
 	},
 	"ToadHeart": {
+		"id": "ToadHeart",
 		"name": "Toad Heart",
 		"explain": "The heart of a...well, no need to spell it out."
 	},
 	"DevilRoyalHeart": {
+		"id": "DevilRoyalHeart",
 		"name": "Monster Heart",
 		"explain": "The gruesome heart of something horrible."
 	},
 	"BelialHeart": {
+		"id": "BelialHeart",
 		"name": "Sinister Heart",
 		"explain": "The heart of an unusually cruel demon."
 	},
 	"EligosHeart": {
+		"id": "EligosHeart",
 		"name": "Demon Heart",
 		"explain": "The blackened heart of a demon."
 	},
 	"AbyssguardianHeart": {
+		"id": "AbyssguardianHeart",
 		"name": "Dragon Heart",
 		"explain": "A heart that continues to pulse angrily."
 	},
 	"MurmurHeart": {
+		"id": "MurmurHeart",
 		"name": "Fiend Heart",
 		"explain": "A heart that brims with darkness."
 	},
 	"Misteriousfluid": {
+		"id": "Misteriousfluid",
 		"name": "Aquatic Blood",
 		"explain": "The blood of an aquatic demon."
 	},
 	"Toadfluid": {
+		"id": "Toadfluid",
 		"name": "Monster Blood",
 		"explain": "The blood of some hellish creature."
 	},
 	"Andromaliusfluid": {
+		"id": "Andromaliusfluid",
 		"name": "Botanic Blood",
 		"explain": "Fluid taken from a tree demon."
 	},
 	"MonsterBirdTears": {
+		"id": "MonsterBirdTears",
 		"name": "Monster Bird Tear",
 		"explain": "A mysterious glowing liquid."
 	},
 	"Carabossetear": {
+		"id": "Carabossetear",
 		"name": "Faerie Tears",
 		"explain": "A potent liquid with mysterious properties."
 	},
 	"Cyhyraethtear": {
+		"id": "Cyhyraethtear",
 		"name": "Witch's Tears",
 		"explain": "A liquid as red as blood."
 	},
 	"Lamastutear": {
+		"id": "Lamastutear",
 		"name": "Queen's Tears",
 		"explain": "A liquid imbued with powerful sorcery."
 	},
 	"MysteriousPigment": {
+		"id": "MysteriousPigment",
 		"name": "Mystery Pigment",
 		"explain": "A pigment that can be used to make myriad colors."
 	},
 	"DevilBookPaperStrip": {
+		"id": "DevilBookPaperStrip",
 		"name": "Tome Scrap",
 		"explain": "A torn page that crackles with magic."
 	},
 	"ItemRecipe001": {
+		"id": "ItemRecipe001",
 		"name": "Fine Healing Item/R",
 		"explain": "A recipe for a fine healing item."
 	},
 	"ItemRecipe002": {
+		"id": "ItemRecipe002",
 		"name": "Ultimate Healing Item/R",
 		"explain": "A recipe for the ultimate healing item."
 	},
 	"ItemRecipe003": {
+		"id": "ItemRecipe003",
 		"name": "Faerie Healing Item/R",
 		"explain": "A recipe for a faerie healing item."
 	},
 	"BalletRecipe001": {
+		"id": "BalletRecipe001",
 		"name": "Elemental Ammunition/R",
 		"explain": "A recipe for ammunition imbued with elemental magic."
 	},
 	"BalletRecipe002": {
+		"id": "BalletRecipe002",
 		"name": "Special Ammunition/R",
 		"explain": "A recipe for ammunition with special effects."
 	},
 	"BalletRecipe003": {
+		"id": "BalletRecipe003",
 		"name": "Potent Ammunition/R",
 		"explain": "A recipe for potent ammunition."
 	},
 	"BalletRecipe004": {
+		"id": "BalletRecipe004",
 		"name": "Ultimate Ammunition/R",
 		"explain": "A recipe for the ultimate ammunition. Uses diamond."
 	},
 	"ArmsRecipe001": {
+		"id": "ArmsRecipe001",
 		"name": "Bronze Equipment/R",
 		"explain": "A recipe for bronze equipment."
 	},
 	"ArmsRecipe002": {
+		"id": "ArmsRecipe002",
 		"name": "Iron Equipment/R",
 		"explain": "A recipe for iron equipment."
 	},
 	"ArmsRecipe003": {
+		"id": "ArmsRecipe003",
 		"name": "Steel Equipment/R",
 		"explain": "A recipe for steel equipment."
 	},
 	"ArmsRecipe004": {
+		"id": "ArmsRecipe004",
 		"name": "Obsidian Equipment/R",
 		"explain": "A recipe for obsidian equipment."
 	},
 	"ArmsRecipe005": {
+		"id": "ArmsRecipe005",
 		"name": "Damascus Equipment/R",
 		"explain": "A recipe for Damascus equipment."
 	},
 	"ArmsRecipe006": {
+		"id": "ArmsRecipe006",
 		"name": "Silver Equipment/R",
 		"explain": "A recipe for silver equipment."
 	},
 	"ArmsRecipe007": {
+		"id": "ArmsRecipe007",
 		"name": "Gold Equipment/R",
 		"explain": "A recipe for gold equipment."
 	},
 	"ArmsRecipe008": {
+		"id": "ArmsRecipe008",
 		"name": "Orichalcum Equipment/R",
 		"explain": "A recipe for orichalcum equipment."
 	},
 	"ArmsRecipe009": {
+		"id": "ArmsRecipe009",
 		"name": "Crimsonite Equipment/R",
 		"explain": "A recipe for crimsonite equipment."
 	},
 	"ArmsRecipe010": {
+		"id": "ArmsRecipe010",
 		"name": "Cotton Equipment/R",
 		"explain": "A recipe for cotton equipment."
 	},
 	"ArmsRecipe011": {
+		"id": "ArmsRecipe011",
 		"name": "Silk Equipment/R",
 		"explain": "A recipe for silk equipment."
 	},
 	"ArmsRecipe012": {
+		"id": "ArmsRecipe012",
 		"name": "Cashmere Equipment/R",
 		"explain": "A recipe for cashmere equipment."
 	},
 	"ArmsRecipe013": {
+		"id": "ArmsRecipe013",
 		"name": "Emerald Equipment/R",
 		"explain": "A recipe for emerald equipment."
 	},
 	"ArmsRecipe014": {
+		"id": "ArmsRecipe014",
 		"name": "Sapphire Equipment/R",
 		"explain": "A recipe for sapphire equipment."
 	},
 	"ArmsRecipe015": {
+		"id": "ArmsRecipe015",
 		"name": "Ruby Equipment/R",
 		"explain": "A recipe for ruby equipment."
 	},
 	"ArmsRecipe016": {
+		"id": "ArmsRecipe016",
 		"name": "Diamond Equipment/R",
 		"explain": "A recipe for diamond equipment."
 	},
 	"ArmsRecipe017": {
+		"id": "ArmsRecipe017",
 		"name": "Alexandrite Equipment/R",
 		"explain": "A recipe for alexandrite equipment."
 	},
 	"ArmsRecipe018": {
+		"id": "ArmsRecipe018",
 		"name": "Fine Equipment/R",
 		"explain": "A recipe for fine equipment."
 	},
 	"ArmsRecipe019": {
+		"id": "ArmsRecipe019",
 		"name": "Very Fine Equipment/R",
 		"explain": "A recipe for very fine equipment."
 	},
 	"ArmsRecipe020": {
+		"id": "ArmsRecipe020",
 		"name": "Legendary Equipment/R",
 		"explain": "A recipe for legendary equipment."
 	},
 	"ArmsRecipe021": {
+		"id": "ArmsRecipe021",
 		"name": "Ultimate Equipment/R",
 		"explain": "A recipe for the ultimate equipment."
 	},
 	"DishRecipe001": {
+		"id": "DishRecipe001",
 		"name": "Nipponese Dish/R",
 		"explain": "A recipe for a Nipponese dish."
 	},
 	"DishRecipe002": {
+		"id": "DishRecipe002",
 		"name": "Ramen/R",
 		"explain": "A recipe for ramen."
 	},
 	"DishRecipe003": {
+		"id": "DishRecipe003",
 		"name": "Curry Dish/R",
 		"explain": "A recipe for a curry dish."
 	},
 	"DishRecipe004": {
+		"id": "DishRecipe004",
 		"name": "Pasta Dish/R",
 		"explain": "A recipe for a pasta dish."
 	},
 	"DishRecipe005": {
+		"id": "DishRecipe005",
 		"name": "Meat Dish/R",
 		"explain": "A recipe for a meat dish."
 	},
 	"DishRecipe006": {
+		"id": "DishRecipe006",
 		"name": "Fish Dish/R",
 		"explain": "A recipe for a fish dish."
 	},
 	"DishRecipe007": {
+		"id": "DishRecipe007",
 		"name": "Sweets/R",
 		"explain": "A recipe for sweets."
 	},
 	"DishRecipe008": {
+		"id": "DishRecipe008",
 		"name": "Cookies/R",
 		"explain": "A recipe for cookies."
 	},
 	"DishRecipe009": {
+		"id": "DishRecipe009",
 		"name": "Pie/R",
 		"explain": "A recipe for pie."
 	},
 	"DishRecipe010": {
+		"id": "DishRecipe010",
 		"name": "Cake/R",
 		"explain": "A recipe for cake."
 	},
 	"DishRecipe011": {
+		"id": "DishRecipe011",
 		"name": "Drink/R",
 		"explain": "A recipe for a drink."
 	},
 	"DishRecipe012": {
+		"id": "DishRecipe012",
 		"name": "Fried Food/R",
 		"explain": "A recipe for fried food."
 	},
 	"DishRecipe013": {
+		"id": "DishRecipe013",
 		"name": "Hot Pot/R",
 		"explain": "A recipe for a hot pot."
 	},
 	"DishRecipe014": {
+		"id": "DishRecipe014",
 		"name": "Ultimate Dish/R",
 		"explain": "A recipe for the \"ultimate dish.\" Allegedly more delicious than the \"supreme dish.\""
 	},
 	"DishRecipe015": {
+		"id": "DishRecipe015",
 		"name": "Supreme Dish/R",
 		"explain": "A recipe for the \"supreme dish.\" Allegedly more delicious than the \"ultimate dish.\""
 	},
 	"UNUSED": {
+		"id": "UNUSED",
 		"name": "Unused",
 		"explain": "Unused"
 	},
 	"Knife": {
+		"id": "Knife",
 		"name": "Knife",
 		"explain": "A knife for self-defense."
 	},
 	"Baselard": {
+		"id": "Baselard",
 		"name": "Baselard",
 		"explain": "A standard, double-edged dagger."
 	},
 	"Kukuri": {
+		"id": "Kukuri",
 		"name": "Kukri",
 		"explain": "A knife with an inwardly curved blade."
 	},
 	"PoisonKukri": {
+		"id": "PoisonKukri",
 		"name": "Poison Kukri",
 		"explain": "A curved knife that has been laced with a deadly poison."
 	},
 	"Swordbreaker": {
+		"id": "Swordbreaker",
 		"name": "Swordbreaker",
 		"explain": "A dagger for damaging opponents' weapons. Lowers enemy attack power."
 	},
 	"ManGauche": {
+		"id": "ManGauche",
 		"name": "Main Gauche",
 		"explain": "A dagger useful for both offense and defense."
 	},
 	"Calnwenan": {
+		"id": "Calnwenan",
 		"name": "Carnwennan",
 		"explain": "A holy dagger once wielded by an ancient king."
 	},
 	"Mandaupasar": {
+		"id": "Mandaupasar",
 		"name": "Mandau Pasir",
 		"explain": "A large dagger used in headhunting."
 	},
 	"Rapier": {
+		"id": "Rapier",
 		"name": "Rapier",
 		"explain": "A single-handed sword designed for thrusting."
 	},
 	"Epe": {
+		"id": "Epe",
 		"name": "Epée",
 		"explain": "A rapier used in duels."
 	},
 	"Stinger": {
+		"id": "Stinger",
 		"name": "Stinger",
 		"explain": "A thrusting weapon modeled after a bee's stinger and tipped with poison."
 	},
 	"Miserikorde": {
+		"id": "Miserikorde",
 		"name": "Misericorde",
 		"explain": "A thrusting weapon known as the \"sword of mercy.\" "
 	},
 	"Cazilk": {
+		"id": "Cazilk",
 		"name": "Kazikli",
 		"explain": "A thrusting weapon caked with blood from the many fiends it has impaled."
 	},
 	"Juwuse": {
+		"id": "Juwuse",
 		"name": "Joyeuse",
 		"explain": "A treasured sword that shines with all the colors of the rainbow."
 	},
 	"ShortSword": {
+		"id": "ShortSword",
 		"name": "Short Sword",
 		"explain": "A short sword favored by soldiers."
 	},
 	"LongSword": {
+		"id": "LongSword",
 		"name": "Long Sword",
 		"explain": "A long sword favored by soldiers."
 	},
 	"WolfBalt": {
+		"id": "WolfBalt",
 		"name": "Ulfberht Sword",
 		"explain": "A longsword favored by Vikings."
 	},
 	"Broadsword": {
+		"id": "Broadsword",
 		"name": "Blue Rose",
 		"explain": "A Shardbinder's blade that represents the finest in alchemy."
 	},
 	"Halper": {
+		"id": "Halper",
 		"name": "Harpé",
 		"explain": "A sword with a scythe-like blade."
 	},
 	"invisible": {
+		"id": "invisible",
 		"name": "Invisible Blade",
 		"explain": "A blade that has been made invisible through sorcery."
 	},
 	"Mulgres": {
+		"id": "Mulgres",
 		"name": "Murgleis",
 		"explain": "A cursed sword that has been known to turn enemies to stone."
 	},
 	"Burtgang": {
+		"id": "Burtgang",
 		"name": "Blutgang",
 		"explain": "A precious sword used by a legendary defender and champion."
 	},
 	"Redumbrella": {
+		"id": "Redumbrella",
 		"name": "Red Umbrella",
 		"explain": "An umbrella that blood-rain has stained a deep red. "
 	},
 	"Flagarach": {
+		"id": "Flagarach",
 		"name": "Fragarach",
 		"explain": "A holy sword that answers to its master's will."
 	},
 	"Hoffdo": {
+		"id": "Hoffdo",
 		"name": "Hofud",
 		"explain": "A storied blade that has cracked the skulls of myriad adversaries."
 	},
 	"Dineslave": {
+		"id": "Dineslave",
 		"name": "Dáinsleif",
 		"explain": "A magical blade that thirsts for the blood of the living."
 	},
 	"Florenberg": {
+		"id": "Florenberg",
 		"name": "Florenberg",
 		"explain": "A sword imbued with fire and courage. "
 	},
 	"Armas": {
+		"id": "Armas",
 		"name": "Almace",
 		"explain": "A sword that sunders and freezes at a stroke. "
 	},
 	"Caradoborg": {
+		"id": "Caradoborg",
 		"name": "Caladbolg",
 		"explain": "A blade mantled in lightning."
 	},
 	"Liddyl": {
+		"id": "Liddyl",
 		"name": "Ridill",
 		"explain": "A sword once used to remove a dragon's heart."
 	},
 	"BradBlingerLv1": {
+		"id": "BradBlingerLv1",
 		"name": "Bloodbringer",
 		"explain": "An enchanted sword with the potential to grow stronger."
 	},
 	"SwordWhip": {
+		"id": "SwordWhip",
 		"name": "Sword Whip",
 		"explain": "A sword with a flexible blade reminiscent of a whip."
 	},
 	"RemoteDart": {
+		"id": "RemoteDart",
 		"name": "Flying Edge",
 		"explain": "A blade that has been magically endowed with flight capabilities."
 	},
 	"OracleBlade": {
+		"id": "OracleBlade",
 		"name": "Oracle Blade",
 		"explain": "An improved flying edge."
 	},
 	"WalalSoulimo": {
+		"id": "WalalSoulimo",
 		"name": "Rhava Búral",
 		"explain": "A sword that uses a wind spirit's power to rip foes apart."
 	},
 	"ValralAltar": {
+		"id": "ValralAltar",
 		"name": "Rhava Velar",
 		"explain": "A sword that uses divine power to generate an eviscerating wind."
 	},
 	"Mace": {
+		"id": "Mace",
 		"name": "Mace",
 		"explain": "A type of club used in war."
 	},
 	"Morgenstern": {
+		"id": "Morgenstern",
 		"name": "Morgenstern",
 		"explain": "A spiked mace that somewhat resembles a star."
 	},
 	"McAutil": {
+		"id": "McAutil",
 		"name": "Macuahuitl",
 		"explain": "A lethal cudgel embedded with obsidian blades."
 	},
 	"Yagurushi": {
+		"id": "Yagurushi",
 		"name": "Yagrush ",
 		"explain": "A thunderous club once wielded by a storm god."
 	},
 	"Aimur": {
+		"id": "Aimur",
 		"name": "Ayamur",
 		"explain": "A club once used to slay a wicked sea-god. Effective underwater."
 	},
 	"Charwell": {
+		"id": "Charwell",
 		"name": "Sharur",
 		"explain": "An icy club that was discovered in the permafrost."
 	},
 	"Mistrutein": {
+		"id": "Mistrutein",
 		"name": "Mistilteinn",
 		"explain": "A holy staff carved from a sacred tree."
 	},
 	"Claymore": {
+		"id": "Claymore",
 		"name": "Claymore",
 		"explain": "A common, two-handed greatsword."
 	},
 	"Exactor": {
+		"id": "Exactor",
 		"name": "Eternal Blue",
 		"explain": "A Shardbinder's greatsword that represents the finest in alchemy."
 	},
 	"Perex": {
+		"id": "Perex",
 		"name": "Pelekus",
 		"explain": "A double-bladed greataxe originally designed for harvesting wood."
 	},
 	"Flanders": {
+		"id": "Flanders",
 		"name": "Flamberge",
 		"explain": "A greatsword with a wavy blade designed to deal fatal blows."
 	},
 	"OutsiderKnightSword": {
+		"id": "OutsiderKnightSword",
 		"name": "Spiral Sword",
 		"explain": "A large sword with a blade that rotates like a drill."
 	},
 	"Valdish": {
+		"id": "Valdish",
 		"name": "Berdiche",
 		"explain": "A greataxe destructive enough to split boulders in twain."
 	},
 	"Gram": {
+		"id": "Gram",
 		"name": "Gram",
 		"explain": "A hero's greatsword. Answers only to those it deems worthy."
 	},
 	"Lohengrin": {
+		"id": "Lohengrin",
 		"name": "Lohengrin",
 		"explain": "A knight's greatsword that was forged in holy fire."
 	},
 	"Sherdar": {
+		"id": "Sherdar",
 		"name": "Schedar",
 		"explain": "A greatsword imbued with the power of ice."
 	},
 	"LightningBolt": {
+		"id": "LightningBolt",
 		"name": "Steel Lightning",
 		"explain": "A wondrous greatsword that was struck by lightning and retained its charge."
 	},
 	"Durandal": {
+		"id": "Durandal",
 		"name": "Durandal",
 		"explain": "A champion's greatsword, capable of sundering all things in the universe."
 	},
 	"DiesIle": {
+		"id": "DiesIle",
 		"name": "Dies Irae",
 		"explain": "A greatsword that leads victims to their demise."
 	},
 	"Gambanttain": {
+		"id": "Gambanttain",
 		"name": "Gambanteinn",
 		"explain": "An enchanted staff that grants resistance to magic."
 	},
 	"Karadanda": {
+		"id": "Karadanda",
 		"name": "Kaladanda",
 		"explain": "A staff the lord of the underworld used to preside over the dead."
 	},
 	"TurmericBasara": {
+		"id": "TurmericBasara",
 		"name": "Ukonvasara",
 		"explain": "A thunder god's axe."
 	},
 	"KungFuShoes": {
+		"id": "KungFuShoes",
 		"name": "Kung Fu Shoes",
 		"explain": "Shoes from the Far East that were designed not to encumber movement."
 	},
 	"BattleBoots": {
+		"id": "BattleBoots",
 		"name": "Battle Boots",
 		"explain": "Combat boots soled in iron plates."
 	},
 	"KillerBoots": {
+		"id": "KillerBoots",
 		"name": "Lethal Boots",
 		"explain": "An assassin's boots. There are knives concealed inside."
 	},
 	"Toyshoes": {
+		"id": "Toyshoes",
 		"name": "Toy Shoes",
 		"explain": "Shoes that emit an adorable squeak with each step."
 	},
 	"Assaultsollette": {
+		"id": "Assaultsollette",
 		"name": "Steam Boots",
 		"explain": "Steel boots fitted with a steam engine."
 	},
 	"Rabbitboots": {
+		"id": "Rabbitboots",
 		"name": "Bunny Boots",
 		"explain": "Adorable boots fashioned after a rabbit."
 	},
 	"Dragonshoes": {
+		"id": "Dragonshoes",
 		"name": "Dragon Shoes",
 		"explain": "Combat boots once prized by a master of the martial arts."
 	},
 	"Hermesshoes": {
+		"id": "Hermesshoes",
 		"name": "Hermes Shoes",
 		"explain": "Shoes imbued with a wind spirit's power."
 	},
 	"Decapitator": {
+		"id": "Decapitator",
 		"name": "Hell's Knells",
 		"explain": "Shoes that a demon created with the intent of beheading God himself."
 	},
 	"Spear": {
+		"id": "Spear",
 		"name": "Spear",
 		"explain": "A light spear."
 	},
 	"Reims": {
+		"id": "Reims",
 		"name": "Lance",
 		"explain": "A lance used primarily on horseback."
 	},
 	"Partizan": {
+		"id": "Partizan",
 		"name": "Partisan",
 		"explain": "A lance with a large, broad blade."
 	},
 	"Triplet": {
+		"id": "Triplet",
 		"name": "Sanjiegun",
 		"explain": "A special three-section staff with extendible joints."
 	},
 	"ShingoGempo": {
+		"id": "ShingoGempo",
 		"name": "Gondo-Shizunori",
 		"explain": "The famous spear wielded by a valiant Eastern general."
 	},
 	"Coldgrindingsaw": {
+		"id": "Coldgrindingsaw",
 		"name": "Leng Yan Ju",
 		"explain": "The crescent blade a general once used to take on whole armies alone."
 	},
 	"Excavator": {
+		"id": "Excavator",
 		"name": "Shovel",
 		"explain": "A shovel that functions as a weapon."
 	},
 	"Aradovar": {
+		"id": "Aradovar",
 		"name": "Areadbhar",
 		"explain": "A spear that produces flames capable of leveling whole cities."
 	},
 	"Nibbleheim": {
+		"id": "Nibbleheim",
 		"name": "Niflheim",
 		"explain": "A spear of ice that was forged in hell."
 	},
 	"GunungNil": {
+		"id": "GunungNil",
 		"name": "Gungnir",
 		"explain": "A thunder god's spear. It always strikes its target."
 	},
 	"Gayalsals": {
+		"id": "Gayalsals",
 		"name": "Gae Assail",
 		"explain": "A spear of light that purifies the soul of whomever it pierces."
 	},
 	"Dull": {
+		"id": "Dull",
 		"name": "Dull Blade",
 		"explain": "The work of a forgotten swordsmith."
 	},
 	"Noda": {
+		"id": "Noda",
 		"name": "Nodachi",
 		"explain": "A long blade used by cavalry in the Far East."
 	},
 	"Tsurumaru": {
+		"id": "Tsurumaru",
 		"name": "Tsurumaru",
 		"explain": "A blade with an elegant curve. The work of the swordsmith Kuninaga."
 	},
 	"ShiroTorujiro": {
+		"id": "ShiroTorujiro",
 		"name": "Honebami",
 		"explain": "A Nipponese halberd refashioned into a sword by the swordsmith Toshiro."
 	},
 	"Lightningoff": {
+		"id": "Lightningoff",
 		"name": "Raikiri",
 		"explain": "A blade said to have cut down a thunder god."
 	},
 	"Tadanako": {
+		"id": "Tadanako",
 		"name": "Dojigiri",
 		"explain": "A great blade by the smith Yasutsuna. It appears in an oni-slaying tale."
 	},
 	"Swordsman": {
+		"id": "Swordsman",
 		"name": "Zangetsuto",
 		"explain": "A great blade whose bearers are given the name Zangetsu, or \"moon sunderer.\""
 	},
 	"MikazukiMaen": {
+		"id": "MikazukiMaen",
 		"name": "Mikazuki",
 		"explain": "The work of the swordsmith Munechika. It boasts a stunning blade pattern."
 	},
 	"Truesixteenthnight": {
+		"id": "Truesixteenthnight",
 		"name": "Grand Izayoi",
 		"explain": "A blade made at great personal risk. It grows and has a mind of its own."
 	},
 	"Awhip": {
+		"id": "Awhip",
 		"name": "Whip",
 		"explain": "A sturdy leather whip."
 	},
 	"Ibarakaswhip": {
+		"id": "Ibarakaswhip",
 		"name": "Thorn Whip",
 		"explain": "A whip lined with thorn-like spikes."
 	},
 	"FireWhip": {
+		"id": "FireWhip",
 		"name": "Flame Whip",
 		"explain": "A whip that leaves an arc of fire in its wake."
 	},
 	"BlackRockHell": {
+		"id": "BlackRockHell",
 		"name": "Black Cords",
 		"explain": "A whip woven from raven hair and bound together by a unique spell."
 	},
 	"Snakebyte": {
+		"id": "Snakebyte",
 		"name": "Snakebite",
 		"explain": "A poison-laced whip fashioned after a serpent's fangs."
 	},
 	"BeastKiller": {
+		"id": "BeastKiller",
 		"name": "Beast Killer",
 		"explain": "A whip that brings any beast to bay."
 	},
 	"Albireo": {
+		"id": "Albireo",
 		"name": "Albireo",
 		"explain": "A magical whip found locked away beneath the permafrost."
 	},
 	"Andromeda": {
+		"id": "Andromeda",
 		"name": "Andromeda",
 		"explain": "A holy chain that drives off evil."
 	},
 	"Musketon": {
+		"id": "Musketon",
 		"name": "Musketoon",
 		"explain": "A short-barreled gun used by pirates."
 	},
 	"Branderbus": {
+		"id": "Branderbus",
 		"name": "Blunderbuss",
 		"explain": "A gun with a wide muzzle akin to the mouth of a trumpet."
 	},
 	"Tanegasima": {
+		"id": "Tanegasima",
 		"name": "Tanegashima",
 		"explain": "A short-barreled gun used in the Far East."
 	},
 	"Trador": {
+		"id": "Trador",
 		"name": "Toradar",
 		"explain": "A long matchlock used for picking off targets at a distance."
 	},
 	"Carvalin": {
+		"id": "Carvalin",
 		"name": "Culverin",
 		"explain": "A small ancestor of the musket used by cavalry."
 	},
 	"Betelgeuse": {
+		"id": "Betelgeuse",
 		"name": "Betelgeuse",
 		"explain": "A gun with a rifled barrel that increases the weapon's potency."
 	},
 	"Ursula": {
+		"id": "Ursula",
 		"name": "Verethragna",
 		"explain": "A gun that grants victory to whoever holds it."
 	},
 	"Adrastea": {
+		"id": "Adrastea",
 		"name": "Adrasteia",
 		"explain": "A gun whose name means \"inescapable.\""
 	},
 	"ShieldWeapon": {
+		"id": "ShieldWeapon",
 		"name": "Shield Weapon",
 		"explain": "A weapon that functions as a shield."
 	},
 	"CrystalSword": {
+		"id": "CrystalSword",
 		"name": "Redbeast's Edge",
 		"explain": "A mysterious, broken longsword fused together with the magi-crystal curse."
 	},
 	"DeathBringer": {
+		"id": "DeathBringer",
 		"name": "Deathbringer",
 		"explain": "Crafted by an orc warlord. Forged in hellfire."
 	},
 	"OgreWoodenSword": {
+		"id": "OgreWoodenSword",
 		"name": "Swordfish",
 		"explain": "A giant, wooden sword named after a fish."
 	},
 	"IcePillarSpear": {
+		"id": "IcePillarSpear",
 		"name": "Sculptor's Chisel",
 		"explain": "An ice lance. Sadly, not a sickle. Chisels away all of your enemies."
 	},
 	"SacredSword": {
+		"id": "SacredSword",
 		"name": "Dawn Blade",
 		"explain": "A greatsword containing the power of dawn."
 	},
 	"XrossBrade": {
+		"id": "XrossBrade",
 		"name": "Gold Cross",
 		"explain": "A sword imbued with strange powers. Originally created by a secretive brotherhood, gives strength in times of need."
 	},
 	"BradeOfEU": {
+		"id": "BradeOfEU",
 		"name": "Eu's Sword",
 		"explain": "A certain ruler of the universe's sword. Its power has faded."
 	},
 	"TrustMusket": {
+		"id": "TrustMusket",
 		"name": "Renee's Requiem",
 		"explain": "\"With her last breath, she imbues this weapon with her soul.\""
 	},
 	"WhipsOfLightDarkness": {
+		"id": "WhipsOfLightDarkness",
 		"name": "Ambivalence",
 		"explain": "A whip bound by powers of darkness. Charge it to release its light."
 	},
 	"ChargeWideEnd": {
+		"id": "ChargeWideEnd",
 		"name": "Claw of Onmoraki",
 		"explain": "A weapon forged by souls seeking purification."
 	},
 	"LoveOfFairyDragon": {
+		"id": "LoveOfFairyDragon",
 		"name": "Black Dragon's Ode",
 		"explain": "A weapon made by a black dragon who fell in love with a faerie."
 	},
 	"StickOfMagiGirl": {
+		"id": "StickOfMagiGirl",
 		"name": "Prismatic Heart",
 		"explain": "A strange rod from another world. The jewel emits a magical light."
 	},
 	"SteamFlatWideEnd": {
+		"id": "SteamFlatWideEnd",
 		"name": "Carnot's Rebuke ",
 		"explain": "A greatsword whose internal steam engine adds incredible power to each swing."
 	},
 	"DrillWideEnd": {
+		"id": "DrillWideEnd",
 		"name": "Blood Grinder",
 		"explain": "A cruel and bloody sword of death. Merciless upon the flesh."
 	},
 	"CoolShoesOfMrNarita": {
+		"id": "CoolShoesOfMrNarita",
 		"name": "Blue Skies",
 		"explain": "Blood-soaked boots that hit with all the force of the falling sky."
 	},
 	"IceSlewShoes": {
+		"id": "IceSlewShoes",
 		"name": "Boreal Rime Boots",
 		"explain": "Boots imbued with an ice deity. Used by a heroine who saved her homeland."
 	},
 	"LightSaber": {
+		"id": "LightSaber",
 		"name": "Encrypted Orchid",
 		"explain": "6F20636B6E7077206772646C7A207A77 6B6A207075707365756C2078726B7674"
 	},
 	"JodoSwordLight": {
+		"id": "JodoSwordLight",
 		"name": "Hikari",
 		"explain": "A sword that purifies evil with its divine light."
 	},
 	"SpearCutDownAside": {
+		"id": "SpearCutDownAside",
 		"name": "Moonwake",
 		"explain": "Moonlight shaped into a blade Reflecting the heart's true self"
 	},
 	"HuntedBrad": {
+		"id": "HuntedBrad",
 		"name": "Bandit Blade",
 		"explain": "A sword with hidden capabilities."
 	},
 	"PoisonSpikeShoes": {
+		"id": "PoisonSpikeShoes",
 		"name": "Oleanders",
 		"explain": "Alchemical shoes designed for guests both welcome and not."
 	},
 	"PetrifactionSword": {
+		"id": "PetrifactionSword",
 		"name": "Silent Calamity",
 		"explain": "A weapon that crushes opponents and ushers in silence."
 	},
 	"ClockSowrd": {
+		"id": "ClockSowrd",
 		"name": "Final Hour",
 		"explain": "A sword forged from the hand of a clock tower."
 	},
 	"LoveOfPizza": {
+		"id": "LoveOfPizza",
 		"name": "Sicilian Slicer",
 		"explain": "Only weirdoughs don't want a pizza this weapon... too cheesy?"
 	},
 	"KongSword": {
+		"id": "KongSword",
 		"name": "Clockwork Blade",
 		"explain": "Forged from the gears of an ancient clock."
 	},
 	"SwordOfTheMushroom": {
+		"id": "SwordOfTheMushroom",
 		"name": "Vine Sword",
 		"explain": "A sword of vines that utilizes an ancient corruption magic."
 	},
 	"PowerSword": {
+		"id": "PowerSword",
 		"name": "Game Sack Strip",
 		"explain": "A ridiculously branded power strip of many outlets."
 	},
 	"SilverAndBlackSword": {
+		"id": "SilverAndBlackSword",
 		"name": "Darkness Descends",
 		"explain": "Death is certain, life is not."
 	},
 	"DungeonNightSword": {
+		"id": "DungeonNightSword",
 		"name": "Dungeonite Sword",
 		"explain": "A Relic from the Dungeon Clan. Carries the Hopes of 1400+ souls."
 	},
 	"EvilTheSword": {
+		"id": "EvilTheSword",
 		"name": "Dominus",
 		"explain": "A mysterious blade forged by Operation Akumaclan."
 	},
 	"ValkyrieSword": {
+		"id": "ValkyrieSword",
 		"name": "Valkyrie Sword",
 		"explain": "A warmaiden's weapon of choice."
 	}

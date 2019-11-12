@@ -2,11 +2,7 @@
 // Dependancies
 // ============================================================================
 
-// Utils
-// const logError = require('../utils/log/logError');
-
-// Custom
-const getJsonFileAsObject = require('../utils/file/getJsonFileAsObject');
+// NA
 
 
 // Functions
@@ -49,6 +45,7 @@ async function buildItemsJson( stringTable )
 		itemExplain = itemExplain.replace( '  ', ' ' );
 
 		itemsObj[itemId] = {
+			id: itemId,
 			name: itemName,
 			explain: itemExplain,
 		};
