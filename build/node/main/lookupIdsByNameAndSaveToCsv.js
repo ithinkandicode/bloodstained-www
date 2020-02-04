@@ -34,17 +34,17 @@ async function lookupIdsByName( itemIds = [] )
 
 		const itemKeys = Object.keys( itemsObj );
 
-		itemKeys.forEach( itemKey =>
+		for( const itemKey of itemKeys )
 		{
 			if ( itemIds.includes( itemKey ) )
 			{
 				foundItemsObj.push( itemsObj[itemKey] );
 			}
-		});
+		}
 	}
 	catch( err )
 	{
-		logError( 'Error when trying to get JSON file as object' )
+		logError( 'Error when trying to get JSON file as object' );
 		logError( err );
 	}
 
@@ -75,7 +75,9 @@ async function lookup( itemIdsToLookup = [], log = false )
 	return foundItemsArr;
 }
 
-
+/**
+ * @todo Re-write as utility, accepting array of keys to use as cells in a row, plus optional header cells
+ */
 async function itemsArrToCsv( itemsArr = [], log = false )
 {
 	const csvArr = [];
@@ -90,30 +92,28 @@ async function itemsArrToCsv( itemsArr = [], log = false )
 		}
 	}
 
-	itemsArr.forEach( itemObj =>
+	// We could use foreach here, but as foreach doesn't work with async, it's best practise to avoid it
+	for( const itemObj of itemsArr )
 	{
 		csvArr.push( itemObj.id + '\t' + itemObj.name );
-	});
+	}
 
 	return csvArr.join( '\n' );
 }
 
 
-async function init()
+async function lookupItemsByIdAndSaveCsv( itemIds, logCsv = false )
 {
-	const itemIdsToLookup = [
-		// 'nothing',
-		'AriesHorns',
-		'Headband',
-	];
-
-	const foundItems = await lookup( itemIdsToLookup, true );
+	const foundItems = await lookup( itemIds, true );
 
 	if ( foundItems.length )
 	{
 		const csvStr = await itemsArrToCsv( foundItems );
 
-		console.log(csvStr);
+		if ( logCsv )
+		{
+			console.log( csvStr );
+		}
 
 		try
 		{
@@ -129,7 +129,7 @@ async function init()
 }
 
 
-// Auto Init
+// Export
 // ============================================================================
 
-init();
+module.exports = lookupItemsByIdAndSaveCsv;

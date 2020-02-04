@@ -47,14 +47,6 @@ async function generateAndSaveItemsJson()
 }
 
 
-// async function init()
-// {
-// 	generateAndSaveItemsJson();
-// }
-
-// init();
-
-
 // Export
 // ============================================================================
 

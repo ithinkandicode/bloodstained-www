@@ -13,7 +13,7 @@
  *
  * Each item is an object with keys for the item name (`name`) and its description (`explain`)
  */
-async function buildItemsJson( stringTable )
+async function buildItemsJson( stringTable, sortAlpha = true )
 {
 	const stringTableKeys = Object.keys( stringTable );
 
@@ -25,6 +25,12 @@ async function buildItemsJson( stringTable )
 	// Gives us a smaller data set to search later
 	const itemNamesMaster = stringTableKeys.filter( key => key.startsWith( 'ITEM_NAME_' ) );
 	const itemExplains = stringTableKeys.filter( key => key.startsWith( 'ITEM_EXPLAIN_') );
+
+	// Sorth ABC
+	if ( sortAlpha )
+	{
+		itemNamesMaster.sort();
+	}
 
 	itemNamesMaster.forEach( itemNameId =>
 	{
