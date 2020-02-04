@@ -1,0 +1,268 @@
+{
+	"Westernhat": {
+		"name": "",
+		"effect": "Bullet damage x2 but Ammo cost x2",
+		"type": "Head",
+		"gameEffect": "GunBulletReduceRate",
+		"gameFactor": "1"
+	},
+	"CowboyHat": {
+		"name": "",
+		"effect": "Bullet damage +50%",
+		"type": "Head",
+		"gameEffect": "GunBulletAttackrate",
+		"gameFactor": "0.5"
+	},
+	"Recyclehat": {
+		"name": "",
+		"effect": "Infinite ammo",
+		"type": "Head",
+		"gameEffect": "GunBulletReduceRate",
+		"gameFactor": "-1"
+	},
+	"Magushat": {
+		"name": "",
+		"effect": "MP Recovery +20%",
+		"type": "Head",
+		"gameEffect": "MPRecoverySpeedRate",
+		"gameFactor": "0.2"
+	},
+	"Enlargedglasses": {
+		"name": "",
+		"effect": "Zooms in view",
+		"type": "Head",
+		"gameEffect": false,
+		"gameFactor": false
+	},
+	"Measurementglasses": {
+		"name": "",
+		"effect": "On hit, show enemy's remaining health, instead of damage amount",
+		"type": "Head",
+		"gameEffect": false,
+		"gameFactor": false
+	},
+	"Horuseyes": {
+		"name": "",
+		"effect": "Zooms out view",
+		"type": "Head",
+		"gameEffect": false,
+		"gameFactor": false
+	},
+	"Transformationmask": {
+		"name": "",
+		"effect": "Distorts Miriam's voice",
+		"type": "Head",
+		"gameEffect": false,
+		"gameFactor": false
+	},
+	"Assassinvest": {
+		"name": "",
+		"effect": "Attack Speed +10%",
+		"type": "Body",
+		"gameEffect": "AttackSpeedRate",
+		"gameFactor": "0.1"
+	},
+	"Featherrobe": {
+		"name": "",
+		"effect": "Receive massive knockback (no benefit)",
+		"type": "Body",
+		"gameEffect": "DamageVanishCondition",
+		"gameFactor": "100"
+	},
+	"BreastplateofAguilar": {
+		"name": "",
+		"effect": "Immune to spikes and lava. Required to progress",
+		"type": "Body",
+		"gameEffect": "GimmickDamageRate",
+		"gameFactor": "100"
+	},
+	"SpikeBreast": {
+		"name": "",
+		"effect": "Enemies that touch you receive thorn damage",
+		"type": "Body",
+		"gameEffect": false,
+		"gameFactor": false
+	},
+	"Apron": {
+		"name": "",
+		"effect": "10% chance to receiove 1 extra item when preparing food",
+		"type": "Body",
+		"gameEffect": false,
+		"gameFactor": "0.1"
+	},
+	"Flamering": {
+		"name": "",
+		"effect": "+20% damage with FIRE",
+		"type": "Accessory",
+		"gameEffect": "FlaDamageRate",
+		"gameFactor": "0.2"
+	},
+	"Icering": {
+		"name": "",
+		"effect": "+20% damage with ICE",
+		"type": "Accessory",
+		"gameEffect": "IceDamageRate",
+		"gameFactor": "0.2"
+	},
+	"Thunderring": {
+		"name": "",
+		"effect": "+20% damage with LIGHTNING",
+		"type": "Accessory",
+		"gameEffect": "LigDamageRate",
+		"gameFactor": "0.2"
+	},
+	"UnicornRing": {
+		"name": "",
+		"effect": "Healing items recover +20% more HP",
+		"type": "Accessory",
+		"gameEffect": "RecoveryHpRate",
+		"gameFactor": "0.2"
+	},
+	"Criticalring": {
+		"name": "",
+		"effect": "Crit chance +10%",
+		"type": "Accessory",
+		"gameEffect": "CriticalRate",
+		"gameFactor": "10"
+	},
+	"Moonring": {
+		"name": "",
+		"effect": "Backstep distance +20%",
+		"type": "Accessory",
+		"gameEffect": "BackStepRate",
+		"gameFactor": "0.2"
+	},
+	"Striderbelt": {
+		"name": "",
+		"effect": "Slide distance +20%",
+		"type": "Accessory",
+		"gameEffect": "SlidingRate",
+		"gameFactor": "0.2"
+	},
+	"AssassinsRing": {
+		"name": "",
+		"effect": "Crit chance +5% and Crit damage +10%",
+		"type": "Accessory",
+		"gameEffect": "CriticalRate",
+		"gameFactor": "5"
+	},
+	"RoseRing": {
+		"name": "",
+		"effect": "MP recovery from mana roses +25%",
+		"type": "Accessory",
+		"gameEffect": "RecoveryMpRate",
+		"gameFactor": "0.25"
+	},
+	"SkullNecklace": {
+		"name": "",
+		"effect": "Shard damage +50%, but MP cost x2",
+		"type": "Accessory",
+		"gameEffect": "ShardAttackRate",
+		"gameFactor": "0.5"
+	},
+	"WeightedRing": {
+		"name": "",
+		"effect": "EXP gain +25%",
+		"type": "Accessory",
+		"gameEffect": "GainExpRate",
+		"gameFactor": "0.25"
+	},
+	"Speedstar": {
+		"name": "",
+		"effect": "Movement speed +15%",
+		"type": "Accessory",
+		"gameEffect": "NormalMoveUpRate",
+		"gameFactor": "0.15"
+	},
+	"CutpursesRing": {
+		"name": "",
+		"effect": "Gold drop chance +10%",
+		"type": "Accessory",
+		"gameEffect": "DropMoneyRate",
+		"gameFactor": "0.1"
+	},
+	"PlunderersRing": {
+		"name": "",
+		"effect": "Item drop chance +25%",
+		"type": "Accessory",
+		"gameEffect": "DropItemRate",
+		"gameFactor": "0.25"
+	},
+	"DemonNecklace": {
+		"name": "",
+		"effect": "Directional shard fire rate +20%",
+		"type": "Accessory",
+		"gameEffect": "MagicSpeedRate",
+		"gameFactor": "0.2"
+	},
+	"Blackbelt": {
+		"name": "",
+		"effect": "Attack Speed +10%",
+		"type": "Accessory",
+		"gameEffect": "AttackSpeedRate",
+		"gameFactor": "0.1"
+	},
+	"LethalityRing": {
+		"name": "",
+		"effect": "Crit damage +20%",
+		"type": "Accessory",
+		"gameEffect": "CriticalDamageRate",
+		"gameFactor": "0.2"
+	},
+	"WarlocksNecklace": {
+		"name": "",
+		"effect": "MP cost -20%",
+		"type": "Accessory",
+		"gameEffect": "ShardMpRate",
+		"gameFactor": "0.2"
+	},
+	"RingofSolomon": {
+		"name": "",
+		"effect": "Shard drop chance +10%",
+		"type": "Accessory",
+		"gameEffect": "DropShardRate",
+		"gameFactor": "0.1"
+	},
+	"Walkerking": {
+		"name": "",
+		"effect": "Up to +20% ATK at 100% map completion",
+		"type": "Accessory",
+		"gameEffect": "MapAchievedAttackRate",
+		"gameFactor": "0.2"
+	},
+	"Goldmanring": {
+		"name": "",
+		"effect": "Up to +30% ATK at 9,999,999g",
+		"type": "Accessory",
+		"gameEffect": "MapAchievedAttackRate",
+		"gameFactor": "0.3"
+	},
+	"Adversityring": {
+		"name": "",
+		"effect": "ATK +20% while afflicated with: curse, slow, poison, stone",
+		"type": "Accessory",
+		"gameEffect": "BadStatusAttackRate",
+		"gameFactor": "0.2"
+	},
+	"Silvermanring": {
+		"name": "",
+		"effect": "Up to +30% ATK at 9999 enemies killed",
+		"type": "Accessory",
+		"gameEffect": "KillEnemyAttackRate",
+		"gameFactor": "0.3"
+	},
+	"Gebelsglasses": {
+		"name": "",
+		"effect": "Infinite MP (note: you must still have enough MP to cast, but your MP won't deplete)",
+		"type": "Accessory",
+		"gameEffect": "ShardMpRate",
+		"gameFactor": "-100"
+	},
+	"Made-to-order": {
+		"name": "",
+		"effect": "Can be dyed different colours by Todd (the demon barber)",
+		"type": "Scarf",
+		"gameEffect": false,
+		"gameFactor": false
+	}
+}

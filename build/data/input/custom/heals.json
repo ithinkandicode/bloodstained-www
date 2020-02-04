@@ -1,0 +1,306 @@
+{
+	"Potion": {
+		"amount": 50,
+		"type": "HP"
+	},
+	"HighPotion": {
+		"amount": 250,
+		"type": "HP"
+	},
+	"ExPotion": {
+		"amount": 9999,
+		"type": "HP"
+	},
+	"Ether": {
+		"amount": 30,
+		"type": "MP"
+	},
+	"HighEther": {
+		"amount": 150,
+		"type": "MP"
+	},
+	"ExEther": {
+		"amount": 9999,
+		"type": "MP"
+	},
+	"FaerieMedicine": {
+		"amount": 50,
+		"type": "HP"
+	},
+	"FaerieElixir": {
+		"amount": 250,
+		"type": "HP"
+	},
+	"FaerieAllheal": {
+		"amount": 9999,
+		"type": "HP"
+	},
+	"RiceBall": {
+		"amount": 30,
+		"type": "HP"
+	},
+	"UniDon": {
+		"amount": 375,
+		"type": "HP"
+	},
+	"AppleRisotto": {
+		"amount": 320,
+		"type": "HP"
+	},
+	"EggonRice": {
+		"amount": 95,
+		"type": "HP"
+	},
+	"Omurice": {
+		"amount": 195,
+		"type": "HP"
+	},
+	"ChickenCasserole": {
+		"amount": 170,
+		"type": "HP"
+	},
+	"Curry": {
+		"amount": 200,
+		"type": "HP"
+	},
+	"BeefCurry": {
+		"amount": 337,
+		"type": "HP"
+	},
+	"PorkCurry": {
+		"amount": 237,
+		"type": "HP"
+	},
+	"ChickenCurry": {
+		"amount": 287,
+		"type": "HP"
+	},
+	"SeafoodCurry": {
+		"amount": 337,
+		"type": "HP"
+	},
+	"MacaroniGratin": {
+		"amount": 220,
+		"type": "HP"
+	},
+	"ClassicSpaghetti": {
+		"amount": 195,
+		"type": "HP"
+	},
+	"PastaCarbonara": {
+		"amount": 245,
+		"type": "HP"
+	},
+	"PastaVongole": {
+		"amount": 295,
+		"type": "HP"
+	},
+	"SeaUrchinPasta": {
+		"amount": 370,
+		"type": "HP"
+	},
+	"BerrySpaghetti": {
+		"amount": 320,
+		"type": "HP"
+	},
+	"ShirukoSpaghetti": {
+		"amount": 320,
+		"type": "HP"
+	},
+	"SaltRamen": {
+		"amount": 245,
+		"type": "HP"
+	},
+	"SoyRamen": {
+		"amount": 245,
+		"type": "HP"
+	},
+	"TonkotsuRamen": {
+		"amount": 245,
+		"type": "HP"
+	},
+	"MisoRamen": {
+		"amount": 245,
+		"type": "HP"
+	},
+	"CornChowder": {
+		"amount": 80,
+		"type": "HP"
+	},
+	"Steak": {
+		"amount": 495,
+		"type": "HP"
+	},
+	"ExquisiteSteak": {
+		"amount": 700,
+		"type": "HP"
+	},
+	"Sukiyaki": {
+		"amount": 375,
+		"type": "HP"
+	},
+	"ChickenSauté": {
+		"amount": 200,
+		"type": "HP"
+	},
+	"GarlicChicken": {
+		"amount": 200,
+		"type": "HP"
+	},
+	"Tonkatsu": {
+		"amount": 300,
+		"type": "HP"
+	},
+	"MisoCutlet": {
+		"amount": 375,
+		"type": "HP"
+	},
+	"GingerPork": {
+		"amount": 175,
+		"type": "HP"
+	},
+	"MeatHotPot": {
+		"amount": 495,
+		"type": "HP"
+	},
+	"FriedPotatoes": {
+		"amount": 75,
+		"type": "HP"
+	},
+	"Pizza": {
+		"amount": 395,
+		"type": "HP"
+	},
+	"FriedFish": {
+		"amount": 100,
+		"type": "HP"
+	},
+	"FishAndChips": {
+		"amount": 170,
+		"type": "HP"
+	},
+	"SimmeredForneus": {
+		"amount": 320,
+		"type": "HP"
+	},
+	"ForneusMeunière": {
+		"amount": 295,
+		"type": "HP"
+	},
+	"ForneusinGarlic": {
+		"amount": 320,
+		"type": "HP"
+	},
+	"FishHotPot": {
+		"amount": 495,
+		"type": "HP"
+	},
+	"Flan": {
+		"amount": 45,
+		"type": "HP"
+	},
+	"Manju": {
+		"amount": 25,
+		"type": "HP"
+	},
+	"ApplePie": {
+		"amount": 370,
+		"type": "HP"
+	},
+	"LemonPie": {
+		"amount": 370,
+		"type": "HP"
+	},
+	"StrawberryPie": {
+		"amount": 395,
+		"type": "HP"
+	},
+	"StrawberryCrepe": {
+		"amount": 195,
+		"type": "HP"
+	},
+	"ChocolateCrepe": {
+		"amount": 145,
+		"type": "HP"
+	},
+	"Cookies": {
+		"amount": 30,
+		"type": "HP"
+	},
+	"ChocolateCookies": {
+		"amount": 37,
+		"type": "HP"
+	},
+	"CinnamonCookies": {
+		"amount": 50,
+		"type": "HP"
+	},
+	"SpongeCake": {
+		"amount": 70,
+		"type": "HP"
+	},
+	"ChiffonCake": {
+		"amount": 120,
+		"type": "HP"
+	},
+	"CheeseCake": {
+		"amount": 145,
+		"type": "HP"
+	},
+	"ChocolateCake": {
+		"amount": 145,
+		"type": "HP"
+	},
+	"StrawberryCake": {
+		"amount": 170,
+		"type": "HP"
+	},
+	"ScrambledEggs": {
+		"amount": 57,
+		"type": "HP"
+	},
+	"RolledOmelette": {
+		"amount": 80,
+		"type": "HP"
+	},
+	"FriedEgg": {
+		"amount": 45,
+		"type": "HP"
+	},
+	"EggSoufflé": {
+		"amount": 170,
+		"type": "HP"
+	},
+	"AppleJuice": {
+		"amount": 36,
+		"type": "MP"
+	},
+	"StrawberryAuLait": {
+		"amount": 45,
+		"type": "MP"
+	},
+	"Lemonade": {
+		"amount": 36,
+		"type": "MP"
+	},
+	"Smoothie": {
+		"amount": 84,
+		"type": "MP"
+	},
+	"FruitJuice": {
+		"amount": 84,
+		"type": "MP"
+	},
+	"Nectar": {
+		"amount": 744,
+		"type": "HP"
+	},
+	"DarkMatter": {
+		"amount": "0",
+		"type": "POISON"
+	},
+	"MacaroniAndCheese": {
+		"amount": 270,
+		"type": "HP"
+	}
+}

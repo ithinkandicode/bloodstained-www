@@ -1,0 +1,32 @@
+{
+	"Shotshell": {
+		"name": "Scattershot",
+		"info": "Spread shot. Bullet count x4, but ammo cost x4",
+		"type": "Bullet"
+	},
+	"Keyofbacker1": {
+		"name": "Carpenter’s Key",
+		"info": "Unlocks a boss room in Oriental Sorcery Lab (Carpenter)",
+		"type": "key"
+	},
+	"Keyofbacker2": {
+		"name": "Warhorse Key",
+		"info": "Unlocks a boss room in Garden of Silence (Revenant)",
+		"type": "key"
+	},
+	"Keyofbacker3": {
+		"name": "Millionaire’s Key",
+		"info": "Unlocks a boss room in Hall of Termination (Millionaire’s Bane)",
+		"type": "key"
+	},
+	"Keyofbacker4": {
+		"name": "Celeste’s Key",
+		"info": "Unlock Celeste's room, in Livre Ex Machina.",
+		"type": "key"
+	},
+	"DiscountCard": {
+		"name": "Discount Card",
+		"info": "10% shop discount",
+		"type": "key"
+	}
+}
